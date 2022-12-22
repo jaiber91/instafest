@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar_firstbloq{
+    display: flex;
+}
+.navbar_firstbloq input{
+    width: 385px;
+    height: 40px;
+    left: 270px;
+    border: 0.5px solid #B9B9B9;
+    border-radius: 21.5px;
+}
