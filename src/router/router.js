@@ -5,7 +5,7 @@ import {
 
 } from "react-router-dom";
 import Collections from "../pages/collections/collections";
-import Home from "../pages/home/Home";
+import Home from "../pages/home/home";
 
 export const router = createBrowserRouter([
     {
