@@ -3,7 +3,7 @@ import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar';
 import Header from '../../components/header/Header';
 import Divisor from '../../components/divisor/Divisor'
-
+import Knowutility from '../../components/knownutility/Knowutility'
 
 const Home = () => {
     return ( 
@@ -11,6 +11,7 @@ const Home = () => {
         <Navbar/>
         <Header/>
         <Divisor/>
+        <Knowutility/>
         <Footer/>
     </div> 
     
