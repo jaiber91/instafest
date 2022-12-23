@@ -1,11 +1,15 @@
 .Knowutility {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40rem; /*ESTO SE DEBE QUITAR CUANDO SE AGREGUE LA OTRA SECCIÓN*/
 }
 .Knowutility_first {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 90%;
 }
 .Knowutility_first h1 {
   font-family: "Azonix";
@@ -13,7 +17,9 @@
 }
 .Knowutility_cards{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    width: 100%;
+    gap: 2rem;
 }
 .Knowutility_cards h3{
     font-family: "Azonix";
@@ -93,7 +99,7 @@
     display: flex;
     align-items: flex-end;
     width: 24rem;
-    height: 25rem;
+    height: 13rem;
   
     background: radial-gradient(
         50% 50% at 50% 50%,
@@ -110,4 +116,36 @@
         #0d0146 360deg
       );
     border-radius: 50px;
+}
+.Knowutility_faqs{
+    width: 90%;
+}
+.Knowutility_faqs h2{
+    font-family: "Azonix";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 94px;
+    color: #1a1c1f;
+}
+
+/*estilo para card que está despues de los faqs*/
+.Knowutility_animatecard{
+    margin-top: 5rem;
+}
+.Knowutility_animatecard_card{
+    position: relative;
+    background: blue;
+    width: 49rem;
+    height: 17.6rem;
+}
+.Knowutility_animatecard_card img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.Knowutility_animatecard_text{
+    display: flex;
+    position: absolute;
+    top:  5rem;
 }
