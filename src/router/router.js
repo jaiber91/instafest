@@ -1,11 +1,10 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
 import {
   createBrowserRouter,
-  RouterProvider,
-  Route,
-  Link,
+  BrowserRouter as Router
+
 } from "react-router-dom";
+import Collections from "../pages/collections/collections";
 import Home from "../pages/home/home";
 
 export const router = createBrowserRouter([
@@ -13,5 +12,9 @@ export const router = createBrowserRouter([
       path: "/",
       element: <Home/>,
     },
+    {
+        path:"/colecciones",
+        element: <Collections/>
+    }
   ]);
   

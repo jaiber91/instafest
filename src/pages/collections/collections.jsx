@@ -1,15 +1,14 @@
 import React from 'react';
-import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
 
-const Home = () => {
+const Collections = () => {
     return ( 
     <div>
         <Navbar/>
-        <Footer/>
+        <h1>colecciones</h1>
     </div> 
     
     );
 }
  
-export default Home;
+export default Collections;
