@@ -2,6 +2,7 @@ import React from "react";
 import "./Knowutility.css";
 import imgCard from "../../assets/images/landing/cardInfoHome.svg";
 import Faqs from "../faqs/Faqs";
+import arrowUp from '../../assets/icons/arrow-up.svg'
 
 const Knowutility = () => {
   return (
@@ -76,7 +77,10 @@ const Knowutility = () => {
             <p>Ya tienes todo para empezar</p>
             <h3>¿Quieres conocer los Utility <br /> NFT’s de la temporada?</h3>
           </div>
+          <div className="Knowutility_animatecard_text_buttom">
           <button>Comensar</button>
+
+          </div>
         </div>
         </div>
        

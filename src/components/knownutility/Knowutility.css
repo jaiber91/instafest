@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 40rem; /*ESTO SE DEBE QUITAR CUANDO SE AGREGUE LA OTRA SECCIÓN*/
+  margin-bottom: 10%;
 }
 .Knowutility_first {
   display: flex;
@@ -15,14 +15,14 @@
   font-family: "Azonix";
   font-size: 7rem;
 }
-.Knowutility_cards{
-    display: flex;
-    align-items: flex-end;
-    width: 100%;
-    gap: 2rem;
+.Knowutility_cards {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  gap: 2rem;
 }
-.Knowutility_cards h3{
-    font-family: "Azonix";
+.Knowutility_cards h3 {
+  font-family: "Azonix";
   font-size: 2rem;
   color: #ffffff;
   margin-left: 2rem;
@@ -50,8 +50,8 @@
   border-radius: 50px;
 }
 
-.Knoeutility_cardhow{
-    display: flex;
+.Knoeutility_cardhow {
+  display: flex;
   align-items: flex-end;
   width: 24rem;
   height: 20rem;
@@ -73,79 +73,126 @@
   border-radius: 50px;
 }
 
-.Knoeutility_project{
-    display: flex;
-    align-items: flex-end;
-    width: 24rem;
-    height: 25rem;
-  
-    background: radial-gradient(
-        50% 50% at 50% 50%,
-        #5bc6cb 0%,
-        rgba(91, 198, 203, 0.52) 31.25%,
-        rgba(91, 198, 203, 0) 100%
-      ),
-      conic-gradient(
-        from 180deg at 50% 50%,
-        #0d0146 0deg,
-        #0d0146 90deg,
-        #3307f0 180deg,
-        #3307f0 270deg,
-        #0d0146 360deg
-      );
-    border-radius: 50px;
+.Knoeutility_project {
+  display: flex;
+  align-items: flex-end;
+  width: 24rem;
+  height: 25rem;
+
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #5bc6cb 0%,
+      rgba(91, 198, 203, 0.52) 31.25%,
+      rgba(91, 198, 203, 0) 100%
+    ),
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #0d0146 0deg,
+      #0d0146 90deg,
+      #3307f0 180deg,
+      #3307f0 270deg,
+      #0d0146 360deg
+    );
+  border-radius: 50px;
 }
-.Knoeutility_beneficios{
-    display: flex;
-    align-items: flex-end;
-    width: 24rem;
-    height: 13rem;
-  
-    background: radial-gradient(
-        50% 50% at 50% 50%,
-        #5bc6cb 0%,
-        rgba(91, 198, 203, 0.52) 31.25%,
-        rgba(91, 198, 203, 0) 100%
-      ),
-      conic-gradient(
-        from 180deg at 50% 50%,
-        #0d0146 0deg,
-        #0d0146 90deg,
-        #3307f0 180deg,
-        #3307f0 270deg,
-        #0d0146 360deg
-      );
-    border-radius: 50px;
+.Knoeutility_beneficios {
+  display: flex;
+  align-items: flex-end;
+  width: 24rem;
+  height: 13rem;
+
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #5bc6cb 0%,
+      rgba(91, 198, 203, 0.52) 31.25%,
+      rgba(91, 198, 203, 0) 100%
+    ),
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #0d0146 0deg,
+      #0d0146 90deg,
+      #3307f0 180deg,
+      #3307f0 270deg,
+      #0d0146 360deg
+    );
+  border-radius: 50px;
 }
-.Knowutility_faqs{
-    width: 90%;
+.Knowutility_faqs {
+  width: 90%;
 }
-.Knowutility_faqs h2{
-    font-family: "Azonix";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 60px;
-    line-height: 94px;
-    color: #1a1c1f;
+.Knowutility_faqs h2 {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 94px;
+  color: #1a1c1f;
 }
 
 /*estilo para card que está despues de los faqs*/
-.Knowutility_animatecard{
-    margin-top: 5rem;
+.Knowutility_animatecard {
+  margin-top: 5rem;
 }
-.Knowutility_animatecard_card{
-    position: relative;
-    background: blue;
-    width: 49rem;
-    height: 17.6rem;
+.Knowutility_animatecard_card {
+  position: relative;
+  background: blue;
+  width: 49rem;
+  height: 17.6rem;
+  border-radius: 40px;
 }
-.Knowutility_animatecard_card img{
-    object-fit: cover;
-    width:100%;
-    height:100%;
+.Knowutility_animatecard_card img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 40px;
 }
-.Knowutility_animatecard_text{
+.Knowutility_animatecard_text {
+  display: flex;
+  position: absolute;
+  margin-left: 8%;
+  top: 5rem;
+}
+.Knowutility_animatecard_text div p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.Knowutility_animatecard_text div h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.Knowutility_animatecard_text button{
     display: flex;
-    position: absolute;
-    top:  5rem;
+    justify-content: space-around;
+    align-items: center;
+    width: 8rem;
+    height: 3rem;
+    background: #ffffff;
+    
+}
+.Knowutility_animatecard_text_buttom{
+    display: flex;
+    align-items: end;
+    margin-bottom: 2rem;
+    margin-left: 7rem;
+}
+.Knowutility_animatecard_text_buttom button{
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+}
+.Knowutility_animatecard_text_buttom button:hover{
+    background: #000000;
+   color: #ffffff;
+   border-width: 2px;
+   border-style: solid;
+   border-color: #ffffff;
 }
