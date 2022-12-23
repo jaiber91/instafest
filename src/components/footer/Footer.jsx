@@ -60,6 +60,16 @@ const Footer = () => {
                     <Link to={'/colecciones'}>Conectar billetera</Link> 
                 </div>
             </div>
+            <hr />
+            <div className="terms">
+                <div className="copy">
+                    <p>©2022 Inhands. All rights reserved.</p>
+                </div>
+                <div className="copy__term">
+                    <Link>Política de Privacidad </Link>
+                    <Link>Términos y condiciones</Link>
+                </div>
+            </div>
         </div> 
     );
 }

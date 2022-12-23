@@ -1,24 +1,39 @@
+@font-face {
+    font-family: 'Azonix';
+    src: url('../../assets/fonts/Azonix.otf') format('truetype');
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,500;0,700;1,300&family=Poppins:wght@300;400;500&display=swap');
+  .home{
+    font-family: 'Azonix';
+    font-family: 'Poppins', sans-serif;
+  }
 :root {
     --text-color: #FFFF;
     --margin-left: 5%;
+    --font-family-azonix:'Azonix'; 
+    --font-family-poppins:'Poppins',sans-serif; 
 }
 
 p{
     color: var(--text-color) ;
     text-align: justify;
-
+    font-family: var(--font-family-poppins);
+    
 }
 h4{
     color: var(--text-color);
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 15px;
     line-height: 20px;
+    font-family: var(--font-family-poppins);
 }
 a{
     text-decoration: none;
     font-size: 14px;
     color: var(--text-color);
+    font-family: var(--font-family-poppins);
+    font-weight: 100;
 
 }
 ul{
@@ -27,7 +42,11 @@ ul{
 }
 li{
     list-style: none;
-
+}
+hr{
+    background-color:#C9C9C9 ;
+    width: 89%;
+    height: 0.3px;
 }
 .footer{
     background-color: #171717;
@@ -35,11 +54,11 @@ li{
 
 .footer__section{
     display: flex;
-    padding: 3% 4%;
+    padding: 3% 1%;
     justify-content: center;
 }
 .info{
-    width: 26%;
+    width: 23%;
 
 }
 .info__text{
@@ -50,10 +69,14 @@ li{
 .info__text>p{
     font-size: 16px;
     margin-left: 2%;
-}
+    font-family: var(--font-family-azonix);
 
+}
+.inf__p{
+    font-size: 12px;
+}
 .community{
-    width: 16%;
+    width: 17%;
     margin-left: var(--margin-left)
 }
 .community>ul>li{
@@ -86,5 +109,25 @@ li{
     filter: blur(179.069px);
     border-radius: 639.534px;
     transform: matrix(-0.98, 0.25, 0.21, 0.97, 0, 0);
-    z-index: 0;
+}
+.terms{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8%;
+    font-size: 10px;
+    
+}
+.copy>p{
+    padding: 10px 0;
+    text-align: center;
+}
+.copy__term{
+    display: flex;
+    padding: 20px 20px 40px 20px;
+
+}
+.copy__term>a{
+    padding-left:  0 24%;
+    font-size: 10px;
+    padding-left: 30px;
 }
