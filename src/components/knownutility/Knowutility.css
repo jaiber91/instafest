@@ -1,0 +1,113 @@
+.Knowutility {
+  display: flex;
+  justify-content: center;
+}
+.Knowutility_first {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.Knowutility_first h1 {
+  font-family: "Azonix";
+  font-size: 7rem;
+}
+.Knowutility_cards{
+    display: flex;
+    align-items: center;
+}
+.Knowutility_cards h3{
+    font-family: "Azonix";
+  font-size: 2rem;
+  color: #ffffff;
+  margin-left: 2rem;
+}
+.Knoeutility_card {
+  display: flex;
+  align-items: flex-end;
+  width: 24rem;
+  height: 28rem;
+
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #5bc6cb 0%,
+      rgba(91, 198, 203, 0.52) 31.25%,
+      rgba(91, 198, 203, 0) 100%
+    ),
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #0d0146 0deg,
+      #0d0146 90deg,
+      #3307f0 180deg,
+      #3307f0 270deg,
+      #0d0146 360deg
+    );
+  border-radius: 50px;
+}
+
+.Knoeutility_cardhow{
+    display: flex;
+  align-items: flex-end;
+  width: 24rem;
+  height: 20rem;
+
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #5bc6cb 0%,
+      rgba(91, 198, 203, 0.52) 31.25%,
+      rgba(91, 198, 203, 0) 100%
+    ),
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #0d0146 0deg,
+      #0d0146 90deg,
+      #3307f0 180deg,
+      #3307f0 270deg,
+      #0d0146 360deg
+    );
+  border-radius: 50px;
+}
+
+.Knoeutility_project{
+    display: flex;
+    align-items: flex-end;
+    width: 24rem;
+    height: 25rem;
+  
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        #5bc6cb 0%,
+        rgba(91, 198, 203, 0.52) 31.25%,
+        rgba(91, 198, 203, 0) 100%
+      ),
+      conic-gradient(
+        from 180deg at 50% 50%,
+        #0d0146 0deg,
+        #0d0146 90deg,
+        #3307f0 180deg,
+        #3307f0 270deg,
+        #0d0146 360deg
+      );
+    border-radius: 50px;
+}
+.Knoeutility_beneficios{
+    display: flex;
+    align-items: flex-end;
+    width: 24rem;
+    height: 25rem;
+  
+    background: radial-gradient(
+        50% 50% at 50% 50%,
+        #5bc6cb 0%,
+        rgba(91, 198, 203, 0.52) 31.25%,
+        rgba(91, 198, 203, 0) 100%
+      ),
+      conic-gradient(
+        from 180deg at 50% 50%,
+        #0d0146 0deg,
+        #0d0146 90deg,
+        #3307f0 180deg,
+        #3307f0 270deg,
+        #0d0146 360deg
+      );
+    border-radius: 50px;
+}
