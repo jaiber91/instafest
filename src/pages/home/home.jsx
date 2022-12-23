@@ -12,6 +12,7 @@ const Home = () => {
         <Header/>
         <Divisor/>
         <Knowutility/>
+        <Divisor/>
         <Footer/>
     </div> 
     
