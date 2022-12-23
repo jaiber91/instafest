@@ -1,15 +1,89 @@
-.navbar{
+.navbar {
     display: flex;
-    justify-content: space-between;
-    z-index: 1;
+    justify-content: center;
+    gap: 18%;
+    margin-top: 3rem;
 }
-.navbar_firstbloq{
-    display: flex;
+.navbar_firstbloq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
 }
-.navbar_firstbloq input{
-    width: 385px;
-    height: 40px;
-    left: 270px;
-    border: 0.5px solid #B9B9B9;
-    border-radius: 21.5px;
+.navbar_firstbloq input {
+  width: 385px;
+  height: 40px;
+  left: 270px;
+  border: 0.5px solid #b9b9b9;
+  border-radius: 21.5px;
+  padding-left: 2rem;
+}
+.navbar_firstbloq img {
+  width: 29px;
+  height: 29px;
+  left: 145px;
+  top: 33px;
+}
+.navbar_firstbloq .navbar_title{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Azonix";
+}
+.navbar_firstbloq .navbar_market {
+    font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0d0146;
+  }
+.navbar_secondbloq {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.navbar_secondbloq ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.navbar_secondbloq ul li:nth-child(1) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    #0d0146 10.47%,
+    #5bc6cb 44.88%,
+    #3307f0 97.25%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.navbar_secondbloq ul li:nth-child(2) {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0d0146;
+  cursor: pointer;
+}
+.navbar_secondbloq img{
+    cursor: pointer;
+}
+.navbar_secondbloq button {
+  width: 139px;
+  height: 40px;
+  left: 1158px;
+  background: #0d0146;
+  border-radius: 21.5px 0px 21.5px 21.5px;
+  color: #ffff;
+  cursor: pointer;
 }
