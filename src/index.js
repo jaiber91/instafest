@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router
 } from "react-router-dom";
 import { router } from './router/router';
-import Footer from './components/footer/Footer';
+//import Footer from './components/footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

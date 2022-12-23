@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.header_text {
+  display: flex;
+  justify-content: space-around;
+  margin: 10rem 0rem 10rem 0rem;
+}
+.header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  gap: 1rem;
+}
+.header_logo h3 {
+  font-family: "Azonix";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #0d0146;
+}
+.header_logo img {
+  width: 29px;
+  height: 29px;
+}
+.header_textLine {
+  width: 1px;
+  height: 174px;
+  background: #000000;
+  border: 1px solid #000000;
+}
+.header_paragraph {
+  display: flex;
+  width: 33%;
+  gap: 2rem;
+}
+.header_paragraph p {
+  color: #000000;
+}
+.header_button{
+    width: 33%;
+}
+.header_button button{
+    background: #1E1E1E;
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0.8rem;
+    cursor: pointer;
+    margin: 6rem 0 0 3rem;
+    width: 17rem;
+}
+.header_button button img{
+    margin-left: 1rem;
+}
