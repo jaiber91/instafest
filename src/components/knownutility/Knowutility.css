@@ -18,6 +18,7 @@
 .Knowutility_cards {
   display: flex;
   align-items: flex-end;
+ /*flex-wrap: wrap;*/ /*AJUSTAR EL TAMAÑO Y DISTRIBUCIÓN DE LAS CARDS ANTES DE USAR ESTA PROPIEDAD*/
   width: 100%;
   gap: 2rem;
 }

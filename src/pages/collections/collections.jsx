@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../../components/footer/Footer';
 import Navbar from '../../components/navbar/Navbar'
-import'./Collections.css'
+import'./collections.css'
 import { Link } from 'react-router-dom';
 import eyeOff from '../../assets/icons/eye-off.svg'
 import help from '../../assets/icons/help.svg'

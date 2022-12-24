@@ -2,7 +2,8 @@ import React from "react";
 import "./Knowutility.css";
 import imgCard from "../../assets/images/landing/cardInfoHome.svg";
 import Faqs from "../faqs/Faqs";
-import arrowUp from '../../assets/icons/arrow-up.svg'
+import Button from "../../components/buttom/Button"
+
 
 const Knowutility = () => {
   return (
@@ -78,8 +79,8 @@ const Knowutility = () => {
             <h3>¿Quieres conocer los Utility <br /> NFT’s de la temporada?</h3>
           </div>
           <div className="Knowutility_animatecard_text_buttom">
-          <button>Comensar</button>
-
+          
+            <Button text="Comenzar"/>
           </div>
         </div>
         </div>
