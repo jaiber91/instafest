@@ -4,8 +4,9 @@ import {
   BrowserRouter as Router
 
 } from "react-router-dom";
-import Collections from "../pages/collections/collections";
+import Collections from "../pages/collections/Collections";
 import Home from "../pages/home/Home";
+import Utility from "../pages/utility/Utility";
 
 export const router = createBrowserRouter([
     {
@@ -15,6 +16,10 @@ export const router = createBrowserRouter([
     {
         path:"/colecciones",
         element: <Collections/>
+    },
+    {
+        path:"/utility",
+        element: <Utility/>
     }
   ]);
    
