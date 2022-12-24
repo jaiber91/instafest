@@ -118,7 +118,11 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center ;
-    padding-top: 4%;
+    padding-top: 10%;
+}
+.cows_img img{
+ width: 10%;
+
 }
 .help{
     margin-left: 90%;
