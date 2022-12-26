@@ -7,9 +7,10 @@
     font-family: 'Azonix';
     font-family: 'Poppins', sans-serif;
   }
-:root {
+:root body {
     --font-family-azonix:'Azonix'; 
     --font-family-poppins:'Poppins',sans-serif; 
+   margin: 0;
 }
 
 h1{
