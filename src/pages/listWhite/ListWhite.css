@@ -1,0 +1,20 @@
+.listWhite_image{
+    position: relative;
+    width: 40%;
+    height: 45rem;
+    background-color: bisque;
+}
+.listWhite_logo{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listWhite_image .listWhite_logo img{
+    height: 29px;
+    width: 29px;
+}
+.listWhite_image img{
+    width: 100%;
+    height: 100%;
+}
