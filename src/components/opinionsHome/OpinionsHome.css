@@ -1,0 +1,49 @@
+
+.opinions_title{
+    display: flex;
+    align-items: center;
+}
+.opinions_title h1{
+    text-decoration-line: none;
+}
+
+.opinions_title span {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 38px;
+  color: #000000;
+  margin-top: 1rem;
+  margin-left: 2rem;
+}
+.opinions_slider_cards{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+.opinions_slider_cards_arrowleft{
+    display: flex;
+    align-items: center;
+}
+.opinions_slider_cards_arrowleft a{
+    display: flex;
+    background-color: blue;
+    border-radius: 22px;
+    padding: 0.5rem;
+}
+.opinions_slider_cards_arrowRight{
+    display: flex;
+    align-items: center;
+}
+.opinions_slider_cards_arrowRight a{
+    display: flex;
+    background-color: blue;
+    border-radius: 22px;
+    padding: 0.5rem;
+}
+.opinions_slider_cards_arrowRight a img{
+    transform: rotate(175deg);
+
+ }
