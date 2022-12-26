@@ -1,9 +1,12 @@
 import React from "react";
 import "./FinalSectionHome.css";
 import twoCards from "../../assets/images/landing/twoCards.svg";
-import purpleBackground from "../../assets/images/landing/purpleBackground.svg"
-import Button from "../../components/buttom/Button"
-import OpinionsHome from "../../components/opinionsHome/OpinionsHome"
+import purpleBackground from "../../assets/images/landing/purpleBackground.svg";
+import Button from "../../components/buttom/Button";
+import OpinionsHome from "../../components/opinionsHome/OpinionsHome";
+import SuscribeHome from "../../components/suscribeHome/SuscribeHome";
+
+
 const FinalSectionHome = () => {
   return (
     <section className="finalHome">
@@ -31,21 +34,27 @@ const FinalSectionHome = () => {
       </div>
       <div className="finalHome_container">
         <div className="finalHome_card">
-            <img className="finalHome_card_image" src={purpleBackground} alt="imagen para card" />
-            <div className="finalHome_titleCard">
-                <h2>Instafest</h2>
-                <Button text="Whitelist"/>
+          <img
+            className="finalHome_card_image"
+            src={purpleBackground}
+            alt="imagen para card"
+          />
+          <div className="finalHome_titleCard">
+            <h2>Instafest</h2>
+            <Button text="Whitelist" />
+          </div>
+          <div className="finalHome_titleCard_counter">
+            <div className="titleCard_counter">ESPACIO PARA EL TIMER</div>
+            <div className="titleCard_counter_button">
+              <Button text="Ver colección" />
             </div>
-            <div className="finalHome_titleCard_counter">
-                <div className="titleCard_counter">
-                  ESPACIO PARA EL TIMER
-                </div>
-                <Button text="Ver colección"/>
-            </div>
+          </div>
         </div>
       </div>
       <hr />
-        <OpinionsHome />
+      <OpinionsHome />
+      <hr />
+    <SuscribeHome/>
     </section>
   );
 };

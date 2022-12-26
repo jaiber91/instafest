@@ -49,6 +49,7 @@ hr{
     height: 0.3px;
 }
 .footer{
+    position: relative;
     background-color: #171717;
 }
 
@@ -104,6 +105,7 @@ hr{
     position: absolute;
     width: 50%;
     left: -30%;
+    top: 26%;
     background: radial-gradient(217.68% 217.68% at 27.97% 49.05%, #5AE9FD 0%, rgba(90, 233, 253, 0) 100%)   ;
     border: 75.1452px solid #5BC6CB;
     filter: blur(179.069px);

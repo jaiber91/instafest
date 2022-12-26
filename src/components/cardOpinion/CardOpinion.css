@@ -1,0 +1,41 @@
+.cardOpinon img {
+  border-radius: 20px;
+  width: 19rem;
+  height: 24rem;
+}
+.cardOption_dateTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cardOption_dateTitle h6 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  margin: 1rem 0;
+}
+.cardOption_dateTitle time {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 20px;
+  color: #000000;
+}
+.cardOpinon p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  width: 19rem;
+  margin: 0;
+  color: #000000;
+}
+.cardOpinon a {
+    text-decoration: underline;
+  color: #000000;
+}
