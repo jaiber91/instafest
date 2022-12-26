@@ -1,0 +1,62 @@
+.suscribeHome {
+  display: flex;
+  justify-content: center;
+}
+.suscribeHome_image {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.suscribeHome_image img {
+  width: 29rem;
+  border-radius: 20px;
+}
+.suscribeHome_form {
+  width: 50%;
+}
+.suscribeHome_form h2 {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  color: #000000;
+}
+.suscribeHome_form p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  width: 67%;
+}
+.suscribeHome_form_input{
+    display: flex;
+    position: relative;
+}
+.suscribeHome_form_input hr{
+    position: absolute;
+    background-color: #000000;
+    width: 73%;
+}
+.suscribeHome_form_input input:nth-child(1){
+ outline: 0;
+ border: none;
+ width: 50%;
+}
+
+.suscribeHome_form_input button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 66%;
+    top: -1rem;
+    background: black;
+    border-radius: 23px;
+    height: 3rem;
+    width: 3rem;
+    box-shadow: inset 0 0 0 1px #ffffff;
+    cursor: pointer;
+}
