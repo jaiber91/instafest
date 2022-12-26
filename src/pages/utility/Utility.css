@@ -13,7 +13,7 @@
     background-color: #FFFF;
 }
 .utility__list ul{
-    width: 100%;
+    width: 90%;
     display: flex;
     margin-left: 8%;
 }
@@ -73,4 +73,47 @@
     text-align: center;
     color: #FFFF;
     font-size: 15px;
+}
+
+.nfts--footer{
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    background: linear-gradient(270deg, #171717 39.24%, #1D1348 98.18%);
+    padding: 2% 0;
+}
+.nfts--footer h3{
+    width: 70%;
+    color: #FFFF;
+    margin-left: 5%;
+    font-family: var(--font-family-azonix);
+    font-weight: 100;
+}
+.nfts--footer button{
+    margin-left: 2%;
+}
+
+.nfts--footer button{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  color: #1e1e1e;
+}
+.nfts--footer .btn {
+  display: flex;
+  cursor: pointer;
+  width: 15%;
+  border-radius: 10px;
+  background: #ffffff;
+  
+}
+.nfts--footer .btn img {
+  width:13%;
+  margin-left: 5%;
+}
+
+.collection{
+    
 }

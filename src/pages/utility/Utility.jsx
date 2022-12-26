@@ -5,7 +5,7 @@ import { useParams } from 'react-router-dom';
 
 import Data from '../../data/collectionData';
 import Cards from '../../components/cards/Card';
-
+import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
 
 const Utility = () => {
     const {id}= useParams();
@@ -103,12 +103,14 @@ const Utility = () => {
                     <div className={ utility ? 'nfts--botton' : 'desactive'}>
                         <p>Muy pronto tendrás la colección completa</p>
                     </div>
-                    <div className={ utility ? 'nfts--footer' : 'desactive'}>
-                        
-                    </div>
+                </div>
+                <div className={ utility ? 'nfts--footer' : 'desactive'}>
+                    <h3>coleccion instafest</h3>
+                    <button className='btn'>Conectar Billetera <img src={arrowUpRight} alt="flecha" /></button>
+                    
                 </div>
                 <div className={ collection ? 'collection' : 'desactive'}>
-
+                    
                 </div>
                 <div className={ benefity ? 'benefity' : 'desactive'}>
 
