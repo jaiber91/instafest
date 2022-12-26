@@ -1,17 +1,9 @@
-@font-face {
-    font-family: 'Azonix';
-    src: url('../../assets/fonts/Azonix.otf') format('truetype');
-  }
-  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,500;0,700;1,300&family=Poppins:wght@300;400;500&display=swap');
-  .home{
-    font-family: 'Azonix';
-    font-family: 'Poppins', sans-serif;
-  }
-:root {
-    --text-color: #FFFF;
-    --margin-left: 5%;
+:root body {
     --font-family-azonix:'Azonix'; 
     --font-family-poppins:'Poppins',sans-serif; 
+    margin: 0;
+    --text-color: #FFFF;
+    --margin-left: 5%;
 }
 
 p{
