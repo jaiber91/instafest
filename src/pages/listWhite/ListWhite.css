@@ -1,20 +1,98 @@
-.listWhite_image{
-    position: relative;
-    width: 40%;
-    height: 45rem;
-    background-color: bisque;
+.listWhite {
+  display: flex;
 }
-.listWhite_logo{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.listWhite_image {
+  position: relative;
+  width: 40%;
+  height: 45rem;
+  background-color: bisque;
 }
-.listWhite_image .listWhite_logo img{
-    height: 29px;
-    width: 29px;
+.listWhite_logo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 1rem;
+  width: 100%;
+  gap: 1rem;
 }
-.listWhite_image img{
-    width: 100%;
-    height: 100%;
+.listWhite_image .listWhite_logo img {
+  height: 29px;
+  width: 29px;
+}
+.listWhite_Percentage {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.listWhite_Percentage h2 {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 20px;
+  color: #1e1e1e;
+}
+.listWhite_image img {
+  width: 100%;
+  height: 100%;
+}
+.listWhite_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+}
+.listWhite_form h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 34px;
+  color: #1e1e1e;
+}
+.listWhite_form p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 38px;
+    color: #000000;
+}
+.listWhite_form_input{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  margin-top: 3rem;
+}
+.listWhite_form_input input{
+    outline: 0;
+    border: none;
+    width: 70%;
+}
+.listWhite_form_input hr {
+  position: absolute;
+  background-color: #000000;
+  width: 73%;
+  top: 1rem;
+}
+.listWhite_form_input button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 80%;
+  top: -2rem;
+  background: black;
+  border-radius: 23px;
+  height: 3rem;
+  width: 3rem;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
 }
