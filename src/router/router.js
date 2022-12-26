@@ -18,7 +18,7 @@ export const router = createBrowserRouter([
         element: <Collections/>
     },
     {
-        path:"/utility",
+        path:"/utility/:id",
         element: <Utility/>
     }
   ]);

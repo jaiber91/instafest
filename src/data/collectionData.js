@@ -94,6 +94,7 @@ import { imagesLanding } from "../assets/images/landing/imagesLanding";
     name: 'Instafest',
     img: imagesLanding.collectionFondo1,
     imgIcon:imagesLanding.collectionFondo2,
+    nfts:[]
   }
   
   ];
