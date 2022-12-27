@@ -109,6 +109,7 @@
     margin: 10% 0;
 }
 .faqs-h2 h2{
+    width: 70%;
     font-family: var(--font-family-azonix);
     font-style: normal;
     font-weight: 400;
