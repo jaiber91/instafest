@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./ListWhite.css";
 import imageBg from "../../assets/images/landing/imagesBG.jpg";
 import logo from "../../assets/icons/logo.svg";
@@ -7,15 +7,23 @@ import arrowUp from "../../assets/icons/arrow-up.svg";
 const ListWhite = () => {
   // Definiendo el estado del componente
   const [formData, setFormData] = useState([
+    
     { field: "Email", value: "" },
     { field: "Nombre de usuario", value: "" },
     { field: "Tipo de documento", value: "" },
     { field: "Selecciona tu ubicación", value: "" },
     { field: "Número de billetera virtual", value: "" },
+    
   ]);
 
   // Índice del campo actual
   const [currentFieldIndex, setCurrentFieldIndex] = useState(0);
+
+   // Ejecuta el código cuando el componente se monte o se actualice
+   useEffect(() => {
+    // Establece el índice del campo actual en 0
+    setCurrentFieldIndex(0);
+  },[] );
 
   // Función que maneja el evento de clic en el botón "Siguiente"
   const handleNextClick = () => {
@@ -24,12 +32,11 @@ const ListWhite = () => {
 
     // Si el índice del campo actual es mayor o igual al número de campos, establece el índice del campo actual en el último campo
     if (newFieldIndex >= formData.length) {
-      setCurrentFieldIndex(formData.length - 1);
+      setCurrentFieldIndex(formData.length - 1 );
       return;
     }
 
     setCurrentFieldIndex(newFieldIndex);
-
     // Actualiza el estado del componente con los nuevos datos
     setFormData(
       formData.map((field, index) => {
@@ -39,7 +46,7 @@ const ListWhite = () => {
             value: "",
           };
         }
-
+        console.log(index + "aqui");
         return field;
       })
     );
@@ -65,12 +72,16 @@ const ListWhite = () => {
   const currentField = formData[currentFieldIndex];
 
   // Calcula el porcentaje de carga
-  const percentage = ((currentFieldIndex + 0) / formData.length) * 100;
+  const percentage = ((currentFieldIndex +1 ) / formData.length) * 75 ;
+console.log(percentage + "porcen");
 
-  // Si el porcentaje de carga es igual a 100%, muestra un mensaje de bienvenida
-  /*if (percentage === 100) {
+ // Si el porcentaje de carga es igual a 100%, muestra un mensaje de bienvenida
+ const newPercentage = percentage +1
+ console.log(newPercentage);
+  if (newPercentage >101) {
     return <h1>Bienvenido!</h1>;
-  }*/
+  }
+
 
   return (
     <section className="listWhite">
@@ -85,7 +96,7 @@ const ListWhite = () => {
         </div>
       </div>
       <div className="listWhite_form">
-        <div style={{ display: percentage >= 100 ? "none" : "block" }}>
+        <div style={{ display: percentage >= 30 ? "none" : "block" }} >
           <h2>
             la lista exclusiva para <br />
             nuestros usuarios
@@ -95,11 +106,11 @@ const ListWhite = () => {
           </p>
         </div>
 
-        <div style={{ display: percentage >= 100 ? "block" : "none" }}>
+        <div style={{ display: "none" }}>
           <h1>¡Bienvenido/a!</h1>
         </div>
 
-        <form className="listWhite_form_input">
+        <form  className="listWhite_form_input" >
           <input
             type="text"
             name="emails"
