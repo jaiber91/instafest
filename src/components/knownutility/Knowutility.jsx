@@ -6,6 +6,20 @@ import Button from "../../components/buttom/Button"
 
 
 const Knowutility = () => {
+  const faqs=[
+    {number:"01", questions:"¿Qué es un criptoactivo?"},
+    {number:"02", questions:"¿Qué es un NFT y para qué sirve?"},
+    { number:"03", questions:"¿Qué diferencia hay entre un NFT y un Utility NFT?"},
+    {number:"04", questions:"¿Dónde puedo comprar y vender un NFT?"},
+    {number:"05", questions:"¿Cuánto vale un Utility NFT?"},
+    {number:"06" ,questions:"¿Qué beneficios me ofrece un Utility NFT?"},
+    {number:"07", questions:"¿Los NFTs son fraude o son activos digitales confiables?"},
+    {number:"08", questions:"¿Qué puedo comprar con un Utility NFT?"},
+    {number:"09", questions:"¿Cuánto puedo ganar por un Utility NFT?"},
+    {number:"10", questions:"¿Cómo puedo comprar un Utility NFT?"},
+    {number:"11", questions:"¿Puedo comprar un Utility NFT sin criptomonedas?"}
+
+  ]
   return (
     <section className="Knowutility">
       <div className="Knowutility_first">
@@ -38,35 +52,12 @@ const Knowutility = () => {
       <div className="Knowutility_faqs">
         <h2>faqs</h2>
         <div className="Knowutility_faqsList">
-          <Faqs number="01" questions="¿Qué es un criptoactivo?" />
-          <Faqs number="02" questions="¿Qué es un NFT y para qué sirve?" />
-          <Faqs
-            number="03"
-            questions="¿Qué diferencia hay entre un NFT y un Utility NFT?"
-          />
-          <Faqs number="04" questions="¿Dónde puedo comprar y vender un NFT?" />
-          <Faqs number="05" questions="¿Cuánto vale un Utility NFT?" />
-          <Faqs
-            number="06"
-            questions="¿Qué beneficios me ofrece un Utility NFT?"
-          />
-          <Faqs
-            number="07"
-            questions="¿Los NFTs son fraude o son activos digitales confiables?"
-          />
-          <Faqs
-            number="08"
-            questions="¿Qué puedo comprar con un Utility NFT?"
-          />
-          <Faqs
-            number="09"
-            questions="¿Cuánto puedo ganar por un Utility NFT?"
-          />
-          <Faqs number="10" questions="¿Cómo puedo comprar un Utility NFT?" />
-          <Faqs
-            number="11"
-            questions="¿Puedo comprar un Utility NFT sin criptomonedas?"
-          />
+          {
+            faqs.map((data, index)=>{
+              return <Faqs key={index} props={data} />
+            })
+          }
+            
         </div>
       </div>
       <div className="Knowutility_animatecard">

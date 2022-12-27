@@ -5,11 +5,13 @@ import { useParams } from 'react-router-dom';
 
 import Data from '../../data/collectionData';
 import Cards from '../../components/cards/Card';
-import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
-import {imagesNfts} from '../../assets/images/nfts/imagesNfts'
+import arrowUpemail from "../../assets/icons/arrow-up-email.svg";
 import UtilityCollection from '../../components/utility-collection/Utility-Collection';
 import FooterV2 from '../../components/footerV2/FooterV2';
 import Benefits from '../../components/benefits/Benefits';
+import Roadmap from '../../components/roadmap/Roadmap';
+import Faqs from '../../components/faqs/Faqs';
+import Footer from '../../components/footer/Footer';
 const Utility = () => {
     const {id}= useParams();
 
@@ -113,10 +115,36 @@ const Utility = () => {
                     </div>
                     <FooterV2 props={benefity}/>
                     <div className={ roadmap ? 'roadmap' : 'desactive'}>
-
+                        <Roadmap props={dta}/>
                     </div>
-                    <div className={ faqr ? 'faqs' : 'desactive'}>
-
+                    <div className={ faqr ? 'faqs-utility' : 'desactive'}>
+                        <div className="faqs-center">
+                            
+                        {
+                            dta.faqs.map(data=>{
+                                return <Faqs key={data.id} props={data}/>
+                            })
+                        }
+                        <div className="faqs-h2"
+                        >
+                            <h2>proximamente podrás explorar el universo nft diamonds lions</h2>
+                            <p>Suscríbete y no te pierdas el gran lanzamiento que tenemos preparado para ti</p>
+                            <form className="listWhite_form_input">
+                                <input 
+                                    type="text" 
+                                    name="emails" 
+                                    placeholder="E-mail"
+                                    />
+                                <hr />
+                                <button type="button">
+                                    <img src={arrowUpemail} alt="flecha" />
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                    <div className={ faqr ? '' : 'desactive'}>
+                        <Footer/>
                     </div>
                 </div>
 

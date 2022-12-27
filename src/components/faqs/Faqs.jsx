@@ -2,7 +2,7 @@ import React from "react";
 import "./Faqs.css";
 import arrowdown from "../../assets/icons/arrow-down.svg";
 
-const Faqs = (props) => {
+const Faqs = ({props}) => {
   return (
     <div className="faqs">
       <div className="faqs_list">

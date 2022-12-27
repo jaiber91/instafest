@@ -38,6 +38,13 @@ import { imagesLanding } from "../assets/images/landing/imagesLanding";
 
       text6:'Una vez más, esto demuestra por qué el proyecto Inhands Marketplace Utility NFT es el mejor aliado para que adquieras los beneficios de un Utility NFT.'
     },
+    roadmap:[
+      {id:'1', title:'fase inicial', number:1},
+      {id:'2', title:'fases de seguridad', number:2},
+      {id:'3', title:'características', number:3},
+      {id:'4', title:'ejecucion del proyecto', number:4},
+      {id:'5', title:'cualificacion del servicio', number:5},
+    ],
     nfts:[
       {
         id:'1',
@@ -122,16 +129,19 @@ import { imagesLanding } from "../assets/images/landing/imagesLanding";
         name:'Fin de la coleeción',
         description:'Diciembre 15 a las 10:00 AM GTM '
       },
-    ]
+    ],
+    
+  faqs:[
+    {id:"1", number:'01', questions:"¿Qué es instafest Awards?" },
+    {id:"2", number:'02', questions:"¿Dónde se celebrarán los próximos Instafest Awards?" },
+    {id:"3", number:'03', questions:"¿Cómo puedo participar a la ceremonia de premios Instafest?" },
+    {id:"4", number:'04', questions:"¿Los premios Instafest venden NFT?" },
+    {id:"5", number:'05', questions:"¿Qué beneficios ofrece Instafest por la compra de un NFT?" },
+    {id:"6", number:'06', questions:"¿Dónde puedo comprar un Utility NFT de Instafest?" },
+    {id:"7", number:'07', questions:"¿Qué debo hacer para viajar en yate con las celebridades de Instafest?" },
+    {id:"8", number:'08', questions:"¿Puedo asistir a los Instafest Awards sin ser influencer o creador de contenido?" },
+  ]
   },
-  {
-
-    id:'2',
-    name: 'Instafest',
-    img: imagesLanding.collectionFondo1,
-    imgIcon:imagesLanding.collectionFondo2,
-    nfts:[]
-  }
   
   ];
   

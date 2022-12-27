@@ -1,0 +1,68 @@
+:root body {
+    --font-family-azonix:'Azonix'; 
+    --font-family-poppins:'Poppins',sans-serif; 
+}
+.timelines ul{
+    background: linear-gradient(2.57deg, #341C48 -45.49%, rgba(60, 33, 81, 0) 144.81%, rgba(56, 30, 76, 0.506587) 144.81%);
+}
+  .timelines ul li {
+    list-style-type: none;
+    position: relative;
+    width: 2px;
+    margin: 0 auto;
+    padding-top: 120px;
+  }
+  .timelines ul li div h2{
+    font-weight: 100;
+    color: #000000;
+    font-family: var(--font-family-azonix);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+  }
+  
+  .timelines ul li::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: inherit;
+    background-color: #3C2151;
+  }
+  
+  .timelines ul li div {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    width: 400px;
+    padding: 15px;
+    gap: 6%;
+   
+  }
+  
+ 
+  .timelines ul li:nth-child(odd) div {
+    left: 100px;
+    top: 32px;
+  }
+  
+  
+  
+  .timelines ul li:nth-child(even) div {
+    right: 459px;
+    top: 32px;
+}
+  
+  .timelines ul li:nth-child(even) div::before {
+    right: -15px;
+    border-width: 8px 0 8px 16px;
+    border-color: transparent transparent transparent #F45B69;
+  }
+.timelines-end{
+    height: 180px;
+}

@@ -19,11 +19,13 @@ line-height: 20px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 20px;
   color: #000000;
   margin-left: 2%;
   margin-top: 0;
+  line-height: 35px;
+
 }
 .faqs_list buttom{
     display: flex;

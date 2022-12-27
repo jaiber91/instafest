@@ -107,6 +107,7 @@
     width: 80%;
     display: flex;
     flex-direction: column;
+    margin-left: 9%;
 }
 .financialPlan h2{
     font-family: var(--font-family-azonix);
