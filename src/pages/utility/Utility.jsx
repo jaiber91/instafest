@@ -6,17 +6,20 @@ import { useParams } from 'react-router-dom';
 import Data from '../../data/collectionData';
 import Cards from '../../components/cards/Card';
 import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
-
+import {imagesNfts} from '../../assets/images/nfts/imagesNfts'
+import UtilityCollection from '../../components/utility-collection/Utility-Collection';
+import FooterV2 from '../../components/footerV2/FooterV2';
+import Benefits from '../../components/benefits/Benefits';
 const Utility = () => {
     const {id}= useParams();
 
     const dta = Data.find( fruta => fruta.id === id );
 
     let [utility, setUtility ]=useState(true);
-    let [collection, setCollection ]=useState(true);
-    let [benefity, setBenefity ]=useState(true);
-    let [roadmap, setRoadmap ]=useState(true);
-    let [faqr, setFaqr ]=useState(true);
+    let [collection, setCollection ]=useState(false);
+    let [benefity, setBenefity ]=useState(false);
+    let [roadmap, setRoadmap ]=useState(false);
+    let [faqr, setFaqr ]=useState(false);
 
     let activeUtility= () => {
         setUtility(utility = true)
@@ -60,12 +63,6 @@ const Utility = () => {
     <div>
         <Navbar/>
         <div className="utility">
-            {/*<div className="video">
-                <video   loop  >
-                     <source src={ video} type={ 'video/mp4' } />
-                </video>
-            </div>*/}
-
             <div className="utility__list">
                 <ul>
                     <li>
@@ -103,23 +100,24 @@ const Utility = () => {
                     <div className={ utility ? 'nfts--botton' : 'desactive'}>
                         <p>Muy pronto tendrás la colección completa</p>
                     </div>
-                </div>
-                <div className={ utility ? 'nfts--footer' : 'desactive'}>
-                    <h3>coleccion instafest</h3>
-                    <button className='btn'>Conectar Billetera <img src={arrowUpRight} alt="flecha" /></button>
+                    <FooterV2 props={utility}/>
                     
-                </div>
-                <div className={ collection ? 'collection' : 'desactive'}>
-                    
-                </div>
-                <div className={ benefity ? 'benefity' : 'desactive'}>
+                    <div className={ collection ? 'utility--collection' : 'desactive'}>
+                        <UtilityCollection props={dta}/> 
+                    </div>
+            
+                    <FooterV2 props={collection}/>
 
-                </div>
-                <div className={ roadmap ? 'roadmap' : 'desactive'}>
+                    <div className={ benefity ? 'benefity' : 'desactive'}>
+                        <Benefits props={dta}/>
+                    </div>
+                    <FooterV2 props={benefity}/>
+                    <div className={ roadmap ? 'roadmap' : 'desactive'}>
 
-                </div>
-                <div className={ faqr ? 'faqs' : 'desactive'}>
+                    </div>
+                    <div className={ faqr ? 'faqs' : 'desactive'}>
 
+                    </div>
                 </div>
 
         </div>
