@@ -12,6 +12,11 @@ import Benefits from '../../components/benefits/Benefits';
 import Roadmap from '../../components/roadmap/Roadmap';
 import Faqs from '../../components/faqs/Faqs';
 import Footer from '../../components/footer/Footer';
+import Timer from '../../components/timer/Timer';
+import arrowDownLeft from '../../assets/icons/arrow-down-left.svg'
+import share from '../../assets/icons/share.svg'
+import globe from '../../assets/icons/globe.svg'
+
 const Utility = () => {
     const {id}= useParams();
 
@@ -61,14 +66,35 @@ const Utility = () => {
         setFaqr(faqr = true)
         
     }
+
+   
     return ( 
     <div>
         <Navbar/>
         <div className="utility">
+            <div className="utility--nav">
+                <img src={dta.img} alt="" />
+                <div className="nav--time">
+                    <h1>instafest</h1>
+                        <Timer/>
+                </div>
+                <div className="nav-button">
+                    <button className='btn'>Whitelist <img src={arrowDownLeft} alt="" /></button>
+                </div>
+            </div>
+            <div className="sub-nav">
+                    <div className="img">
+                        <img src={dta.imgIcon} alt="" />
+                    </div>
+                <div className="icons-nav">
+                    <img src={globe} alt="" />
+                    <img src={share} alt="" />
+                </div>
+            </div>
             <div className="utility__list">
                 <ul>
                     <li>
-                        <p id='hold' onClick={() => activeUtility()} >UTILITY NFT’S</p>
+                        <p  onClick={() => activeUtility()} >UTILITY NFT’S</p>
                     </li>
                     <li>
                         <div className="v-line"></div>

@@ -1,0 +1,48 @@
+:root body {
+    --font-family-azonix:'Azonix'; 
+    --font-family-poppins:'Poppins',sans-serif; 
+}
+
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(74, 55, 193, 0.7) -20.16%, rgba(74, 70, 99, 0) 100%);
+    border: 1px solid #896126;
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 4%;
+
+}
+
+.timer-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 7%;
+    margin-left: -4%;
+    margin-top: -8%;
+}
+
+.timer--text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+    margin-top: -11%;
+}
+.timer--text p{
+    font-size: 6px;
+}
+
+.timer--text-n{
+    display: flex;
+    align-items: center;
+    gap: 71%;
+    width: 20%;
+    margin-left: -2%;
+}
