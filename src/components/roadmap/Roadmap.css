@@ -1,8 +1,8 @@
-:root body {
-    --font-family-azonix:'Azonix'; 
-    --font-family-poppins:'Poppins',sans-serif; 
+.timelines{
+  width: 2px;
 }
 .timelines ul{
+  padding: 0;
     background: linear-gradient(2.57deg, #341C48 -45.49%, rgba(60, 33, 81, 0) 144.81%, rgba(56, 30, 76, 0.506587) 144.81%);
 }
   .timelines ul li {
@@ -14,8 +14,7 @@
   }
   .timelines ul li div h2{
     font-weight: 100;
-    color: #000000;
-    font-family: var(--font-family-azonix);
+    font-family:'Azonix';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;

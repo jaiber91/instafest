@@ -1,7 +1,3 @@
-:root body {
-    --font-family-azonix:'Azonix'; 
-    --font-family-poppins:'Poppins',sans-serif; 
-}
 
 .timer{
     display: flex;
@@ -13,7 +9,7 @@
     backdrop-filter: blur(2px);
     border-radius: 15px;
     box-sizing: border-box;
-    padding: 4%;
+    padding: 3%;
 
 }
 
@@ -24,7 +20,7 @@
     width: 100%;
     gap: 7%;
     margin-left: -4%;
-    margin-top: -8%;
+    color: #fff;
 }
 
 .timer--text{
@@ -32,17 +28,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20%;
-    margin-top: -11%;
+    gap: 19%;
 }
 .timer--text p{
     font-size: 6px;
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
 }
 
 .timer--text-n{
     display: flex;
     align-items: center;
-    gap: 71%;
+    gap: 66%;
     width: 20%;
     margin-left: -2%;
 }

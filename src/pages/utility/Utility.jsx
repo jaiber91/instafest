@@ -78,9 +78,9 @@ const Utility = () => {
                     <h1>instafest</h1>
                         <Timer/>
                 </div>
-                <div className="nav-button">
-                    <button className='btn'>Whitelist <img src={arrowDownLeft} alt="" /></button>
-                </div>
+            </div>
+            <div className="nav-button">
+                <button className='btn'>Whitelist <img src={arrowDownLeft} alt="" /></button>
             </div>
             <div className="sub-nav">
                     <div className="img">

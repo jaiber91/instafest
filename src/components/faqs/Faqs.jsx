@@ -13,6 +13,7 @@ const Faqs = ({props}) => {
             <div  className="faqs_arrow">
               <img src={arrowdown} alt="arrow" />
             </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, quibusdam provident molestias architecto impedit deleniti iste perspiciatis nesciunt magnam nihil cupiditate minus culpa hic dolor dolores illo numquam officiis ipsum!</p>
           </buttom>
         </div>
         <div className="faqs_line"></div>

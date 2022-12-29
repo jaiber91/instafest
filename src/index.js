@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import {
   RouterProvider,
-  BrowserRouter as Router
 } from "react-router-dom";
+import './index.css'
 import { router } from './router/router';
 //import Footer from './components/footer/Footer';
 

@@ -3,6 +3,7 @@
     display: flex;
     background: linear-gradient(270deg, #171717 39.24%, #1D1348 98.18%);
     padding: 2% 0;
+    align-items: baseline;
 }
 .footerV2 h3{
     width: 70%;
