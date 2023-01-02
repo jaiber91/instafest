@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import eyeOff from '../../assets/icons/eye-off.svg'
 import help from '../../assets/icons/help.svg'
 import Data from '../../data/collectionData';
+
 const Collections = () => {
 
     return ( 
