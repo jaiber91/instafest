@@ -138,7 +138,7 @@ const ListWhite = () => {
                 lanzamiento oficial <br /> próximamente{" "}
               </h3>
               <p>
-                en muy pocos días podrás tener acceso <br /> y disfrutar de la
+                En muy pocos días podrás tener acceso <br /> y disfrutar de la
                 colección <br /> <i>NFT Diamonds Lions</i>{" "}
               </p>
               <Link to="/colecciones">
