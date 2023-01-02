@@ -97,6 +97,7 @@
     background-color: #000000;
     border-style: none;
     margin-left: 5%;
+    height: 1px;
 
 }
 .v-line{
@@ -167,7 +168,7 @@
     align-items: center;
     margin: 3%  0 5% 8%;
 }
-.faqs-h2{
+.faqs-suscribe{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -175,28 +176,52 @@
     align-items: center;
     margin: 10% 0;
 }
-.faqs-h2 h2{
-    width: 83%;
+.faqs-suscribe img{
+    border-radius: 20px;
+}
+.faqs-text{
+    width: 70%;
+    margin-top: -32%;
+}
+.faqs-text h3{
     font-family: 'Azonix';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     font-size: 40px;
     line-height: 44px;
     text-align: center;
+    color: #fff;
 }
-.faqs-h2 p{
-    margin-top: -2%;
+.faqs-a{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+}
+.faqs-text a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Poppins',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 15px;
     line-height: 20px;
-    margin-bottom: 4%;
+    padding: 2%;
+    background: #fff;
+    border-radius: 10px;
+    color: #000000;
+    text-decoration: none;
+    gap: 4%;
 }
-
 @media (max-width: 1160px) {
     .nav-button .btn{
         margin-top: -12%;
-
+    }
+  }
+@media (max-width: 1024px) {
+    .faqs-text h3{
+        font-size: 25px;
     }
   }

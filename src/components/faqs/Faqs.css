@@ -2,13 +2,10 @@
   width: 90%;
 }
 .faqs_list {
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
-.faqs_list:hover{
-    color: blue;
-}
+
 .faqs_list span {
-  margin-left: 2%;
   font-family: 'Poppins';
 font-style: normal;
 font-weight: bold;
@@ -16,22 +13,21 @@ font-size: 1rem;
 line-height: 20px;
 }
 .faqs_list buttom {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  flex-direction: column;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 25px;
-  line-height: 20px;
   color: #000000;
   margin-left: 2%;
-  margin-top: 0;
-  line-height: 35px;
+  line-height: 30px;
+  margin-bottom: 2%;
 
 }
-.faqs_list buttom{
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-}
+
 .faqs_list buttom:hover{
     color: blue;
 }
@@ -43,4 +39,19 @@ line-height: 20px;
   width: 106%;
   height: 1px;
   border-bottom: 2px solid black;
+}
+.faqs-icons{
+  display: flex;
+  justify-content: inherit;
+  margin-top: 2%;
+  margin-bottom: -1%;
+}
+.faqs_list p{
+  font-family: 'Poppins';
+  text-align: justify;
+  margin-bottom: 3%;
+  margin-left: 2%;
+}
+.close{
+  display: none;
 }

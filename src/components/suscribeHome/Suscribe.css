@@ -1,6 +1,7 @@
 .suscribeHome {
   display: flex;
   justify-content: center;
+  margin-bottom: 15%;
 }
 .suscribeHome_image {
   display: flex;

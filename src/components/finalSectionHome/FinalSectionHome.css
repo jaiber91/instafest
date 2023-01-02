@@ -2,7 +2,9 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 15%;
+  position: relative;
+  z-index: 1;
+  background-color: #ffffff;
 }
 .finalHome_text {
   display: flex;

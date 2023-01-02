@@ -120,6 +120,7 @@
 }
 .Knowutility_faqs {
   width: 90%;
+  margin-top: 4%;
 }
 .Knowutility_faqs h2 {
   font-family: "Azonix";
@@ -128,6 +129,9 @@
   font-size: 60px;
   line-height: 94px;
   color: #1a1c1f;
+}
+.Knowutility_faqsList{
+  margin-top: 3%;
 }
 
 /*estilo para card que está despues de los faqs*/

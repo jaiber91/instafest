@@ -132,14 +132,15 @@ import { imagesLanding } from "../assets/images/landing/imagesLanding";
     ],
     
   faqs:[
-    {id:"1", number:'01', questions:"¿Qué es instafest Awards?" },
-    {id:"2", number:'02', questions:"¿Dónde se celebrarán los próximos Instafest Awards?" },
-    {id:"3", number:'03', questions:"¿Cómo puedo participar a la ceremonia de premios Instafest?" },
-    {id:"4", number:'04', questions:"¿Los premios Instafest venden NFT?" },
-    {id:"5", number:'05', questions:"¿Qué beneficios ofrece Instafest por la compra de un NFT?" },
-    {id:"6", number:'06', questions:"¿Dónde puedo comprar un Utility NFT de Instafest?" },
-    {id:"7", number:'07', questions:"¿Qué debo hacer para viajar en yate con las celebridades de Instafest?" },
-    {id:"8", number:'08', questions:"¿Puedo asistir a los Instafest Awards sin ser influencer o creador de contenido?" },
+    {id:"1", number:'01', questions:"¿Qué es instafest Awards?", response: 'Es un evento patrocinado por la empresa Wefu corporation que premia a los mejores influenciadores de las redes sociales en Latinoamérica. Es un evento que se realiza anualmente y que reúne a las mejores celebridades del medio.'},
+    {id:"2", number:'02', questions:"¿Dónde se celebrarán los próximos Instafest Awards?", response: 'Este año la cita es el 22 de diciembre en la mágica ciudad de Cartagena de Indias. ¿Qué esperas para participar? Ingresa ahora a la marketplace de Inhands.io y participa de este extraordinario proyecto.' },
+    {id:"3", number:'03', questions:"¿Cómo puedo participar a la ceremonia de premios Instafest?", response: 'Una de las ventajas de adquirir un Utility NFT a través de nuestra marketplace Inhands.io es que podrás tener la oportunidad de participar en las ceremonias de gala y de premiación de los Instafest Awards. Es una oportunidad única que no te puedes perder.' },
+    {id:"4", number:'04', questions:"¿Qué son los NFT Diamonds Lions?", response: 'La nueva colección que se lanzará el próximo 22 de diciembre en los premios Instafest lleva el nombre de Diamonds Lions, es una serie de Utility NFT que te permitirán disfrutar de grandes beneficios y utilidades por la posesión de activos digitales.' },
+    {id:"5", number:'05', questions:"¿Los premios Instafest venden NFT?", response: 'Para este año, se espera promocionar una colección de Utility NFT que llevarán el nombre de Diamonds Lions, es una propuesta llena de valor y de exclusividad que, sin duda, te ofrecerá retribuciones inigualables en la industria del entretenimiento digital.' },
+    {id:"6", number:'06', questions:"¿Qué beneficios ofrece Instafest por la compra de un NFT?", response: 'Excepcionales beneficios. Podrás tener acceso ilimitado a cualquier versión a nivel mundial de Instafest, podrás asistir a fiestas exclusivas con los protagonistas de la industria en cada país, tendrás entrada exclusiva a la entrega de premiación con los creadores de contenido más reconocidos en cada país, también acceso a todos los Eventos Oficiales de Instafest: fiesta de apertura, noche de gala, días a bordo de yates y de botes exclusivos, podrás Ingresar al evento Mundial Digital que se realiza cada dos años en diferentes sedes internacionales, o también puede' },
+    {id:"7", number:'07', questions:"¿Dónde puedo comprar un Utility NFT de Instafest?", response: 'Lo puedes hacer a través de Inhands –Utility NFT projects marketplace. Nuestro proyecto Inhands.io te ofrece un sitio seguro y confiable para adquirir los NFT y poder participar de este extraordinario evento.' },
+    {id:"8", number:'08', questions:"¿Qué debo hacer para viajar en yate con las celebridades de Instafest?", response: 'Solo debes adquirir un Utility NFT a través de nuestra plataforma Inhands –Utility NFT projects marketplace y disfrutar de todos los beneficios que Instafest Awards te ofrece. No sólo la oportunidad de viajar en yate, también podrás asistir a la ceremonia de premiación, a la noche de gala y a fiestas exclusivas.' },
+    {id:"9", number:'08', questions:"¿Puedo asistir a los Instafest Awards sin ser influencer o creador de contenido?", response: 'Un criptoactivo es un tipo de activo digital que utiliza criptografía para asegurar las transacciones, controlar la creación de nuevas unidades y verificar la transferencia de activos. La criptografía, por su parte, es una técnica de seguridad utilizada para proteger la información y evitar que sea modificada o falsificada por medio de tecnología blockchain. Los criptoactivos incluyen criptomonedas tales como Bitcoin y Ethereum, así como activos digitales como tokens de seguridad, de utilidad y no fungibles (NFT’s).' }
   ]
   },
   

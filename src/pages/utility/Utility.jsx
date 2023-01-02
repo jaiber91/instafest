@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import './Utility.css'
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 
 import Data from '../../data/collectionData';
 import Cards from '../../components/cards/Card';
-import arrowUpemail from "../../assets/icons/arrow-up-email.svg";
+import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
 import UtilityCollection from '../../components/utility-collection/Utility-Collection';
 import FooterV2 from '../../components/footerV2/FooterV2';
 import Benefits from '../../components/benefits/Benefits';
@@ -151,21 +151,20 @@ const Utility = () => {
                                 return <Faqs key={data.id} props={data}/>
                             })
                         }
-                        <div className="faqs-h2"
-                        >
-                            <h2>proximamente podrás explorar el universo nft diamonds lions</h2>
-                            <p>Suscríbete y no te pierdas el gran lanzamiento que tenemos preparado para ti</p>
-                            <form className="listWhite_form_input">
-                                <input 
-                                    type="text" 
-                                    name="emails" 
-                                    placeholder="E-mail"
-                                    />
-                                <hr />
-                                <button type="button">
-                                    <img src={arrowUpemail} alt="flecha" />
-                                </button>
-                            </form>
+                        <div className="faqs-suscribe"
+                        >   
+                            <img src={dta.img} alt="" />
+                            <div className="faqs-text">
+                                <h3>PROXIMAMENTE PODRAS EXPLORAR EL UNIVERSO INSTAFEST UTILITY NFT’S </h3>
+                                <div className="faqs-a">
+                                    <Link>
+                                        <p>Suscribirse</p>
+                                        <img src={arrowUpRight} alt="" />
+                                    </Link>
+
+                                </div>
+                            </div>
+                            
                         </div>
                     </div>
                     </div>
