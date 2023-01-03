@@ -23,19 +23,27 @@
   width: 100%;
   gap: 1rem;
 }
+.wallet_logo h3{
+  font-family: 'Azonix';
+font-style: normal;
+font-weight: 100;
+font-size: 14px;
+line-height: 20px;
+color: #FFFFFF;
+}
 .wallet_image .wallet_logo img {
   height: 29px;
   width: 29px;
 }
 
 /*ESTILOS LADO DERECHO*/
-.wallet_list{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 70%;
-    margin-left: 6%;
-    margin-top: 7%;
+.wallet_list {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 70%;
+  margin-left: 6%;
+  margin-top: 7%;
 }
 
 .wallet_list h2 {
@@ -46,42 +54,149 @@
   line-height: 31px;
   color: #000000;
 }
-.wallet_list h2 span{
-    text-decoration: underline;
+.wallet_list h2 span {
+  text-decoration: underline;
 }
 
-.wallet_list_details{
-    width: 18.7rem;
-    height: 12.8rem;
-    background: #FFFFFF;
-    border-top: 4px solid black;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
-    margin-top: 3rem;
-    padding-top: 2%;
+.wallet_list_details {
+  width: 18.7rem;
+  height: 12.8rem;
+  background: #ffffff;
+  border-top: 4px solid black;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+  margin-top: 3rem;
+  padding-top: 2%;
 }
 
 /*Estilos para el BTN*/
-.wallet_list_btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 9%;
-    width: 18.7rem;
-    background: #1E1E1E;
-    border-radius: 10px;
-    color: #FFFFFF;
-    padding: 0.5rem;
-    cursor: pointer;
-    margin-top: 3%;
+.wallet_list_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9%;
+  width: 18.7rem;
+  background: #1e1e1e;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 3%;
 }
 
 /*Estilos para las wallets extras*/
-.wallet_list_extra{
-    width: 18.7rem;
-    height: 8rem;
-    background: #FFFFFF;
-    border-top: 4px solid black;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
-    margin-top: 2rem;
-    padding-top: 2%;
+.wallet_list_extra {
+  width: 18.7rem;
+  height: 8rem;
+  background: #ffffff;
+  border-top: 4px solid black;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+  margin-top: 2rem;
+  padding-top: 2%;
+}
+/*Estilos para el BTN inferios derecho*/
+.wallet_container_btn {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-top: 5%;
+}
+.wallet_container_btn a{
+  margin-right: 21%;
+}
+.wallet_container_btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0d0146;
+  border-radius: 23px;
+  height: 3rem;
+  width: 3rem;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+  
+}
+
+
+/*ESTILOS MODAL*/
+.wallet_modal {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease;
+}
+.wallet_modal_element {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 30rem;
+  height: 28rem;
+  margin: auto;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  transition: all 500ms ease;
+}
+.wallet_modal_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  margin-top: -15%;
+  margin-bottom: 15%;
+}
+.wallet_modal_logo h3 {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+}
+.wallet_modal_element p {
+  text-align: center;
+  margin-bottom: 10%;
+}
+.wallet_modal_element p span {
+  text-decoration: underline;
+  font-style: italic;
+}
+.wallet_modal_element a {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.wallet_modal_btn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 60%;
+  height: 3rem;
+  border-radius: 10px;
+  padding: 0.8rem;
+  color: #ffffff;
+}
+.wallet_modal_btn img {
+  margin-left: 10%;
+}
+.wallet_modal_btnClose {
+  position: absolute;
+  top: 3%;
+  margin-left: 85%;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  font-size: 1.5rem;
 }
