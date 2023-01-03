@@ -6,7 +6,8 @@
   position: relative;
   width: 40%;
   height: 45rem;
-  background-color: bisque;
+  background-color: #d2cfd2;
+  border-radius: 0 0 15%;
 }
 .listWhite_logo {
   position: absolute;
@@ -40,6 +41,7 @@
 .listWhite_image img {
   width: 100%;
   height: 100%;
+  border-radius: 0 0 15%;
 }
 .listWhite_form {
   display: flex;
@@ -190,6 +192,7 @@ transition: all 500ms ease;
   line-height: 20px;
   text-align: center;
   color: #000000;
+  margin: 2rem 0;
 }
 .modal_element a{
   display: contents;

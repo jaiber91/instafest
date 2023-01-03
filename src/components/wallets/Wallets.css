@@ -1,0 +1,62 @@
+.btn_wallets {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.btn_wallets .btn_elements {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  
+}
+.btn_wallets .btn_elements span{
+  position: relative;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #000000;
+  transition: all 0.2s ease-in-out;
+}
+.btn_wallets .btn_elements span:hover{
+    transform: translateY(-1px);
+}
+.btn_wallets .btn_elements span::before{
+    content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.btn_wallets .btn_elements span:hover::before{
+    visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+ }
+
+.btn_elements .btn_elements_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_elements .btn_elements_title img{
+    width: 20px;
+    height: 20px;
+    margin-right: 1rem;
+}
+.btn_elements .btn_arrow {
+  transform: rotate(89.5deg);
+  margin-right: 1rem;
+}
