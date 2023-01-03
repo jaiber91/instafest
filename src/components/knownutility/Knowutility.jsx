@@ -3,6 +3,7 @@ import "./Knowutility.css";
 import imgCard from "../../assets/images/landing/cardInfoHome.svg";
 import Faqs from "../faqs/Faqs";
 import Button from "../../components/buttom/Button"
+import InfoCards from "../../components/infoCards/InfoCards"
 import Arrow from "../../assets/icons/arrow-up-right-white.svg";
 
 
@@ -51,6 +52,8 @@ const Knowutility = () => {
           </div>
         </div>
       </div>
+
+      <InfoCards />
       <div className="Knowutility_faqs">
         <h2>faqs</h2>
         <div className="Knowutility_faqsList">
