@@ -9,7 +9,7 @@ const Timer = (props) => {
     let [seconds, setSeconds]=useState()
     let countDownDate = new Date("Apr 10, 2023 15:37:25").getTime();
 
-    let x = setInterval(function() {    
+    setInterval(function() {    
 
     let now = new Date().getTime();
 
@@ -18,10 +18,7 @@ const Timer = (props) => {
     setDays( days=Math.floor(distance / (1000 * 60 * 60 * 24)));
     setHours( hours=Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)) )
     setMinutes( minutes= Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)))
-    setSeconds(seconds=Math.floor((distance % (1000 * 60)) / 1000))
-
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-    
+    setSeconds(seconds=Math.floor((distance % (1000 * 60)) / 1000)) 
     }, 1000);
     
     return ( 

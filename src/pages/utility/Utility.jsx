@@ -139,20 +139,20 @@ const Utility = () => {
                                 <p>Muy pronto tendrás la colección completa</p>
                         </div>
                     </div>
-                    <FooterV2 props={utility}/>
+                    <FooterV2  props={utility}/>
                     
                     <div className={ collection ? 'utility--collection' : 'desactive'}>
-                        <UtilityCollection props={dta}/> 
+                        <UtilityCollection  props={dta}/> 
                     </div>
             
-                    <FooterV2 props={collection}/>
+                    <FooterV2  props={collection}/>
 
                     <div className={ benefity ? 'benefity' : 'desactive'}>
-                        <Benefits props={dta}/>
+                        <Benefits  props={dta}/>
                     </div>
-                    <FooterV2 props={benefity}/>
+                    <FooterV2  props={benefity}/>
                     <div className={ roadmap ? 'roadmap' : 'desactive'}>
-                        <Roadmap props={dta}/>
+                        <Roadmap  props={dta}/>
                     </div>
                     <div className={ faqr ? 'faqs-utility' : 'desactive'}>
                         <div className="faqs-center">
