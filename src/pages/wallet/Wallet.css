@@ -7,13 +7,16 @@
   width: 30%;
   height: 45rem;
   border-radius: 0 0 15%;
-}
+} 
+
+
 .wallet_image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 0 0 15%;
 }
+
 .wallet_logo {
   position: absolute;
   display: flex;

@@ -3,6 +3,7 @@ import "./Knowutility.css";
 import imgCard from "../../assets/images/landing/cardInfoHome.svg";
 import Faqs from "../faqs/Faqs";
 import Button from "../../components/buttom/Button"
+import Arrow from "../../assets/icons/arrow-up-right-white.svg";
 
 
 const Knowutility = () => {
@@ -30,8 +31,9 @@ const Knowutility = () => {
           <div className="Knowutility_cards">
             <div className="Knoeutility_card">
               <h3>
-                ¿qué es <br /> un utility <br /> nft?
+                ¿qué es un utility <br /> nft?
               </h3>
+              <img src={Arrow} alt="Flecha" />
             </div>
             <div className="Knoeutility_cardhow">
               <h3>
