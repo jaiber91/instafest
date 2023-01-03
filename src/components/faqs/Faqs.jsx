@@ -13,7 +13,7 @@ const Faqs = ({props}) => {
   return (
     <div className="faqs">
       <div className="faqs_list">
-          <buttom  onClick={() => clickOpen()}>
+          <button  onClick={() => clickOpen()}>
             <span>{props.number +"."}</span>
             <div className="faqs-icons">
               <div>{props.questions}</div>
@@ -26,7 +26,7 @@ const Faqs = ({props}) => {
                 
               </div>
             </div>
-          </buttom>
+          </button>
             <p className={ open ? '' : 'close'}>{props.response}</p>
         <div className="faqs_line"></div>
       </div>

@@ -9,6 +9,18 @@
   background-color: #d2cfd2;
   border-radius: 0 0 15%;
 }
+.listWhite_image a{
+ text-decoration: none;
+ cursor: pointer;
+}
+.listWhite_image h3{
+  font-family: 'Azonix';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #0D0146;
+}
 .listWhite_logo {
   position: absolute;
   display: flex;
