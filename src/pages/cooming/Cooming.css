@@ -1,0 +1,118 @@
+.cooming{
+    width: 70%;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.cooming-text{
+    width: 90%;
+}
+.cooming-text h1{
+    font-family: 'Azonix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    background: radial-gradient(106% 663.52% at 10.54% -540.5%, rgba(30, 30, 30, 0.97) 80%, rgba(51, 7, 240, 0.97) 98.98%, rgba(91, 198, 203, 0.97) 134.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 4%;
+}
+
+.cooming-text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: justify;
+}
+.cooming-notification{
+    width: 80%;
+    margin-top: 5%;
+}
+.cooming-notification h3{
+    font-family: 'Azonix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    background: radial-gradient(106% 663.52% at 10.54% -540.5%, rgba(30, 30, 30, 0.97) 80%, rgba(51, 7, 240, 0.97) 127.98%, rgba(91, 198, 203, 0.97) 117.48%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.cooming_form_input{
+  display: flex;
+  position: relative;
+  width: 80%;
+  margin-top: 5rem;
+}
+.cooming_form_input input{
+    outline: 0;
+    border: none;
+    width: 70%;
+}
+.cooming_form_input hr {
+  position: absolute;
+  background-color: #000000;
+  width: 88%;
+  height: 3px;
+  top: 2.5rem;
+}
+.cooming_form_input button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 80%;
+  top: -2rem;
+  background: black;
+  border-radius: 23px;
+  height: 3rem;
+  width: 3rem;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  cursor: pointer;
+}
+.cooming_form_input button img{
+    width: 50%;
+}
+.cooming-images{
+    width: 100%;
+    position: relative;
+}
+.cooming-images{
+    width: 45%;
+    display: flex;
+    position: fixed;
+    margin-top: 13%;
+    margin-left: 45%;
+}
+.cooming-images img{
+    border-radius: 30px;
+    padding: 7%;
+
+}
+
+.cooming-launch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (max-width: 1180px) {
+    .cooming-images{
+        margin-top: 20%;
+        margin-left: 52%;
+    }
+    .cooming-images{
+        width: 40%;
+    }
+    .cooming-images img{
+        padding: 5%;
+    }
+    .cooming-notification{
+        width: 100%;
+        
+    }
+  }

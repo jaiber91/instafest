@@ -18,6 +18,7 @@ import share from '../../assets/icons/share.svg'
 import globe from '../../assets/icons/globe.svg'
 import Cart from '../../components/Cart/Cart';
 import { providerContext } from '../../context/status';
+import arrowUp from '../../assets/icons/arrow-up.svg'
 
 const Utility = () => {
     const {id}= useParams();
@@ -164,18 +165,20 @@ const Utility = () => {
                         }
                         <div className="faqs-suscribe"
                         >   
-                            <img src={dta.img} alt="" />
-                            <div className="faqs-text">
-                                <h3>PROXIMAMENTE PODRAS EXPLORAR EL UNIVERSO INSTAFEST UTILITY NFT’S </h3>
-                                <div className="faqs-a">
-                                    <Link to={'/whitelist'}>
-                                        <p>Suscribirse</p>
-                                        <img src={arrowUpRight} alt="" />
-                                    </Link>
+                            <h3>PROXIMAMENTE PODRAS EXPLORAR EL UNIVERSO INSTAFEST UTILITY NFT’S </h3>
+                            <p>Suscríbete y no te pierdas el gran lanzamiento que tenemos preparado para ti</p> 
+                            <form className="faqs_form_input">
+                                <input 
+                                type="text" 
+                                name="emails" 
 
-                                </div>
-                            </div>
-                            
+                                placeholder='E-mail'
+                                 />
+                                <hr />
+                                <button type="button">
+                                  <img src={arrowUp} alt="flecha" />
+                                </button>
+                            </form>   
                         </div>
                     </div>
                     </div>
