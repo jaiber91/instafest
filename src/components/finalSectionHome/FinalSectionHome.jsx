@@ -5,6 +5,8 @@ import purpleBackground from "../../assets/images/landing/purpleBackground.svg";
 import Button from "../../components/buttom/Button";
 import OpinionsHome from "../../components/opinionsHome/OpinionsHome";
 import SuscribeHome from "../../components/suscribeHome/SuscribeHome";
+import Timer from "../timer/Timer";
+import { Link } from "react-router-dom";
 
 
 const FinalSectionHome = () => {
@@ -41,12 +43,18 @@ const FinalSectionHome = () => {
           />
           <div className="finalHome_titleCard">
             <h2>Instafest</h2>
-            <Button text="Whitelist" />
+            <Link to={'/whitelist'}>
+              <Button text="Whitelist" />
+            </Link>
           </div>
           <div className="finalHome_titleCard_counter">
-            <div className="titleCard_counter">ESPACIO PARA EL TIMER</div>
+            <div className="titleCard_counter">
+              <Timer/>
+            </div>
             <div className="titleCard_counter_button">
-              <Button text="Ver colección" />
+              <Link to={'/colecciones'}>
+                <Button text="Ver colección" />
+              </Link>
             </div>
           </div>
         </div>

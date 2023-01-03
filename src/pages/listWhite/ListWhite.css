@@ -218,7 +218,11 @@ transition: all 500ms ease;
 .modal_element .modal_btn img{
   margin-left: 15%;
 }
-/*.btn img {
-  width: 23%;
-  margin-left: 15%;
-}*/
+
+.listWhite_logo a{
+  display: flex;
+  align-items: center;
+  gap: 14%;
+  text-decoration: none;
+  color: #000000;
+}

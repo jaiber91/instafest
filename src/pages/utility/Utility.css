@@ -66,6 +66,9 @@
 .nav-button img{
     width: 21%;
 }
+.nav-button a{
+    text-decoration: none;
+}
 
 .utility__list{
     width: 90%;

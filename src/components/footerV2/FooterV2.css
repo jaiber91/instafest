@@ -3,7 +3,7 @@
     display: flex;
     background: linear-gradient(270deg, #171717 39.24%, #1D1348 98.18%);
     padding: 2% 0;
-    align-items: baseline;
+    align-items: center;
 }
 .footerV2 h3{
     width: 70%;
@@ -23,15 +23,15 @@
     margin-left: 2%;
 }
 .footerV2 .btn {
+  width: 100%;
   display: flex;
   cursor: pointer;
-  width: 15%;
   border-radius: 10px;
   background: #ffffff;
   
 }
 .footerV2 .btn img {
-  width:13%;
+  width:40%;
   margin-left: 5%;
 }
 
@@ -44,4 +44,7 @@
     height: 40rem;
     margin-bottom: 5%;
     margin-top: 2%;
+}
+.footerV2 a{
+  text-decoration: none;
 }

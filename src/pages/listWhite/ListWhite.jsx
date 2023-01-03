@@ -4,7 +4,6 @@ import "./ListWhite.css";
 import imageBg from "../../assets/images/landing/imagesBG.jpg";
 import logo from "../../assets/icons/logo.svg";
 import arrowUp from "../../assets/icons/arrow-up.svg";
-import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
 
 const ListWhite = () => {
   // Definiendo el estado del componente
@@ -93,8 +92,10 @@ const ListWhite = () => {
       <div className="listWhite_image">
         <img className="listWhite_bg" src={imageBg} alt="imagen de fondo" />
         <div className="listWhite_logo">
-          <img src={logo} alt="logo" />
-          <h3>Inhands</h3>
+          <Link to={'/'}>
+            <img src={logo} alt="logo" />
+            <h3>Inhands</h3>
+          </Link>
         </div>
         <div className="listWhite_Percentage">
           <h2>{percentage}%</h2>
