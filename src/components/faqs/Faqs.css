@@ -12,7 +12,7 @@ font-weight: bold;
 font-size: 1rem;
 line-height: 20px;
 }
-.faqs_list buttom {
+.faqs_list button {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
@@ -25,13 +25,15 @@ line-height: 20px;
   margin-left: 2%;
   line-height: 30px;
   margin-bottom: 2%;
-
+  width: 100%;
+  border: 0;
+  background: white;
 }
 
-.faqs_list buttom:hover{
+.faqs_list button:hover{
     color: blue;
 }
-.faqs_list buttom img {
+.faqs_list button img{
   margin-left: 64%;
 }
 
@@ -42,7 +44,8 @@ line-height: 20px;
 }
 .faqs-icons{
   display: flex;
-  justify-content: inherit;
+  justify-content: space-between;
+   width: 100%;
   margin-top: 2%;
   margin-bottom: -1%;
 }

@@ -4,6 +4,8 @@ import imgCard from "../../assets/images/landing/cardInfoHome.svg";
 import Faqs from "../faqs/Faqs";
 import Button from "../../components/buttom/Button"
 import { Link } from "react-router-dom";
+import InfoCards from "../../components/infoCards/InfoCards"
+import Arrow from "../../assets/icons/arrow-up-right-white.svg";
 
 
 const Knowutility = () => {
@@ -31,8 +33,9 @@ const Knowutility = () => {
           <div className="Knowutility_cards">
             <div className="Knoeutility_card">
               <h3>
-                ¿qué es <br /> un utility <br /> nft?
+                ¿qué es un utility <br /> nft?
               </h3>
+              <img src={Arrow} alt="Flecha" />
             </div>
             <div className="Knoeutility_cardhow">
               <h3>
@@ -50,6 +53,8 @@ const Knowutility = () => {
           </div>
         </div>
       </div>
+
+      <InfoCards />
       <div className="Knowutility_faqs">
         <h2>faqs</h2>
         <div className="Knowutility_faqsList">

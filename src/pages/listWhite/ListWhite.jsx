@@ -91,12 +91,14 @@ const ListWhite = () => {
     <section className="listWhite">
       <div className="listWhite_image">
         <img className="listWhite_bg" src={imageBg} alt="imagen de fondo" />
+        <Link to="/">
         <div className="listWhite_logo">
           <Link to={'/'}>
             <img src={logo} alt="logo" />
             <h3>Inhands</h3>
           </Link>
         </div>
+        </Link>
         <div className="listWhite_Percentage">
           <h2>{percentage}%</h2>
         </div>

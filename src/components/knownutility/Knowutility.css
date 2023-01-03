@@ -20,7 +20,7 @@
 .Knowutility_cards {
   display: flex;
   align-items: flex-end;
- /*flex-wrap: wrap;*/ /*AJUSTAR EL TAMAÑO Y DISTRIBUCIÓN DE LAS CARDS ANTES DE USAR ESTA PROPIEDAD*/
+  /*flex-wrap: wrap;*/ /*AJUSTAR EL TAMAÑO Y DISTRIBUCIÓN DE LAS CARDS ANTES DE USAR ESTA PROPIEDAD*/
   width: 100%;
   gap: 2rem;
 }
@@ -35,7 +35,7 @@
   align-items: flex-end;
   width: 24rem;
   height: 28rem;
-
+  position: relative;
   background: radial-gradient(
       50% 50% at 50% 50%,
       #5bc6cb 0%,
@@ -51,6 +51,33 @@
       #0d0146 360deg
     );
   border-radius: 50px;
+  cursor: pointer;
+}
+.Knoeutility_card h3 {
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%, -110%);
+  cursor: pointer;
+}
+
+.Knoeutility_card:hover h3 {
+  top: 50%;
+}
+
+.Knoeutility_card:hover img {
+  display: block;
+}
+
+.Knoeutility_card img {
+  display: none;
+  position: absolute;
+  bottom:3rem;
+  left: 70%;
+  transform: translateX(-50%);
+  transform: rotate(100deg);
+  width: 15%;
+  cursor: pointer;
 }
 
 .Knoeutility_cardhow {
@@ -132,7 +159,7 @@
   line-height: 94px;
   color: #1a1c1f;
 }
-.Knowutility_faqsList{
+.Knowutility_faqsList {
   margin-top: 3%;
 }
 
@@ -176,14 +203,13 @@
   line-height: 35px;
   color: #ffffff;
 }
-.Knowutility_animatecard_text button{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 8rem;
-    height: 3rem;
-    background: #ffffff;
-    
+.Knowutility_animatecard_text button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 8rem;
+  height: 3rem;
+  background: #ffffff;
 }
 .Knowutility_animatecard_text_buttom{
     display: flex;
@@ -197,11 +223,4 @@
     cursor: pointer;
     border:none;
     border-radius: 10px;
-}
-.Knowutility_animatecard_text_buttom button:hover{
-    background: #000000;
-   color: #ffffff;
-   border-width: 2px;
-   border-style: solid;
-   border-color: #ffffff;
 }
