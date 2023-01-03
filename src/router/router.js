@@ -9,6 +9,7 @@ import Home from "../pages/home/home";
 import Utility from "../pages/utility/Utility";
 import ListWhite from "../pages/listWhite/ListWhite";
 import Wallet from "../pages/wallet/Wallet";
+import Cooming from "../pages/cooming/Cooming";
 
 export const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ export const router = createBrowserRouter([
     {
       path:"/wallet",
       element: <Wallet/>
+    },
+    {
+      path:"/cooming",
+      element: <Cooming/>
     }
   ]);
    
