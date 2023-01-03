@@ -7,7 +7,8 @@ import {
 import Collections from "../pages/collections/collections";
 import Home from "../pages/home/home";
 import Utility from "../pages/utility/Utility";
-import ListWhite from "../pages/listWhite/ListWhite"
+import ListWhite from "../pages/listWhite/ListWhite";
+import Wallet from "../pages/wallet/Wallet";
 
 export const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ export const router = createBrowserRouter([
     {
       path:"/whitelist",
       element: <ListWhite/>
+    },
+    {
+      path:"/wallet",
+      element: <Wallet/>
     }
   ]);
    
