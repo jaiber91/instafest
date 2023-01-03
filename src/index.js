@@ -6,12 +6,15 @@ import {
 } from "react-router-dom";
 import './index.css'
 import { router } from './router/router';
+import StateContext from './context/status';
 //import Footer from './components/footer/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <StateContext>
       <RouterProvider router={router} />
+    </StateContext>
   </React.StrictMode>
 );
 

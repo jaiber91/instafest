@@ -50,67 +50,78 @@ import { imagesLanding } from "../assets/images/landing/imagesLanding";
         id:'1',
         img: imagesNfts.uno,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'2',
         img: imagesNfts.dos,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'3',
         img: imagesNfts.tres,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'4',
         img: imagesNfts.cuatro,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'5',
         img: imagesNfts.cinco,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'6',
         img: imagesNfts.seis,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'7',
         img: imagesNfts.siete,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'8',
         img: imagesNfts.ocho,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id:'9',
         img: imagesNfts.nueve,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id: '10',
         img: imagesNfts.diez,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
       {
         id: '11',
         img: imagesNfts.once,        
         title:'Instafest',
-        describe:'NFT DIAMONS LIONS'
+        describe:'NFT DIAMONS LIONS',
+        price: '0,0001 ETH'
       },
     ],
     lineTime:[

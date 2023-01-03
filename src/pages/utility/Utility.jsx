@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import Navbar from '../../components/navbar/Navbar';
 import './Utility.css'
 import { Link, useParams } from 'react-router-dom';
@@ -16,11 +16,15 @@ import Timer from '../../components/timer/Timer';
 import arrowDownLeft from '../../assets/icons/arrow-down-left.svg'
 import share from '../../assets/icons/share.svg'
 import globe from '../../assets/icons/globe.svg'
+import Cart from '../../components/Cart/Cart';
+import { providerContext } from '../../context/status';
 
 const Utility = () => {
     const {id}= useParams();
 
     const dta = Data.find( fruta => fruta.id === id );
+
+    const{cart, cartOpen }= useContext(providerContext);
 
     let [utility, setUtility ]=useState(true);
     let [collection, setCollection ]=useState(false);
@@ -28,7 +32,8 @@ const Utility = () => {
     let [roadmap, setRoadmap ]=useState(false);
     let [faqr, setFaqr ]=useState(false);
 
-    let activeUtility= () => {
+    
+        let activeUtility= () => {
         setUtility(utility = true)
         setCollection(collection = false)
         setBenefity(benefity = false)
@@ -67,7 +72,6 @@ const Utility = () => {
         
     }
 
-   
     return ( 
     <div>
         <Navbar/>
@@ -116,17 +120,24 @@ const Utility = () => {
                 <hr />
             </div>
                 <div className="center">
-                    <div className={ utility ? 'nfts' : 'desactive'}>
-                        {
+                    <div className="nfts-cards-sidebar">
+                        <div className= { utility ? 'nfs-sidebar' : 'desactive'}>
+                            <div className='nfts'>
+                                {
 
-                            dta.nfts.map(card=>{
-                                return <Cards key={card.id} props={card}/>
-                            })
+                                    dta.nfts.map(card=>{
+                                        return <div onClick={()=> cartOpen()}>
+                                                <Cards key={card.id} props={card}/>
+                                            </div>
+                                    })
 
-                        }
-                    </div>
-                    <div className={ utility ? 'nfts--botton' : 'desactive'}>
-                        <p>Muy pronto tendrás la colección completa</p>
+                                }
+                            </div>
+                                <Cart />
+                        </div>
+                        <div className={ utility ? 'nfts--botton' : 'desactive'}>
+                                <p>Muy pronto tendrás la colección completa</p>
+                        </div>
                     </div>
                     <FooterV2 props={utility}/>
                     
@@ -157,7 +168,7 @@ const Utility = () => {
                             <div className="faqs-text">
                                 <h3>PROXIMAMENTE PODRAS EXPLORAR EL UNIVERSO INSTAFEST UTILITY NFT’S </h3>
                                 <div className="faqs-a">
-                                    <Link>
+                                    <Link to={'/whitelist'}>
                                         <p>Suscribirse</p>
                                         <img src={arrowUpRight} alt="" />
                                     </Link>
