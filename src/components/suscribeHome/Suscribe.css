@@ -19,7 +19,7 @@
   font-family: "Azonix";
   font-style: normal;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 23px;
   line-height: 44px;
   color: #000000;
 }
@@ -31,6 +31,8 @@
   line-height: 20px;
   color: #000000;
   width: 67%;
+  margin-top: 5%;
+  margin-bottom: 13%;
 }
 .suscribeHome_form_input{
     display: flex;
@@ -40,6 +42,8 @@
     position: absolute;
     background-color: #000000;
     width: 73%;
+    height: 3px;
+    margin-top: 6%;
 }
 .suscribeHome_form_input input:nth-child(1){
  outline: 0;

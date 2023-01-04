@@ -88,3 +88,16 @@
   color: #ffff;
   cursor: pointer;
 }
+.navbar_secondbloq button a{
+  color: #ffff;
+  text-decoration: none;
+}
+
+.navbar_firstbloq a{
+  display: flex;
+  gap: 10%;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  margin-right: 1%;
+}

@@ -5,7 +5,6 @@ import { Link, useParams } from 'react-router-dom';
 
 import Data from '../../data/collectionData';
 import Cards from '../../components/cards/Card';
-import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
 import UtilityCollection from '../../components/utility-collection/Utility-Collection';
 import FooterV2 from '../../components/footerV2/FooterV2';
 import Benefits from '../../components/benefits/Benefits';
@@ -25,7 +24,7 @@ const Utility = () => {
 
     const dta = Data.find( fruta => fruta.id === id );
 
-    const{cart, cartOpen }= useContext(providerContext);
+    const{ cartOpen }= useContext(providerContext);
 
     let [utility, setUtility ]=useState(true);
     let [collection, setCollection ]=useState(false);
@@ -85,7 +84,9 @@ const Utility = () => {
                 </div>
             </div>
             <div className="nav-button">
-                <button className='btn'>Whitelist <img src={arrowDownLeft} alt="" /></button>
+                <Link to={'/whitelist'}>
+                    <button className='btn'>Whitelist <img src={arrowDownLeft} alt="" /></button>
+                </Link>
             </div>
             <div className="sub-nav">
                     <div className="img">

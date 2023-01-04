@@ -3,6 +3,7 @@ import "./Knowutility.css";
 import imgCard from "../../assets/images/landing/cardInfoHome.svg";
 import Faqs from "../faqs/Faqs";
 import Button from "../../components/buttom/Button"
+import { Link } from "react-router-dom";
 import InfoCards from "../../components/infoCards/InfoCards"
 import Arrow from "../../assets/icons/arrow-up-right-white.svg";
 
@@ -75,8 +76,9 @@ const Knowutility = () => {
             <h3>¿Quieres conocer los Utility <br /> NFT’s de la temporada?</h3>
           </div>
           <div className="Knowutility_animatecard_text_buttom">
-          
-            <Button text="Comenzar"/>
+            <Link to={'/cooming'}>
+              <Button text="Comenzar"/>
+            </Link>
           </div>
         </div>
         </div>

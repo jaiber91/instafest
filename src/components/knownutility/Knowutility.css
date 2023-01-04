@@ -13,7 +13,9 @@
 }
 .Knowutility_first h1 {
   font-family: "Azonix";
-  font-size: 7rem;
+  font-size: 6rem;
+  margin-top: 13%;
+  margin-bottom: 8%;
 }
 .Knowutility_cards {
   display: flex;
@@ -24,7 +26,7 @@
 }
 .Knowutility_cards h3 {
   font-family: "Azonix";
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffffff;
   margin-left: 2rem;
 }
@@ -153,7 +155,7 @@
   font-family: "Azonix";
   font-style: normal;
   font-weight: 400;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 94px;
   color: #1a1c1f;
 }
@@ -182,7 +184,7 @@
   display: flex;
   position: absolute;
   margin-left: 8%;
-  top: 5rem;
+  top: 8rem;
 }
 .Knowutility_animatecard_text div p {
   font-family: "Poppins";
@@ -209,21 +211,16 @@
   height: 3rem;
   background: #ffffff;
 }
-.Knowutility_animatecard_text_buttom {
-  display: flex;
-  align-items: end;
-  margin-bottom: 2rem;
-  margin-left: 7rem;
+.Knowutility_animatecard_text_buttom{
+    display: flex;
+    align-items: end;
+    margin-left: 7rem;
 }
-.Knowutility_animatecard_text_buttom button {
-  cursor: pointer;
-  border: none;
-  border-radius: 10px;
+.Knowutility_animatecard_text_buttom a{
+  text-decoration: none;
 }
-.Knowutility_animatecard_text_buttom button:hover {
-  background: #000000;
-  color: #ffffff;
-  border-width: 2px;
-  border-style: solid;
-  border-color: #ffffff;
+.Knowutility_animatecard_text_buttom button{
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
 }

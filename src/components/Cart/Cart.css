@@ -38,7 +38,7 @@
     font-family: 'Azonix';
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 20px;
 }
 
@@ -97,7 +97,7 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 14px;
-    margin-top: 45%;
+    margin-top: 36%;
 }
 .sidebar-total{
     display: flex;

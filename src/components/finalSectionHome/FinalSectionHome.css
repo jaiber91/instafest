@@ -37,7 +37,6 @@
 .finalHome_titleCard {
   display: flex;
   flex-direction: column;
-  align-items: center;
   position: absolute;
   top: 34%;
 }
@@ -48,8 +47,12 @@
   font-size: 50px;
   line-height: 20px;
   color: #ffffff;
+  margin-bottom: 7%;
 }
-
+.finalHome_titleCard a{
+  margin-left: 25%;
+  text-decoration: none;
+}
 .finalHome_card_image{
   object-fit: cover;
   width: 100%;
@@ -69,18 +72,15 @@
   justify-content: flex-end;
   width: 33%;
 }
+
+.titleCard_counter_button a{
+  width: 90%;
+  text-decoration: none;
+}
 .titleCard_counter{
-    width: 30rem;
+    width: 20rem;
     height: 4rem;
-    color: #ffffff;
-    background: linear-gradient(
-      180deg,
-      rgba(74, 55, 193, 0.7) -20.16%,
-      rgba(74, 70, 99, 0) 100%
-    );
-    border: 1px solid #896126;
-    backdrop-filter: blur(2px);
-    border-radius: 15px;
+  
 }
 .finalHome hr{
   margin: 5% auto;
