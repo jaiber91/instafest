@@ -5,7 +5,9 @@ import arrowUp from '../../assets/icons/arrow-up.svg'
 import launch1 from '../../assets/images/Lanzamiento/1.svg'
 import launch2 from '../../assets/images/Lanzamiento/2.svg'
 import launch3 from '../../assets/images/Lanzamiento/3.svg'
-
+import launch4 from '../../assets/images/Lanzamiento/4.jpeg'
+import launch5 from '../../assets/images/Lanzamiento/5.jpeg'
+import launch6 from '../../assets/images/Lanzamiento/6.jpeg'
 
 const Cooming = () => {
     return ( 
@@ -40,12 +42,12 @@ const Cooming = () => {
                     </div>
                     <div className="cooming-launch">
                         <img src={launch2} alt="" />
-                        <img src={launch2} alt="" />
+                        <img src={launch4} alt="" />
                     </div>
                     <div className="cooming-launch">
+                        <img src={launch5} alt="" />
                         <img src={launch3} alt="" />
-                        <img src={launch3} alt="" />
-                        <img src={launch3} alt="" />
+                        <img src={launch6} alt="" />
                     </div>
                 </div>
        </div>
