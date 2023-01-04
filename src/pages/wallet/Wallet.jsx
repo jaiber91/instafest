@@ -4,11 +4,11 @@ import "./Wallet.css";
 import imgWallet from "../../assets/images/wallet/wallet.svg";
 import logo from "../../assets/icons/logo-white.svg";
 import Wallets from "../../components/wallets/Wallets";
-import logoMetamask from "../../assets/icons/metamask.svg";
+import logoMetamask from "../../assets/icons/metamask.jpeg";
 import logoCoinbase from "../../assets/icons/coinbase.svg";
 import walletConect from "../../assets/icons/walletConect.svg";
 import arrowRight from "../../assets/icons/arrow-up-right-white.svg";
-import logoPhantom from "../../assets/icons/phantom.svg";
+import logoPhantom from "../../assets/icons/phatom.jpeg";
 import logoPortis from "../../assets/icons/portis.svg";
 
 const Wallet = () => {
@@ -46,7 +46,7 @@ const Wallet = () => {
         <div className="wallet_list_details">
           <Wallets
             onClick={ButtonClickModal}
-            imgLogo={logoCoinbase}
+            imgLogo={logoMetamask}
             nameWallet="Metamask"
           />
 

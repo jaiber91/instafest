@@ -102,6 +102,9 @@
     color: #FFFF;
     margin-left: 2%;
 }
+.describe--btn a{
+    text-decoration: none;
+}
 .describe--btn .btn {
   display: flex;
   cursor: pointer;

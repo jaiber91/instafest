@@ -75,7 +75,9 @@
 
 .titleCard_counter_button a{
   width: 90%;
+  display: flex;
   text-decoration: none;
+  justify-content: end;
 }
 .titleCard_counter{
     width: 20rem;
