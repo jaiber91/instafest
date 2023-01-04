@@ -11,7 +11,7 @@
     position: relative;
     z-index: 1;
     font-family: 'Azonix';
-    font-size: 3vw;
+    font-size: 2.5vw;
     padding-bottom: 2%;
 }
 .utility--nav{
@@ -86,12 +86,12 @@
 .utility__list ul li p{
     color: #414141;
     font-family: 'Azonix';
-    font-size: 17px;
+    font-size: 14px;
     cursor: pointer;
     transition: 1s;
 }
 .utility__list ul li p:hover{
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: underline 2px;
     transition: 1s;
 }
@@ -192,11 +192,11 @@
 }
 
 .faqs-suscribe h3{
+    width: 80%;
     font-family: 'Azonix';
     font-style: normal;
-    font-weight: 100;
-    font-size: 40px;
-    line-height: 44px;
+    font-weight: 500;
+    font-size: 27px;
     text-align: center;
 }
 .faqs-suscribe p{
