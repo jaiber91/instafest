@@ -9,12 +9,13 @@
   align-items: center;
   height: 7rem;
   color: #ffffff;
-  gap: 1rem;
+  gap: 3rem;
 }
 .divisor .divisor_list li {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   font-family: "Azonix";
+ 
 }

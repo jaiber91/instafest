@@ -1,0 +1,44 @@
+.infoCards {
+  width: 90%;
+  height: auto;
+  margin-top: 10%;
+}
+.infoCards_sutitle{
+    display: flex;
+    gap: 2%;
+}
+.infoCards_sutitle button{
+    border: 0;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+.infoCards_sutitle button img{
+    width: 1.6rem;
+    cursor: pointer;
+}
+.infoCards_details{
+    display: flex;
+    gap: 6%;
+    margin-top: 5%;
+}
+.infoCards_details_utility h3 {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 5%;
+}
+.infoCards_details_article p{
+    text-align: justify;
+}
+
+.infoCards_details_articleImg{
+    display: flex;
+    align-items: center;
+
+}
+.infoCards_details_articleImg p{
+    text-align: justify;
+}

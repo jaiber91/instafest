@@ -4,8 +4,14 @@ import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
 
 
 const Button = (props) => {
+
+    const style = {
+        width: `${props.size}%`,
+        
+      };
+
     return ( 
-        <button className='btn'>{props.text} <img src={arrowUpRight} alt="flecha" /></button>
+        <button className='btn' style={style}>{props.text} <img src={arrowUpRight} alt="flecha" /></button>
      );
 }
  
