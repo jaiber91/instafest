@@ -83,9 +83,9 @@ const ListWhite = () => {
   };
 
   // Oculta el modal
-  const hideModal = () => {
+  /*const hideModal = () => {
     setModalVisible(false);
-  };
+  };*/
 
   return (
     <section className="listWhite">

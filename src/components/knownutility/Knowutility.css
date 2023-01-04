@@ -85,7 +85,7 @@
   align-items: flex-end;
   width: 24rem;
   height: 20rem;
-
+position: relative;
   background: radial-gradient(
       50% 50% at 50% 50%,
       #5bc6cb 0%,
@@ -101,14 +101,38 @@
       #0d0146 360deg
     );
   border-radius: 50px;
+  cursor: pointer;
+}
+.Knoeutility_cardhow h3, .Knoeutility_project h3, .Knoeutility_beneficios h3{
+  position: absolute;
+  top: 90%;
+  left: 30%;
+  transform: translate(-50%, -110%);
+  cursor: pointer;
+}
+.Knoeutility_cardhow:hover h3, .Knoeutility_project:hover h3, .Knoeutility_beneficios:hover h3{
+  top: 50%;
+}
+.Knoeutility_cardhow:hover img, .Knoeutility_project:hover img, .Knoeutility_beneficios:hover img{
+  display: block;
+}
+.Knoeutility_cardhow img, .Knoeutility_project img, .Knoeutility_beneficios img{
+  display: none;
+  position: absolute;
+  bottom:3rem;
+  left: 70%;
+  transform: translateX(-50%);
+  transform: rotate(100deg);
+  width: 15%;
+  cursor: pointer;
 }
 
 .Knoeutility_project {
-  display: flex;
+   display: flex;
   align-items: flex-end;
   width: 24rem;
   height: 25rem;
-
+position: relative;
   background: radial-gradient(
       50% 50% at 50% 50%,
       #5bc6cb 0%,
@@ -124,13 +148,15 @@
       #0d0146 360deg
     );
   border-radius: 50px;
+  cursor: pointer;
 }
+
 .Knoeutility_beneficios {
   display: flex;
   align-items: flex-end;
   width: 24rem;
   height: 13rem;
-
+position: relative;
   background: radial-gradient(
       50% 50% at 50% 50%,
       #5bc6cb 0%,
@@ -146,6 +172,7 @@
       #0d0146 360deg
     );
   border-radius: 50px;
+  cursor: pointer;
 }
 .Knowutility_faqs {
   width: 90%;
