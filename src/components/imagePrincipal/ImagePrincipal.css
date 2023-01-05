@@ -4,7 +4,6 @@
 .header_principalimg>img{
     top: 5.7rem;
     width: 95%;
-    height: 0%;
     margin: 2.5rem 0 -50rem 0;
     filter: drop-shad6ow(0px 4px 25px rgba(0, 0, 0, 0.11));
     border-radius: 40px;
@@ -23,7 +22,7 @@
 .header_principalimg-text>h1{
     font-family: 'Azonix';
     font-size: 50px;
-    margin-top: -80%;
+    margin-top: -67%;
     background: radial-gradient(106% 663.52% at 10.54% -540.5%, rgba(30, 30, 30, 0.97) 80%, rgba(51, 7, 240, 0.97) 98.98%, rgba(91, 198, 203, 0.97) 134.48%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
