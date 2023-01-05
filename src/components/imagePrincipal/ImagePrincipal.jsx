@@ -12,7 +12,7 @@ const ImagePrincipal = () => {
             <h1>UTILITY NFT'S</h1>
             <Link>
               <p>Comenzar</p>
-              <img src={arrowDownLeft} alt="" />
+              <img src={arrowDownLeft} alt="flecha" />
             </Link>
          </div>
         </div>
