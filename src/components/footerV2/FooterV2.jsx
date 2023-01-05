@@ -8,7 +8,7 @@ const FooterV2 = ({props}) => {
     return ( 
     <div className={ props ? 'footerV2' : 'desactive'}>
         <h3>coleccion instafest</h3>
-        <Link to={'/whitelist'}>
+        <Link to={'/wallet'}>
             <button className='btn'>Conectar Billetera <img src={arrowUpRight} alt="flecha" /></button>
         </Link>
     </div>

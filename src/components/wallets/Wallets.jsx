@@ -1,6 +1,5 @@
 import React from "react";
 import "./Wallets.css";
-import logoMetamask from "../../assets/icons/metamask.svg";
 import arrowRight from "../../assets/icons/arrow-up-right.svg";
 
 const Wallets = (props) => {

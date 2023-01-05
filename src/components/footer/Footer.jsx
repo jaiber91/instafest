@@ -55,9 +55,9 @@ const Footer = () => {
                         <li><Link>Dashboard</Link></li>
                     </ul>
                 </div>
-                <div className="wallet">
+                <div className="footer-wallet">
                     <h4>Billetera</h4>
-                    <Link to={'/colecciones'}>Conectar billetera</Link> 
+                    <Link to={'/wallet'}>Conectar billetera</Link> 
                 </div>
             </div>
             <hr />

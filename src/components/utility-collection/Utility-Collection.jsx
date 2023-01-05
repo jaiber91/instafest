@@ -2,6 +2,7 @@ import React from 'react';
 import './Utility-Collection.css';
 import {imagesNfts} from '../../assets/images/nfts/imagesNfts'
 import arrowUpRightWhite from "../../assets/icons/arrow-up-right-white.svg";
+import { Link } from 'react-router-dom';
 
 
 const UtilityCollection = ({props}) => {
@@ -37,14 +38,18 @@ const UtilityCollection = ({props}) => {
                     }
                     
                 <div className="describe--btn">
+                <Link to={'/whitelist'}>
+
                     <button className='btn'>Hacer parte 
                         <img src={arrowUpRightWhite} alt="flecha" />
                     </button>
+                </Link>
                 </div>
             </div>
         </div>
                 
-        <iframe  className='video-collection'  src="https://www.youtube.com/embed/jRxDUsGmwuc?autoplay=1&&autopause=1?controls=0&disablekb=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe className='video-collection'  src="https://www.youtube.com/embed/YUpXk8lu6zA?autoplay=1&&autopause=1?controls=0&disablekb=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      
 
     </div>
      );
