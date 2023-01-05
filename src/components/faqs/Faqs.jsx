@@ -16,7 +16,7 @@ const Faqs = ({props}) => {
           <button  onClick={() => clickOpen()}>
             <span>{props.number +"."}</span>
             <div className="faqs-icons">
-              <div>{props.questions}</div>
+              <p className="faqs--p">{props.questions}</p>
               <div  className="faqs_arrow">
                 {
                   open ? 

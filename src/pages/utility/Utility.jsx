@@ -12,7 +12,6 @@ import Roadmap from '../../components/roadmap/Roadmap';
 import Faqs from '../../components/faqs/Faqs';
 import Footer from '../../components/footer/Footer';
 import Timer from '../../components/timer/Timer';
-import arrowDownLeft from '../../assets/icons/arrow-down-left.svg'
 import share from '../../assets/icons/share.svg'
 import globe from '../../assets/icons/globe.svg'
 import Cart from '../../components/Cart/Cart';
@@ -85,7 +84,12 @@ const Utility = () => {
             </div>
             <div className="nav-button">
                 <Link to={'/whitelist'}>
-                    <button className='btn'>Whitelist <img src={arrowDownLeft} alt="" /></button>
+                    <button className='btn'>Whitelist 
+                    <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.29199 7.29102L17.7087 17.7077" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M17.7087 7.29102V17.7077H7.29199" stroke="black" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    </button>
                 </Link>
             </div>
             <div className="sub-nav">

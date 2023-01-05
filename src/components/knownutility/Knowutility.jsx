@@ -144,7 +144,7 @@ const Knowutility = () => {
     <section className="Knowutility">
       <div className="Knowutility_first">
         <h1>
-          conoce los <br /> utilitis nft´s <br /> inhands.
+          conoce los <br /> utility NFT’S <br /> inhands.
         </h1>
         <div style={{ display: showCards ? "block" : "none" }}>
           <div className="Knowutility_cards">
