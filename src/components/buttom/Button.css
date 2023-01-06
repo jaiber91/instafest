@@ -5,6 +5,7 @@ button{
   font-size: 13px;
   line-height: 20px;
   color: #1e1e1e;
+  border: none;
 }
 .btn {
   display: flex;
@@ -21,4 +22,12 @@ button{
 }
 .btn img {
   width: 15%;
+}
+.btn:hover svg path{
+  stroke: white;
+}
+.btn:hover{
+  background: #000;
+  color: #ffffff;
+  border: 2px solid #fff;
 }

@@ -176,7 +176,7 @@ position: relative;
 }
 .Knowutility_faqs {
   width: 90%;
-  margin-top: 4%;
+  margin-top: 6%;
 }
 .Knowutility_faqs h2 {
   font-family: "Azonix";
@@ -200,6 +200,7 @@ position: relative;
   width: 49rem;
   height: 17.6rem;
   border-radius: 40px;
+  background-image: url('../../assets/images/landing/Noise.png');
 }
 .Knowutility_animatecard_card img {
   object-fit: cover;
@@ -251,3 +252,8 @@ position: relative;
     border:none;
     border-radius: 10px;
 }
+.Knowutility_animatecard_text_buttom button:hover{
+  border: 2px solid #fff;
+  background: #000;
+  color: #fff;
+} 

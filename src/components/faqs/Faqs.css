@@ -58,3 +58,10 @@ line-height: 20px;
 .close{
   display: none;
 }
+.faqs--p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 30px;
+}

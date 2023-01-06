@@ -13,11 +13,11 @@ const Navbar = () => {
         <h3 className="navbar_title">Inhands</h3>
         </Link>
         <input type="text" placeholder="Busca Utility NFT’s, colecciones" />
+      </div>
+      <div className="navbar_secondbloq">
         <Link to={'/colecciones'}>
           <h3 className="navbar_market">Marketplace</h3>
         </Link>
-      </div>
-      <div className="navbar_secondbloq">
         <ul>
           <li>Novedades</li>
           <li>Perfil</li>
