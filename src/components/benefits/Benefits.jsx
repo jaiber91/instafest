@@ -10,18 +10,34 @@ const Benefits = ({props}) => {
                 <p>{props.Benefits.describe}</p>
             </div>
             <div className="benefits--type">
+                <div className="benefits--type-col1">
+
                 {
-                    props.Benefits.types.map(data=>{
-                        return <div className="benefits--nums">
+                    props.Benefits.types.slice(0, 3).map(data=>{
+                        return <div className="benefits--nums-col1">
                             <h2>{data.number}</h2>
-                            <div className="benefits--text">
+                            <div className="benefits--text-col1">
                                 <p>{data.describe}</p>
-                                <hr />
+                                <hr className='line-col1'/>
                             </div>
                     </div>
                     })
                 }
-                
+                </div>
+                <div className="benefits--type-col2">
+
+                 {
+                    props.Benefits.types.slice(3, 6).map(data=>{
+                        return <div className="benefits--nums">
+                            <h2>{data.number}</h2>
+                            <div className="benefits--text">
+                                <p>{data.describe}</p>
+                                <hr className='lineCol2'/>
+                            </div>
+                    </div>
+                    })
+                }
+                </div>
             </div>
             <div className="befits-card">
                 <img src={imagesLanding.cardTwoBenefits} alt="" />
