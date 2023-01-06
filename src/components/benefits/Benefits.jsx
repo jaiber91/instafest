@@ -40,7 +40,7 @@ const Benefits = ({props}) => {
                 </div>
             </div>
             <div className="befits-card">
-                <img src={imagesLanding.cardTwoBenefits} alt="" />
+                <img src={imagesLanding.cardTwoBenefits} alt="imagen beneficios" />
                 <div className="befits-card-text">
                     <p>{props.text}</p>
                     <div className="describe--btn">
