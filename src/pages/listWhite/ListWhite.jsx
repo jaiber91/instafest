@@ -8,7 +8,7 @@ import arrowUp from "../../assets/icons/arrow-up.svg";
 const ListWhite = () => {
   // Definiendo el estado del componente
   const [formData, setFormData] = useState([
-    { field: "Email", value: "" },
+    { field: "E-mail", value: "" },
     { field: "Nombre de usuario", value: "" },
     { field: "Tipo de documento", value: "" },
     { field: "Selecciona tu ubicación", value: "" },
@@ -21,6 +21,9 @@ const ListWhite = () => {
 
   // Indica si el modal está visible o no
   const [modalVisible, setModalVisible] = useState(false);
+
+  //Para cambiar de color el input al darle click
+  const [selectedInput, setSelectedInput] = useState(null);
 
   // Ejecuta el código cuando el componente se monte o se actualice
   useEffect(() => {
@@ -87,18 +90,41 @@ const ListWhite = () => {
     setModalVisible(false);
   };*/
 
+
+  //Cambiar color del input y elBTN funciona a medias
+  /*function handleClick() {
+   let input = document.getElementsByClassName("listWhite_form_Uninput");
+   let hr = document.getElementById("line");
+   let btnForm = document.getElementById("button_form");
+
+    hr.style.backgroundColor = "blue";
+    btnForm.style.backgroundColor = "blue";
+  }*/
+
+  
+
+  // Función que maneja el evento de foco en el input
+  const handleInputFocus = (event) => {
+    setSelectedInput(event.target.name);
+  };
+
+  // Función que maneja el evento de blur en el input
+  const handleInputBlur = () => {
+    setSelectedInput(null);
+  };
+
   return (
     <section className="listWhite">
       <div className="listWhite_image">
         <img className="listWhite_bg" src={imageBg} alt="imagen de fondo" />
-        <Link to="/">
+        
         <div className="listWhite_logo">
           <Link to={'/'}>
             <img src={logo} alt="logo" />
             <h3>Inhands</h3>
           </Link>
         </div>
-        </Link>
+        
         <div className="listWhite_Percentage">
           <h2>{percentage}%</h2>
         </div>
@@ -130,6 +156,7 @@ const ListWhite = () => {
           </p>
           <button type="button" onClick={showModal}>
             <img src={arrowUp} alt="flecha" />
+            <div className="button_form_circle"></div>
           </button>
         </div>
 
@@ -172,10 +199,18 @@ const ListWhite = () => {
               value={currentField.value}
               onChange={handleChange}
               placeholder={currentField.field}
+              className="listWhite_form_Uninput"
+              onFocus={handleInputFocus}
+              onBlur={handleInputBlur}
             />
-            <hr />
-            <button type="button" onClick={handleNextClick}>
+            <hr  style={{
+                backgroundColor: selectedInput === 'emails' ? 'blue' : '#0d0146',
+              }} id="line" />
+            <button style={{
+                backgroundColor: selectedInput === 'emails' ? 'blue' : '#0d0146',
+              }}  id="button_form"  type="button" onClick={handleNextClick}>
               <img src={arrowUp} alt="flecha" />
+              <div className="button_form_circle"></div>
             </button>
           </form>
         </div>

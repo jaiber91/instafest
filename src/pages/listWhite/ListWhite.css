@@ -4,22 +4,22 @@
 
 .listWhite_image {
   position: relative;
-  width: 40%;
+  width: 31%;
   height: 45rem;
   background-color: #d2cfd2;
   border-radius: 0 0 15%;
 }
-.listWhite_image a{
- text-decoration: none;
- cursor: pointer;
+.listWhite_image a {
+  text-decoration: none;
+  cursor: pointer;
 }
-.listWhite_image h3{
-  font-family: 'Azonix';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-color: #0D0146;
+.listWhite_image h3 {
+  font-family: "Azonix";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #0d0146;
 }
 .listWhite_logo {
   position: absolute;
@@ -65,107 +65,124 @@ color: #0D0146;
 .listWhite_form h2 {
   font-family: "Azonix";
   font-style: normal;
-  font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 1.9rem;
   line-height: 34px;
   color: #1e1e1e;
 }
-.listWhite_form p{
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 38px;
-    color: #000000;
+.listWhite_form p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 38px;
+  color: #000000;
+  margin: 3rem 0;
 }
-.listWhite_form_welcome{
-  
+.listWhite_form_welcome {
   margin-left: 8%;
 }
-.listWhite_form_welcome h2{
+.listWhite_form_welcome h2 {
   font-family: "Azonix";
   font-style: normal;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 38px;
-  color: #1E1E1E;
+  color: #1e1e1e;
   margin-bottom: 2%;
 }
-.listWhite_form_welcome p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 22px;
-color: #000000;
+.listWhite_form_welcome p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
 }
-.listWhite_form_welcome button{
+.listWhite_form_welcome button {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0D0146;;
+  background: #0d0146;
   border-radius: 23px;
   height: 3rem;
   width: 3rem;
-  box-shadow: inset 0 0 0 1px #ffffff;
   cursor: pointer;
+  border: 0;
 }
-.listWhite_form_container{
-  width: 80%;
+.listWhite_form_welcome button:hover{
+  background:blue;
 }
-.listWhite_form_label{
+.listWhite_form_container {
+  width: 83%;
+}
+.listWhite_form_label {
   margin-left: 15%;
 }
-.listWhite_form_label label{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 15px;
-line-height: 38px;
-color: #000000;
-
+.listWhite_form_label label {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 38px;
+  color: #000000;
 }
-.listWhite_form_input{
+.listWhite_form_input {
   display: flex;
   justify-content: center;
   position: relative;
   width: 100%;
   margin-top: 3rem;
 }
-.listWhite_form_input label{
+.listWhite_form_input label {
   position: absolute;
   bottom: 3rem;
   right: 60%;
   font-family: "Poppins", sans-serif;
 }
-.listWhite_form_input input{
-    outline: 0;
-    border: none;
-    width: 70%;
+.listWhite_form_input input {
+  outline: 0;
+  border: none;
+  width: 70%;
+  cursor: pointer;
 }
 .listWhite_form_input hr {
   position: absolute;
-  background-color: #0D0146;;
+  background-color: #0d0146;
   width: 73%;
-  top: 1rem;
+  height: 3px;
+  top: 2rem;
 }
 .listWhite_form_input button {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   left: 80%;
   top: -2rem;
-  background: #0D0146;;
+  background: #0d0146;
   border-radius: 23px;
   height: 3rem;
   width: 3rem;
-  box-shadow: inset 0 0 0 1px #ffffff;
   cursor: pointer;
-  transform: rotate(-225deg);
+  transform: rotate(0deg);
+  border: 0;
+}
+
+.button_form_circle {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  border-width: 1px;
+}
+.listWhite_form_input button img {
+  width: 22px;
 }
 /*ESTILOS PARA EL MODAL*/
-.modal_container{
+.modal_container {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -177,20 +194,20 @@ color: #000000;
   background: rgba(0, 0, 0, 0.5);
   transition: all 500ms ease;
 }
-.modal_element{
+.modal_element {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   width: 30rem;
-height: 20rem;
-margin: auto;
-border-radius: 20px;
-background: #ffffff;
-box-shadow: 1px 7px 25px rgba(0,0,0,0.6);
-transition: all 500ms ease;
+  height: 20rem;
+  margin: auto;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
+  transition: all 500ms ease;
 }
-.modal_element h3{
+.modal_element h3 {
   font-family: "Azonix";
   font-style: normal;
   font-weight: 400;
@@ -198,7 +215,7 @@ transition: all 500ms ease;
   color: #000000;
   text-align: center;
 }
-.modal_element p{
+.modal_element p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -208,10 +225,10 @@ transition: all 500ms ease;
   color: #000000;
   margin: 2rem 0;
 }
-.modal_element a{
+.modal_element a {
   display: contents;
 }
-.modal_element .modal_btn{
+.modal_element .modal_btn {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
@@ -229,11 +246,11 @@ transition: all 500ms ease;
   color: #ffffff;
 }
 
-.modal_element .modal_btn img{
+.modal_element .modal_btn img {
   margin-left: 15%;
 }
 
-.listWhite_logo a{
+.listWhite_logo a {
   display: flex;
   align-items: center;
   gap: 14%;

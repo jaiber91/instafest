@@ -1,123 +1,175 @@
-.collection h1{
-    font-family:'Azonix';
-    margin-left: 7%;
-    margin-top: 4%;
-    font-weight: 300;
-    text-decoration-line: underline;
+.collection h1 {
+  font-family: "Azonix";
+  margin-left: 7%;
+  margin-top: 4%;
+  font-weight: 300;
+  margin-bottom: 0.5rem;
 }
 
-.collection{
-    position: relative;
-    background-color: #FFFF;
-    z-index: 1;
+.collection {
+  position: relative;
+  background-color: #ffff;
+  z-index: 1;
+}
+.collection_tittle {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-top: 5%;
+}
+.collection_tittle .collection_line {
+  width: 19.2rem;
+  height: 3px;
+  background-color: #000000;
+  margin-left: 107px;
 }
 
-.collection hr{
-    height: 1px;
-    background-color: #000;
-    border-style: none;
-    margin-left: 6%;
+.collection hr {
+  height: 1px;
+  background-color: #000;
+  border-style: none;
+  margin-left: 6%;
 }
-.collection a{
-    text-decoration: none;
-    color: #000;
+.collection a {
+  text-decoration: none;
+  color: #000;
 }
-.cards{
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    margin-left: 4%;
-    margin-top: 2%;
+.cards {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin-left: 4%;
+  margin-top: 2%;
+  gap: 3%;
 }
 
-.collection_cards{
-    width: 25%;
-    margin: 2%;
+.collection_cards {
+  width: 29.3rem;
+  height: 21.5rem;
+  margin-bottom: 4rem;
 }
-.collection__card_side{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 7%;
-    margin-top: 5%;
+.collection__card_side {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7%;
+  margin-top: 5%;
 }
-.collection__card{
-    padding: 3%;
-    padding-bottom: 8%;
-    box-shadow: 0px 4px 21px rgb(0 0 0 / 11%);
-    border-radius: 20px;
+.collection__card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10%;
+  box-shadow: 0px 4px 21px rgb(0 0 0 / 11%);
+  border-radius: 20px;
 }
-.collection__card>img{
-    border-radius: 25px 25px 0 0;
+.collection__card > img {
+  width: 28rem;
+  height: 14.29rem;
+  border-radius: 20px 20px 0px 0px;
+  object-fit: cover;
+  padding-top: 6px;
 }
 
 .collection__card_side p {
-    text-decoration: none;
-    font-size: 12px;
-    font-family:'Azonix';
+  text-decoration: none;
+  font-family: "Azonix";
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
 }
-.collection__card_side>.img img {
-    position: absolute;
-    width: 5%;
-    border: 4px solid #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.11));
-    border-radius: 16px;
-    margin-left: -6%;
-    margin-top: -3.5%;
+.collection__card_side > .img img {
+  position: absolute;
+  width: 5%;
+  border: 4px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.11));
+  border-radius: 16px;
+  margin-left: -6%;
+  margin-top: -3.5%;
 }
 
-.collection_cards_cows{
-    width: 20%;
-    margin: 2%;
-    box-shadow: 0px 4px 21px rgb(0 0 0 / 11%);
-    border-radius: 20px;
-    padding: 0.5%;
+.collection_cards_cows {
+  width: 19rem;
+  height: 21.5rem;
+  box-shadow: 0px 4px 21px rgb(0 0 0 / 11%);
+  border-radius: 20px;
+  padding: 0.5%;
 }
-.cows__color{
-    display: flex;
-    max-height: 130px;
-    height: 130px;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient(50% 50% at 50% 50%, #5BC6CB 0%, rgba(91, 198, 203, 0.43) 31.25%, rgba(235, 87, 87, 0) 100%), conic-gradient(from 180deg at 50% 50%, #5DC6CD 0deg, #0D0146 90deg, #3307F0 180deg, #0D0146 270deg, #5DC6CE 360deg);
-    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.11);
-    border-radius: 25px 25px 0 0;
+.cows__color {
+  display: flex;
+  width: 18.2rem;
+  height: 14.1rem;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #5bc6cb 0%,
+      rgba(91, 198, 203, 0.43) 31.25%,
+      rgba(235, 87, 87, 0) 100%
+    ),
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #5dc6cd 0deg,
+      #0d0146 90deg,
+      #3307f0 180deg,
+      #0d0146 270deg,
+      #5dc6ce 360deg
+    );
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.11);
+  border-radius: 25px 25px 0 0;
 }
-.cows__colorv2{
-    display: flex;
-    max-height: 130px;
-    height: 130px;
-    align-items: center;
-    justify-content: center;
-    background: radial-gradient(50% 50% at 50% 50%, #5BC6CB 0%, rgba(91, 198, 203, 0.43) 31.25%, rgba(235, 87, 87, 0) 100%), conic-gradient(from 180deg at 50% 50%, #5DC6CD 0deg, #0D0146 90deg, #3307F0 180deg, #0D0146 270deg, #5DC6CE 360deg);
-    box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.11);
-    border-radius: 0 0 25px 25px;
-    transform: rotate(-180deg);
+.cows__colorv2 {
+  display: flex;
+  width: 18.2rem;
+  height: 14.1rem;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      #5bc6cb 0%,
+      rgba(91, 198, 203, 0.43) 31.25%,
+      rgba(235, 87, 87, 0) 100%
+    ),
+    conic-gradient(
+      from 180deg at 50% 50%,
+      #5dc6cd 0deg,
+      #0d0146 90deg,
+      #3307f0 180deg,
+      #0d0146 270deg,
+      #5dc6ce 360deg
+    );
+  box-shadow: 0px 4px 21px rgba(0, 0, 0, 0.11);
+  border-radius: 0 0 25px 25px;
+  transform: rotate(-180deg);
 }
-.cows__color p{
-    width: 50%;
-    font-family: 'Azonix';
-    font-size: 10px;
-    text-align: center;
-    color: #FFFF;
+.cows__color p {
+  font-family: "Azonix";
+  text-align: center;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
 }
-.cows__colorv2 p{
-    width: 50%;
-    transform: rotate(-180deg);
-    font-family: 'Azonix';
-    font-size: 10px;
-    text-align: center;
-    color: #FFFF;
+.cows__colorv2 p {
+  transform: rotate(-180deg);
+  font-family: "Azonix";
+  text-align: center;
+  font-size: 1rem;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
 }
-.cows_img{
-    display: flex;
-    align-items: center;
-    justify-content: center ;
-    padding-top: 10%;
+.cows_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
 }
-.cows_img img{
- width: 10%;
-
+.cows_img img {
+  width: 10%;
 }
-.help{
-    margin-left: 90%;
+.help {
+  margin-left: 84%;
+  margin-bottom: 4rem;
 }

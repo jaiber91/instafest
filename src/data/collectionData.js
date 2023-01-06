@@ -12,6 +12,7 @@ import { imagesLanding } from "../assets/images/landing/imagesLanding";
       id:'1',
       describe:'Como privilegio que mereces por ser la persona que eres, Instafest Awards y el proyecto Inhands te ofrecen los siguientes beneficios por la adquisición de una NFT:',
       types:[
+       
         {id:'1', number:'01', describe:'Acceso ilimitado a cualquier versión a nivel mundial de Instafest.'},
         {id:'2', number:'02', describe:'Fiestas exclusivas con los protagonistas de la industria en cada país.'},
         {id:'3', number:'03', describe:'Entrada exclusiva a la entrega de premiación con los creadores de contenido más reconocidos en cada país.'},
