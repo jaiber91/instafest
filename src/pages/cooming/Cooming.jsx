@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Scrollbars } from "react-custom-scrollbars";
 import Navbar from "../../components/navbar/Navbar";
 import "./Cooming.css";
 import arrowUp from "../../assets/icons/arrow-up.svg";
