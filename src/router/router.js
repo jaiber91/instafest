@@ -10,6 +10,7 @@ import Utility from "../pages/utility/Utility";
 import ListWhite from "../pages/listWhite/ListWhite";
 import Wallet from "../pages/wallet/Wallet";
 import Cooming from "../pages/cooming/Cooming";
+import Profile from '../pages/profile/Profile';
 
 export const router = createBrowserRouter([
     {
@@ -35,6 +36,11 @@ export const router = createBrowserRouter([
     {
       path:"/cooming",
       element: <Cooming/>
+    }
+    ,
+    {
+      path:"/profile",
+      element: <Profile/>
     }
   ]);
    

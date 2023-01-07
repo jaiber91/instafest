@@ -4,7 +4,7 @@ import './buttonV2.css';
 const ButtonV2 = (props) => {
     const style = {
         width: `${props.size}%`,
-        
+        backgroundColor: props.color
       };
 
     return ( 
