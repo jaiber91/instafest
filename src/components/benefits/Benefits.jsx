@@ -1,9 +1,28 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import './Benefits.css';
 import { imagesLanding } from '../../assets/images/landing/imagesLanding';
 import eyeOff from '../../assets/icons/eye-off-whitw.svg'
+import benefits1 from '../../assets/images/landing/benefits1.png'
+import benefits2 from '../../assets/images/landing/benefits2.png'
+import { providerContext } from '../../context/status';
 
 const Benefits = ({props}) => {
+    let {
+        translatey,
+        setTranslatey
+      }= useContext(providerContext);
+
+      useEffect(() => {
+        const interval = setInterval(() => {
+          if(translatey === true){
+            setTranslatey(translatey=false)
+          }else{
+            setTranslatey(translatey=true)
+          }
+    
+        }, 2000);
+        return () => clearInterval(interval);
+      }, []);
     return ( 
         <div className='benefits'>
             <div className="benefits--describe">
@@ -40,7 +59,8 @@ const Benefits = ({props}) => {
                 </div>
             </div>
             <div className="befits-card">
-                <img src={imagesLanding.cardTwoBenefits} alt="imagen beneficios" />
+                <img className={translatey ? '' : 'befits-img'} src={benefits1} alt="imagen " />
+                <img className={translatey ? 'befits-img' : ''} src={benefits2} alt="imagen " />
                 <div className="befits-card-text">
                     <p>{props.text}</p>
                     <div className="describe--btn">
