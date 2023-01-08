@@ -2,13 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-@font-face {
+  }
+  @font-face {
     font-family: 'Azonix';
     src: url('./assets/fonts/pirulen.rg-regular.otf') format('truetype');
   }
   @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,500;0,700;1,300&family=Poppins:wght@300;400;500&display=swap');
-:root {
+  :root {
     font-family: 'Azonix';
     font-family: 'Poppins', sans-serif;
+  }
+  
+  body{
+    
+    overflow-x:hidden;
   }

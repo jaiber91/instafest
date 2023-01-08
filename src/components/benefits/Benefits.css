@@ -121,54 +121,6 @@
     margin-top: 3%;
    
 }
-.benefits-img{
-    position: relative;
-}
-.benefits-img .btn-one{
-    width: 70px;
-    height: 27px;
-    background-color: #000000;
-    border: 2px solid #fce986;
-    position: absolute;
-    top: 347px;
-    left: 79px;
-    transform: rotate(10deg);
-    animation: cambiarFondo 5s linear infinite;
-}
-.benefits-img .btn-one p{
-    color: #FFFFff;
-    font-size: 0.7rem;
- }
-.benefits-img .btn-two{
-    width: 70px;
-    height: 27px;
-    background-color: #000000;
-    border: 2px solid #fce986;
-    position: absolute;
-    top: 275px;
-    left: 320px;
-    transform: rotate(-11deg);
-    color: #FFFFff;
-    animation: cambiarFondo 5s linear infinite;
-    animation-delay: 5s;
-}
-.benefits-img .btn-two{ 
-    color: #FFFFff;
-    font-size: 0.7rem;
-}
-.benefits-img .benefits-cursor{
-    position: absolute;
-    top: 364px;
-    left: 147px;
-    transform: rotate(-9deg);
-}
-.benefits-img .benefits-cursorDos{
-    top: 268px;
-    position: absolute;
-    left: 371px;
-    transform: rotate(-9deg);
-}
-
 .befits-card>img{
     width: 50%;
     padding: 4%;
@@ -246,17 +198,6 @@
     border-left: 4px solid #1E1E1E;
     margin:0  23px;
 }
-
-@keyframes cambiarFondo {
-    0% {
-      background-color: #ffffff;
-    }
-    50% {
-      background-color: #000000;
-      opacity: 0;
-    }
-    100% {
-      background-color: #ffffff;
-      opacity: 1;
-    }
-  }
+.befits-img{
+    display: none;
+}

@@ -10,6 +10,7 @@
   justify-content: center;
   flex-direction: column;
   width: 90%;
+  margin-left: 5%;
 }
 .Knowutility_first h1 {
   font-family: "Azonix";
@@ -36,20 +37,8 @@
   width: 24rem;
   height: 28rem;
   position: relative;
-  background: radial-gradient(
-      50% 50% at 50% 50%,
-      #5bc6cb 0%,
-      rgba(91, 198, 203, 0.52) 31.25%,
-      rgba(91, 198, 203, 0) 100%
-    ),
-    conic-gradient(
-      from 180deg at 50% 50%,
-      #0d0146 0deg,
-      #0d0146 90deg,
-      #3307f0 180deg,
-      #3307f0 270deg,
-      #0d0146 360deg
-    );
+
+  background: radial-gradient(50% 50% at 50% 50%, #5BC6CB 0%, rgba(91, 198, 203, 0.52) 31.25%, rgba(91, 198, 203, 0) 100%),url(../../assets/images/landing/Noise.svg), conic-gradient(from 180deg at 50% 50%, #0D0146 0deg, #0D0146 90deg, #3307F0 180deg, #3307F0 270deg, #0D0146 360deg);
   border-radius: 50px;
   cursor: pointer;
 }
@@ -85,21 +74,8 @@
   align-items: flex-end;
   width: 24rem;
   height: 20rem;
-position: relative;
-  background: radial-gradient(
-      50% 50% at 50% 50%,
-      #5bc6cb 0%,
-      rgba(91, 198, 203, 0.52) 31.25%,
-      rgba(91, 198, 203, 0) 100%
-    ),
-    conic-gradient(
-      from 180deg at 50% 50%,
-      #0d0146 0deg,
-      #0d0146 90deg,
-      #3307f0 180deg,
-      #3307f0 270deg,
-      #0d0146 360deg
-    );
+  position: relative;
+  background: radial-gradient(50% 50% at 50% 50%, #0D0146 0%, rgba(13, 1, 70, 0.84) 30.73%, rgba(110, 89, 215, 0) 94.31%),url(../../assets/images/landing/Noise.svg),conic-gradient(from 180deg at 50% 50%, #3307F0 0deg, #3307F0 90deg, #5BC6CB 180deg, #5BC6CB 270deg, #3307F0 360deg);
   border-radius: 50px;
   cursor: pointer;
 }
@@ -132,21 +108,8 @@ position: relative;
   align-items: flex-end;
   width: 24rem;
   height: 25rem;
-position: relative;
-  background: radial-gradient(
-      50% 50% at 50% 50%,
-      #5bc6cb 0%,
-      rgba(91, 198, 203, 0.52) 31.25%,
-      rgba(91, 198, 203, 0) 100%
-    ),
-    conic-gradient(
-      from 180deg at 50% 50%,
-      #0d0146 0deg,
-      #0d0146 90deg,
-      #3307f0 180deg,
-      #3307f0 270deg,
-      #0d0146 360deg
-    );
+  position: relative;
+  background: radial-gradient(50% 50% at 50% 50%, #3307F0 0%, rgba(51, 7, 240, 0.69) 31.25%, rgba(91, 198, 203, 0) 100%),url(../../assets/images/landing/Noise.svg),conic-gradient(from 180deg at 50% 50%, #5BC6CB 0deg, #5BC6CB 90deg, #5BC6CB 180deg, #3307F0 270deg, #5BC6CB 360deg);
   border-radius: 50px;
   cursor: pointer;
 }
@@ -155,28 +118,18 @@ position: relative;
   display: flex;
   align-items: flex-end;
   width: 24rem;
-  height: 13rem;
-position: relative;
-  background: radial-gradient(
-      50% 50% at 50% 50%,
-      #5bc6cb 0%,
-      rgba(91, 198, 203, 0.52) 31.25%,
-      rgba(91, 198, 203, 0) 100%
-    ),
-    conic-gradient(
-      from 180deg at 50% 50%,
-      #0d0146 0deg,
-      #0d0146 90deg,
-      #3307f0 180deg,
-      #3307f0 270deg,
-      #0d0146 360deg
-    );
+  height: 13rem;  
+  position: relative;
+  background: radial-gradient(50% 50% at 50% 50%, #0D0146 0%, rgba(13, 1, 70, 0.56) 44.27%, rgba(91, 198, 203, 0.67) 100%),url(../../assets/images/landing/Noise.svg),conic-gradient(from 180deg at 50% 50%, #5BC6CB 0deg, #5BC6CB 90deg, #5BC6CB 180deg, #5BC6CB 270deg, rgba(13, 1, 70, 0.6) 360deg);
   border-radius: 50px;
   cursor: pointer;
 }
 .Knowutility_faqs {
   width: 90%;
   margin-top: 6%;
+}
+.ocultar-img{
+  display: none;
 }
 .Knowutility_faqs h2 {
   font-family: "Azonix";
@@ -196,14 +149,11 @@ position: relative;
 }
 .Knowutility_animatecard_card {
   position: relative;
-  background: blue;
   width: 49rem;
   height: 17.6rem;
   border-radius: 40px;
-  background-image: url('../../assets/images/landing/Noise.png');
 }
 .Knowutility_animatecard_card img {
-  object-fit: cover;
   width: 100%;
   height: 100%;
   border-radius: 40px;

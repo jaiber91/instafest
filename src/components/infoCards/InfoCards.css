@@ -1,11 +1,22 @@
 .infoCards {
   width: 90%;
   height: auto;
-  margin-top: 10%;
+  margin-top: 2%;
 }
 .infoCards_sutitle{
     display: flex;
     gap: 2%;
+    margin-left: 2%;
+}
+.hrInfoCard{
+  width: 100%;
+}
+.hrInfoCard2{
+    height: 7px;
+    background-color: #000000;
+    width: 30%;
+    margin-left: 3%;
+    margin-top: -3px;
 }
 .infoCards_sutitle button{
     border: 0;
@@ -28,17 +39,202 @@
   font-size: 30px;
   line-height: 24px;
   color: #000000;
-  margin-bottom: 5%;
+  margin-bottom: 8%;
 }
-.infoCards_details_article p{
-    text-align: justify;
+.infoCards_details_utility p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  margin: 4% 0;
+}
+.infoCard-subcard{
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+.infoCard-subcard p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  margin-top: -5%;
+}
+.infoCard-subcard img{
+  transform: rotate(353deg);
+}
+.infoCard-div-text{
+  width: 95%;
+  border: 1px solid #000;
+  margin: 5% 0;
+  border-radius: 20px;
+  padding: 2% 5% 2% 5%;
+}
+.infoCard-div-text:hover{
+  border: 2px solid #000;
+
 }
 
-.infoCards_details_articleImg{
+.dinfoCard-benefits{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ubication-infocard{
+  width: 80%;
+  display: flex;
+  align-items: flex-start;
+  gap: 6%;
+  margin-top: 4%;
+}
+.ubication-infocard>h4{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 24px;
+  margin-top: 4%;
+}
+.organizeInfocard>p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+} 
+.organizeInfocard>hr{
+  width: 100%;
+  height: 2px;
+  margin: 6% 0;
+}
+
+.infocard-boton{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.infocard-boton a{
+  margin-top: 5%;
+  text-decoration: none;
+}
+button{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #1e1e1e;
+  border: none;
+}
+.btn-infocart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 129%;
+  height: 3rem;
+  border-radius: 10px;
+  padding: 0.8rem;
+  background: #000;
+  gap: 10%;
+  color: #fff;
+  
+}
+.btn-infocart img {
+  width: 15%;
+}
+.btn-infocart:hover svg path{
+  stroke: #000;
+}
+.btn-infocart:hover{
+  background: #ffffff;
+  color: #000;
+  font-weight: 400;
+  border: 2px solid #fff;
+  border: 1px solid #000;
+}
+
+
+.desactive{
+    display: none;
+}
+
+.imagen-infocard{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10% 0;
+  height: 10em;
+  position: relative;
+  z-index: 99;
+}
+
+.imagen-infocard>img{
+  width: 80%;
+  border-radius: 30px;
+}
+.divisor-text-p{
+  padding-top: 15%;
+  position: relative;
+  z-index: 99;
+}
+.infoCards_details_btn>button{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 3%;
+  }
+ .infoCards_details_btn>.btnV2 {
     display: flex;
+    justify-content: center;
     align-items: center;
+    cursor: pointer;
+    font-family: "Azonix";
+    width: 21rem;
+    height: 4rem;
+    border-radius: 19px;
+    padding: 0.8rem;
+    background: #ffffff;
+    font-weight: 500;
+    border: 1px solid #000;
+    gap: 3%;
+    
+  }
+  .infoCards_details_btn>.btnV2 img {
+    width: auto;
+    transform: rotate(90deg);
+  }
+  
+  .infoCards_details_btn>.btnV2:hover img{
+    transform: rotate(0deg);
+  }
+  .infoCards_details_btn>.btnV2:hover{
+    border: 2px solid #000;
+  }
 
-}
-.infoCards_details_articleImg p{
-    text-align: justify;
-}
+  .desactive-img{
+    display: none;
+  }
+
+  @keyframes subir {
+    0%{
+      transform: translateY(-30px);
+    }
+
+    100%{
+      transform: translateY(20px);
+    }
+  }
+  
