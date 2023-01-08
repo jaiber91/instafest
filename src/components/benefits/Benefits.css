@@ -52,6 +52,8 @@
     font-family: 'Poppins',sans-serif;
     text-align: justify;
     font-size: 50px;
+    margin-top: -7%;
+
 }
 .benefits--nums-col1:hover h2{
     background: linear-gradient(106.77deg, #D0AE63 16.38%, #BF964D 37.81%, #F9E997 78.72%);
@@ -88,6 +90,7 @@ text-fill-color: transparent;
     font-family: 'Poppins',sans-serif;
     text-align: justify;
     font-size: 50px;
+    margin-top: -12%;
 
 }
 .benefits--text-col1{
