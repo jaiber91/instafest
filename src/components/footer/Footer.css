@@ -51,7 +51,7 @@ hr{
     margin-right: 7%;
 }
 
-.profile>ul>li{
+.profile-footer>ul>li{
     padding-bottom: 25%;
 
 }
@@ -126,7 +126,7 @@ hr{
 .market> h4{
     margin-bottom: 13%;
 }
-.profile>ul{
+.profile-footer>ul{
     margin-top: 15%;
 }
 .footer-wallet>h4{

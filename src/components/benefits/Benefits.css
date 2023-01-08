@@ -54,10 +54,14 @@
     font-size: 50px;
 }
 .benefits--nums-col1:hover h2{
-    color: #fce986;
+    background: linear-gradient(106.77deg, #D0AE63 16.38%, #BF964D 37.81%, #F9E997 78.72%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
 }
 .benefits--nums-col1:hover p{
-    color: #0D0146;
+    color: #361E4A;
     font-weight:500;
 }
 
@@ -70,10 +74,14 @@
     gap: 13%;
 }
 .benefits--nums:hover h2{
-    color: #fce986;
+    background: linear-gradient(106.77deg, #D0AE63 16.38%, #BF964D 37.81%, #F9E997 78.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 .benefits--nums:hover p{
-    color: #0D0146;
+    color: #361E4A;
     font-weight:500;
 }
 .benefits--nums h2{
