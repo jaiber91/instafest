@@ -6,9 +6,10 @@ const Divisor = () => {
     return ( 
     <div className='divisor'>
         <ul className='divisor_list'>
-            <li>sumérgete en la colección utility nft instafest</li>
-            <li>sumérgete en la colección utility nft instafest</li>
-            <li>sumérgete en la colección utility nft instafest</li>
+            <li><p>sumérgete en la colección utility nft instafest</p> </li>
+            <li><p>sumérgete en la colección utility nft instafest</p> </li>
+            <li><p>sumérgete en la colección utility nft instafest</p></li>
+            <li><p>sumérgete en la colección utility nft instafest</p></li>
         </ul>
     </div> 
     );

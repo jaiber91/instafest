@@ -1,6 +1,6 @@
 import React from 'react'
 import './ImagePrincipal.css'
-import imgHome from "../../assets/images/landing/headerHome.svg";
+import imgHome from "../../assets/images/landing/headerHome.jpg";
 import { Link } from 'react-router-dom';
 import arrowDownLeft from '../../assets/icons/arrow-down-left-white.svg'
 

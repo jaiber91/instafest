@@ -7,15 +7,79 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
   height: 7rem;
   color: #ffffff;
-  gap: 3rem;
+  gap: 25rem;
+  position: relative;
+  animation: slideinres 6s infinite;
+  transform: translateX(0);
+  
 }
+
 .divisor .divisor_list li {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 20px;
   font-family: "Azonix";
+  list-style-type:none;
+  
+}
+.divisor .divisor_list li p{
+  width: 500%;
+  position: relative;
+}
+
+@keyframes slideinres {
+  0%{
+      transform: translateX(-250px);
+      
+    }
+  10%{
+    transform: translateX(-200px);
+    
+  }  
+  20%{
+    transform: translateX(-150px);
+    
+  }  
+  30%{
+    transform: translateX(-100px);
+    
+  }  
  
+  40%{
+    transform: translateX(-50px);
+    
+  }  
+  50%{
+    transform: translateX(0px);
+    
+  }  
+  60%{
+    transform: translateX(50px);
+    
+  }  
+  70%{
+    transform: translateX(100px);
+    
+  }  
+  80%{
+    transform: translateX(150px);
+    
+  } 
+  90%{
+    transform: translateX(200px);
+    
+  } 
+  
+  100%{
+    transform: translateX(-250px);
+    
+  }  
+ 
+
+
+
 }

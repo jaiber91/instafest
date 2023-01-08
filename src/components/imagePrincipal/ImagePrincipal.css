@@ -1,28 +1,46 @@
 .header_principalimg{
     overflow: hidden;
+    object-fit: cover;
+    width: 95%;
+    height:42em;
+    margin: 1rem 0 0rem 2rem;
+    border-radius: 40px;
+    margin-bottom: 11%;
+    position: relative;
+    z-index: 1;
+
+    
 }
 .header_principalimg>img{
-    top: 5.7rem;
-    width: 95%;
-    margin: 2.5rem 0 -50rem 0;
+    width: 102%;
     filter: drop-shad6ow(0px 4px 25px rgba(0, 0, 0, 0.11));
-    border-radius: 40px;
-    margin-left: 2.5%;
+    transition-property:all ;
+    animation-duration: 4s;
+    animation-name: slidein;
+    margin-top: -26%;
+    position: absolute;
+    z-index: 1;
+    
+    
 }
 .header_principalimg-text{
     width: 100%;
+    height: inherit;
     display: flex;
     align-items: center;
     flex-direction: column;
     position: relative;
     justify-content: center;
-    z-index: 1;
+    z-index: 99;
+    animation-duration: 4s;
+    animation-name: prueba;
+
 }
 
 .header_principalimg-text>h1{
     font-family: 'Azonix';
     font-size: 50px;
-    margin-top: -67%;
+    font-weight: 100;
     background: radial-gradient(106% 663.52% at 10.54% -540.5%, rgba(30, 30, 30, 0.97) 80%, rgba(51, 7, 240, 0.97) 98.98%, rgba(91, 198, 203, 0.97) 134.48%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -39,3 +57,43 @@
     text-decoration: none;
     border-radius: 10px;
 }
+@keyframes slidein {
+
+    0% { 
+        margin-top: 0;
+        animation-delay: 2s;
+    }
+    33% { 
+        margin-top: 0;
+        animation-delay: 2s;
+    }
+    66%{
+        margin-top: -50%;
+        animation-delay: 2s;
+    }
+    99% { 
+        margin-top: -80%;
+        animation-delay: 2s;
+     }
+  }
+  @keyframes prueba{
+    0%{transform:translateX(-100%)}
+    100%{transform:translateX(-100%)}
+}
+
+
+@media (max-width: 1280px) {
+    .header_principalimg{
+        height:40em ;
+    }
+  }
+@media (max-width: 1140px) {
+    .header_principalimg{
+        height:35em ;
+    }
+  }
+@media (max-width: 1050px) {
+    .header_principalimg{
+        height:32em ;
+    }
+  }

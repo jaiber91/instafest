@@ -157,4 +157,6 @@ import { imagesLanding } from "../assets/images/landing/imagesLanding";
   
   ];
   
-  export default Data
+  export default Data;
+
+ 

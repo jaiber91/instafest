@@ -2,7 +2,10 @@
     display: flex;
     justify-content: center;
     gap: 18%;
-    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+    position: relative;
+    z-index: 99;
+    background: #fff;
 }
 .navbar_firstbloq {
   display: flex;

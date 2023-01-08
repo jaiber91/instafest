@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Knowutility.css";
 import imgCard from "../../assets/images/landing/cardInfoHome.svg";
 import Faqs from "../faqs/Faqs";
@@ -6,7 +6,10 @@ import Button from "../../components/buttom/Button";
 import { Link } from "react-router-dom";
 import InfoCards from "../../components/infoCards/InfoCards";
 import Arrow from "../../assets/icons/arrow-up-right-white.svg";
-import cardUtility from "../../assets/icons/cardUtility.svg";
+import hoosling from "../../assets/images/landing/hoosling.jpg";
+import hoosling2 from "../../assets/images/landing/hoosling2.jpg";
+import { providerContext } from "../../context/status";
+
 
 const Knowutility = () => {
   const faqs = [
@@ -79,66 +82,52 @@ const Knowutility = () => {
   ];
 
   /*Mostrando u ocultando el componente al dar click en la card del Home  */
-  const [showComponent, setShowComponent] = useState(false);
-  const [showCards, setShowCards] = useState(true);
-  const [title, setTitle] = useState("");
-  const [text, setText] = useState("");
-  const [image, setImage] = useState("");
+  let { 
+    showComponent, 
+    handleCardClick, 
+    showCards,
+    showCards1,
+    stateCardShow1,
+    stateCardShow2,
+    stateCardShow3,
+    stateCardShow4,
+    translatey,
+    setTranslatey
+  }= useContext(providerContext);
 
-  const handleCardClick = (cardTitle, cardText, cardImage) => {
-    setShowComponent(!showComponent);
-    setShowCards(!showCards);
-    setTitle(cardTitle);
-    setText(cardText);
-    setImage(cardImage);
-  };
-
-  const handleClose = () => {
-    setShowComponent(false);
-    setShowCards(true);
-  };
-
-  const textInfo = `Hasta hace poco los NFT (o no fungible tokens) eran
-  considerados activos digitales únicos dentro del mercado
-  coleccionable del crypto arte Su auge generó miles de millones
-  de dólares en criptomonedas de todo el mundo Sin embargo,
-  debido a problemas de seguridad y a la falta de confianza de la
-  comunidad digital en este tipo de proyectos, su mercado cayó
-  abruptamente \n\n.
+  function allcards1(){
+    handleCardClick()
+    stateCardShow1()
+    console.log(showCards1)
+    
+  }
+  function allcards2(){
+    handleCardClick()
+    stateCardShow2()
+    
+  }
+  function allcards3(){
+    handleCardClick()
+    stateCardShow3()
+    
+  }
+  function allcards4(){
+    handleCardClick()
+    stateCardShow4()
+    
+  }
   
-  Anteriormente, el valor de los tokens dependía de
-  la transacción de un tercero que estuviese dispuesto a pagar por
-  tu activo. Si ese tercero no aparecía, seguramente tu token
-  perdería todo su valor. Incluso podía ser replicado y vendido
-  sin que tú recibieras algo a cambio. 
-  
-  Debido a ello, surgió una
-  oferta que cambió el concepto de aplicación de los tokens: los
-  Utility NFT. Los Utility NFT’s son activos digitales cuyo valor
-  está respaldado por un proyecto económico sustentable que te da
-  el derecho de obtener dinero, dividendos en una empresa
-  altamente acreditada o algún tipo de beneficio social, a cambio
-  de la compra de un token.`;
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if(translatey === true){
+        setTranslatey(translatey=false)
+      }else{
+        setTranslatey(translatey=true)
+      }
 
-  const textProces = `En términos generales, Utility NFT es un modelo 
-  de negocio que propone una revolución en la aplicación del concepto de NFT.
-   El objetivo es representar de manera criptográfica un proyecto sólido 
-   y tangible a través de la propuesta de valor que puede ofrecer una empresa. 
-   El éxito de esa propuesta dependerá de la utilidad que ella te represente 
-   a ti como usuario potencial.
-   Al igual que el NFT convencional, el Utility NFT funciona a través de la
-    compra de un activo digital con criptomoneda, pero con la diferencia de 
-    que ya no sólo compras un archivo encriptado, sino una gama completa de 
-    beneficios que te ofrece la marca que se encarga de promocionar los activos 
-    digitales. Por ejemplo, por la compra de un token puedes acceder a dividendos 
-    en un proyecto empresarial, descuentos a las ofertas de determinadas marcas o incluso 
-    puedes obtener beneficios sociales como membresías para acceder a comunidades o a clubes exclusivos.`;
-
-  const textInhands = `
-  Pocas empresas se han encargado de brindar seguridad en el mundo de la comercialización de los NFT’s. Por ello, con el fin de garantizar tu seguridad y la retribución de beneficios materiales por tu adquisición, hemos creado el proyecto Inhands –Utility NFT projects Marketplace.
-  Inhands –Utility NFT projects Marketplace surge como una promesa de acción: la esperanza y el objetivo de crear un ecosistema en donde todos podamos trabajar en la construcción de nuevas experiencias a través de la comercialización de Utility NFT’s.`;
-  
-  const textBeneficios = `Inhands –Utility NFT projects marketplace está diseñado con el fin de brindarte un espacio seguro en donde puedas encontrar proyectos confiables, creíbles y que te estimulen positivamente. Por tu participación, tendrás derecho a los siguientes beneficios:`
+    }, 2000);
+    return () => clearInterval(interval);
+  }, []);
   
   return (
     <section className="Knowutility">
@@ -149,12 +138,7 @@ const Knowutility = () => {
         <div style={{ display: showCards ? "block" : "none" }}>
           <div className="Knowutility_cards">
             <div
-              onClick={() =>
-                handleCardClick(
-                  "Utility NFT",
-                  textInfo,
-                  "../../assets/images/landing/news.jpg"
-                )
+              onClick={() =>allcards1()
               }
               className="Knoeutility_card"
             >
@@ -164,7 +148,7 @@ const Knowutility = () => {
               <img src={Arrow} alt="Flecha" />
             </div>
             <div
-              onClick={() => handleCardClick("El proceso", textProces, "")}
+              onClick={() => allcards2()}
               className="Knoeutility_cardhow"
             >
               <h3>
@@ -173,7 +157,7 @@ const Knowutility = () => {
               <img src={Arrow} alt="Flecha" />
             </div>
             <div
-              onClick={() => handleCardClick("Inhands", textInhands, "")}
+              onClick={() => allcards3()}
               className="Knoeutility_project"
             >
               <h3>
@@ -181,21 +165,18 @@ const Knowutility = () => {
               </h3>
               <img src={Arrow} alt="Flecha" />
             </div>
-            <div onClick={() => handleCardClick("Beneficios", textBeneficios, "")} className="Knoeutility_beneficios">
+            <div onClick={() => allcards4()} className="Knoeutility_beneficios">
               <h3>beneficios</h3>
               <img src={Arrow} alt="Flecha" />
             </div>
           </div>
         </div>
-        {showComponent ? (
-          <InfoCards
-            show={showComponent}
-            onClose={handleClose}
-            title={title}
-            textElement={text}
-            imageElement={image}
-          />
-        ) : null}
+        {showComponent ? 
+        (
+      
+           <InfoCards/>  
+        ) 
+        : null}
       </div>
 
       <div className="Knowutility_faqs">
@@ -208,7 +189,9 @@ const Knowutility = () => {
       </div>
       <div className="Knowutility_animatecard">
         <div className="Knowutility_animatecard_card">
-          <img src={imgCard} alt="imagen " />
+          <img className={translatey ? '' : 'ocultar-img'} src={hoosling} alt="imagen " />
+          <img className={translatey ? 'ocultar-img' : ''} src={hoosling2} alt="imagen " />
+
 
           <div className="Knowutility_animatecard_text">
             <div>

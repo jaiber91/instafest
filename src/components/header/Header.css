@@ -6,7 +6,10 @@
 .header_text {
   display: flex;
   justify-content: space-around;
-  margin: 10rem 0rem 10rem 0rem;
+  padding: 5rem 0rem 10rem 0rem;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 99;
 }
 .header_logo {
   display: flex;
