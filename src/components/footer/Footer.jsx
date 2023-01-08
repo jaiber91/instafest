@@ -46,7 +46,7 @@ const Footer = () => {
                     <h4>Marketplace</h4>
                     <Link to={'/colecciones'}>Centro de ayuda</Link>
                 </div>
-                <div className="profile">
+                <div className="profile-footer">
                     <h4>Perfil</h4>
                     <ul>
                         <li><Link>Coleccionados</Link></li>

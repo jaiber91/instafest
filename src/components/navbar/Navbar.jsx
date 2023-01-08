@@ -20,7 +20,9 @@ const Navbar = () => {
         </Link>
         <ul>
           <li>Novedades</li>
+          <Link to={'/profile'}>
           <li>Perfil</li>
+          </Link>
         </ul>
         <img src={shopingCar} alt="icono de carrito de compra" />
         <button> <Link to={'/wallet'}>Conectar Billetera</Link></button>
