@@ -1,9 +1,23 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Suscribe.css";
 import CircleBlack from "../../assets/images/landing/circleBlack.svg";
 import arrowUp from "../../assets/icons/arrow-up.svg";
 
-const suscribeHome = () => {
+const SuscribeHome = () => {
+//Para cambiar de color el input al darle click
+const [selectedInput, setSelectedInput] = useState(null);
+
+
+ // Función que maneja el evento de foco en el input
+ const handleInputFocus = (event) => {
+  setSelectedInput(event.target.name);
+};
+
+// Función que maneja el evento de blur en el input
+const handleInputBlur = () => {
+  setSelectedInput(null);
+};
+
   return (
     <div className="suscribeHome">
       <div className="suscribeHome_image">
@@ -16,13 +30,26 @@ const suscribeHome = () => {
           alrededor del lanzamiento de los Utility NFT de Instafest.{" "}
         </p>
         <form className="suscribeHome_form_input" action="#">
-         <input type="email" name="emails" placeholder="E-mail" />
-         <hr />
-            <button><img src={arrowUp} alt="flecha" /></button>
+         <input
+          type="email"
+          name="emails"
+          placeholder="E-mail" 
+          onFocus={handleInputFocus}
+          onBlur={handleInputBlur}
+           />
+         <hr  style={{
+                backgroundColor: selectedInput === 'emails' ? 'blue' : '#0000000',
+              }} />
+            <button  style={{
+                backgroundColor: selectedInput === 'emails' ? 'blue' : '#0000000',
+              }}>
+              <img src={arrowUp} alt="flecha" />
+              <div className="button_form_home_circle"></div>
+            </button>
         </form>
       </div>
     </div>
   );
 };
 
-export default suscribeHome;
+export default SuscribeHome;

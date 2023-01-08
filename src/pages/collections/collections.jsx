@@ -13,7 +13,11 @@ const Collections = () => {
     <div >
         <Navbar/>
         <div className="collection">
+            <div className='collection_tittle'>
             <h1>colecciones</h1>
+            <hr className='collection_line' />
+
+            </div>
             <hr />
             <div className="cards">
                     {
@@ -38,7 +42,7 @@ const Collections = () => {
                 <div className="collection_cards_cows">
                     <Link>
                         <div className="cows__color">
-                            <p>La colección se desbloqueará más adelante</p>
+                            <p>La colección se desbloqueará <br /> más adelante</p>
                         </div>
                         <div className="cows_img">
                             <img src={eyeOff} alt="" />
@@ -48,7 +52,7 @@ const Collections = () => {
                 <div className="collection_cards_cows">
                     <Link>
                         <div className="cows__colorv2">
-                            <p>La colección se desbloqueará más adelante</p>
+                            <p>La colección se desbloqueará <br /> más adelante</p>
                         </div>
                         <div className="cows_img">
                             <img src={eyeOff} alt="" />
