@@ -1,6 +1,6 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import "./Knowutility.css";
-import imgCard from "../../assets/images/landing/cardInfoHome.svg";
+import imgCard from "../../assets/images/landing/NoiseHome.png";
 import Faqs from "../faqs/Faqs";
 import Button from "../../components/buttom/Button";
 import { Link } from "react-router-dom";
@@ -191,7 +191,7 @@ const Knowutility = () => {
         <div className="Knowutility_animatecard_card">
           <img className={translatey ? '' : 'ocultar-img'} src={hoosling} alt="imagen " />
           <img className={translatey ? 'ocultar-img' : ''} src={hoosling2} alt="imagen " />
-
+          <img src={imgCard} alt="" />
 
           <div className="Knowutility_animatecard_text">
             <div>

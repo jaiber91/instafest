@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../../components/navbar/Navbar";
 import "./Cooming.css";
 import arrowUp from "../../assets/icons/arrow-up.svg";
@@ -10,7 +10,7 @@ import imagen5 from "../../assets/images/Lanzamiento/5.jpeg";
 import imagen6 from "../../assets/images/Lanzamiento/6.jpeg";
 
 const Cooming = () => {
-  const [contenedores, setContenedores] = useState([
+  const [contenedores] = useState([
     imagen1,
     imagen2,
     imagen3,
@@ -25,7 +25,7 @@ const Cooming = () => {
     imagenes = document.querySelectorAll(".cooming-1");
   }, []);
 
-  const [imagenesSeleccionadas, setImagenesSeleccionadas] = useState(new Map());
+  const [imagenesSeleccionadas] = useState(new Map());
 
   const seleccionarImagenAleatoria = () => {
     // seleccionar un índice aleatorio del arreglo de imágenes

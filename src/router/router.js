@@ -1,8 +1,6 @@
 import React from "react";
 import {
-  createBrowserRouter,
-  BrowserRouter as Router
-
+  createBrowserRouter
 } from "react-router-dom";
 import Collections from "../pages/collections/collections";
 import Home from "../pages/home/home";

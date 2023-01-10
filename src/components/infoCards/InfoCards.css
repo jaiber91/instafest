@@ -181,6 +181,7 @@ button{
 .imagen-infocard>img{
   width: 80%;
   border-radius: 30px;
+  position: absolute;
 }
 .divisor-text-p{
   padding-top: 15%;
@@ -195,6 +196,10 @@ button{
     line-height: 20px;
     color: #000;
     margin-bottom: 3%;
+  }
+
+  .noise-info{
+    height: 11.5em;
   }
  .infoCards_details_btn>.btnV2 {
     display: flex;

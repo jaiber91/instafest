@@ -1,10 +1,11 @@
-import React, { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect } from "react";
 import "./InfoCards.css";
 import arrowUpRight from "../../assets/icons/arrow-up-right.svg";
 import achicar from "../../assets/icons/achicar.png"
 import variant from "../../assets/images/landing/variant.jpg"
 import property1 from "../../assets/images/landing/property1.jpg"
 import property2 from "../../assets/images/landing/property2.jpg"
+import noise from "../../assets/images/landing/NoiseHome.png"
 import { providerContext } from "../../context/status";
 import { Link } from "react-router-dom";
 
@@ -95,6 +96,7 @@ const InfoCards = () => {
             <div className="imagen-infocard">
                 <img className={translatey ? '': 'desactive-img'} src={property1} alt="" />
                 <img className={translatey ? 'desactive-img': ''} src={property2} alt="" />
+                <img className="noise-info" src={noise} alt="" />
             </div>
 
              <p>Inhands cumple con dos propósitos esenciales: por un lado, brindarte el apoyo necesario en la ejecución y creación de proyectos empresariales de utilidad, y, por el otro, ofrecerte la oportunidad de adquirir un activo intangible y convertirlo en beneficios y derechos tangibles, un activo que siempre estará en tu poder y que podrás disfrutar de manera física y virtual.</p>
