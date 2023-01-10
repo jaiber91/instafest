@@ -4,10 +4,11 @@ import "./Cooming.css";
 import arrowUp from "../../assets/icons/arrow-up.svg";
 import imagen1 from "../../assets/images/Lanzamiento/1.jpeg";
 import imagen2 from "../../assets/images/Lanzamiento/2.jpeg";
-import imagen3 from "../../assets/images/Lanzamiento/3.jpg";
+import imagen3 from "../../assets/images/Lanzamiento/3.jpeg";
 import imagen4 from "../../assets/images/Lanzamiento/4.jpeg";
 import imagen5 from "../../assets/images/Lanzamiento/5.jpeg";
 import imagen6 from "../../assets/images/Lanzamiento/6.jpeg";
+
 
 const Cooming = () => {
   const [contenedores] = useState([
@@ -17,6 +18,7 @@ const Cooming = () => {
     imagen4,
     imagen5,
     imagen6,
+   
   ]);
 
   let imagenes;
