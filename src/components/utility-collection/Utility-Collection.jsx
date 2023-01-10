@@ -48,7 +48,7 @@ const UtilityCollection = ({props}) => {
             </div>
         </div>
                 
-        <iframe className='video-collection'  src="https://www.youtube.com/embed/YUpXk8lu6zA?autoplay=1&&autopause=1?controls=0&disablekb=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe className='video-collection'  src="https://www.youtube.com/embed/r5E2ObZUo_k?autoplay=1&&autopause=1?controls=0&disablekb=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       
 
     </div>

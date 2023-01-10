@@ -7,8 +7,10 @@
     box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.12);
     border-radius: 11px;
     margin: 5% 0;
+    cursor: pointer;
 }
 .card img{
+    width: inherit;
     border-radius: 11px 11px 43px 0px;
 }
 .card--title{

@@ -32,6 +32,7 @@
 }
 .sidebar-title img{
     width: 15%;
+    cursor: pointer;
 }
 
 .sidebar-title h2{

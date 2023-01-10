@@ -28,10 +28,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 19%;
+    gap: 18%;
 }
 .timer--text p{
-    font-size: 6px;
+    font-size: 8px;
     font-family: 'Poppins',sans-serif;
     color: #fff;
 }
@@ -39,7 +39,7 @@
 .timer--text-n{
     display: flex;
     align-items: center;
-    gap: 66%;
+    gap:47%;
     width: 20%;
     margin-left: -2%;
 }
