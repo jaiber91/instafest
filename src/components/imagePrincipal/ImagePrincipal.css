@@ -44,6 +44,7 @@
     background: radial-gradient(106% 663.52% at 10.54% -540.5%, rgba(30, 30, 30, 0.97) 80%, rgba(51, 7, 240, 0.97) 98.98%, rgba(91, 198, 203, 0.97) 134.48%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 .header_principalimg-text>a{
     width: 15%;

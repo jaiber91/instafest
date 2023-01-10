@@ -62,14 +62,13 @@ const Cooming = () => {
     });
   };
 
-  useEffect(() => {
+useEffect(() => {
     const interval = setInterval(() => {
       cambiarImagenes();
     }, 1000);
     return () => clearInterval(interval);
   }, []);
 
-  window.scrollTo(0, 500);
   //calculando la altura maxima de la pantalla
   const contentHeight = document.body.scrollHeight;
   const windowHeight = window.innerHeight;
@@ -77,7 +76,10 @@ const Cooming = () => {
   console.log(maxScrollPosition);
 
   //Bloqueando el scroll ==>aun no funciona
-   window.scrollTo(0, 800);
+
+  useEffect(() => {
+    window.scrollTo(0, 700);
+  }, []);
 
   return (
     <>
@@ -126,7 +128,8 @@ const Cooming = () => {
             <div className="cooming-launch-three">
               <img className="cooming-1" src={contenedores[4]} alt="imagen" />
               <img className="cooming-1" src={contenedores[2]} alt="imagen" />
-              <img className="cooming-1" src={contenedores[5]} alt="imagen" />
+
+              <img className="cooming-1 " src={contenedores[5]} alt="imagen" />
             </div>
           </div>
         </div>

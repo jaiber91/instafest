@@ -97,7 +97,7 @@
 }*/
 .cooming-container-images{
     position: absolute;
-    left: 47rem;
+    left: 40rem;
 }
 
 .cooming-launch-one{
@@ -146,7 +146,13 @@
     height: 18rem;
     width: 13rem;
 }
-
+.img-clip{
+    height: 14rem;
+    width: 13rem;
+}
+.img-clip img{
+    object-fit: cover;
+}
 
 @media (max-width: 1180px) {
     .cooming-images{

@@ -63,7 +63,7 @@
     display: flex;
     align-items: center;
     gap: 50%;
-    margin-top: 6%;
+    margin-top: 13%;
     
 }
 .nav-button img{
@@ -251,6 +251,41 @@
     box-shadow: inset 0 0 0 1px #ffffff;
     cursor: pointer;
   }
+
+  .icon-share{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .share-list{
+    width: 18.7rem;
+    height: 8rem;
+    background: #ffffff;
+    border-top: 4px solid black;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.11);
+    margin-top: 2rem;
+    padding-top: 2%;
+    position: absolute;
+    margin-top: 3rem;
+    right: 0rem;
+    
+  }
+  .icon_share-btn{
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  .share-list-detail{
+    padding-left: 2rem;
+    padding-top: 1rem;
+    gap: 0.7rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .share-list-detail li{
+    list-style: none;
+    cursor: pointer;
+  }
+
 @media (max-width: 1160px) {
     .nav-button .btn{
         margin-top: -12%;
