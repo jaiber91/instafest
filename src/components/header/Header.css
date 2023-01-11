@@ -28,6 +28,7 @@
 .header_logo img {
   width: 29px;
   height: 29px;
+  margin-left: 28%;
 }
 .header_textLine {
   width: 1px;
@@ -37,14 +38,21 @@
 }
 .header_paragraph {
   display: flex;
-  width: 33%;
+  width: 37%;
   gap: 2rem;
 }
 .header_paragraph p {
-  color: #000000;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
 }
 .header_button{
-    width: 33%;
+  width: 33%;
+  display: flex;
+  margin-top: 3.6%;
 }
 .header_button button{
     background: #1E1E1E;
@@ -52,7 +60,7 @@
     color: #ffffff;
     padding: 0.8rem;
     cursor: pointer;
-    margin: 6rem 0 0 3rem;
+    margin-left:3rem;
     width: 18rem;
 }
 .header_button button img{

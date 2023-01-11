@@ -55,22 +55,26 @@
   list-style: none;
   gap: 1rem;
 }
-.navbar_secondbloq ul li:nth-child(1) {
+.navbar_secondbloq ul li {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
-  background: linear-gradient(
-    90deg,
-    #0d0146 10.47%,
-    #5bc6cb 44.88%,
-    #3307f0 97.25%
-  );
+  color: #0d0146;
+}
+.navbar_secondbloq ul li p{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  background: linear-gradient(90deg, #0D0146 10.47%, #5BC6CB 44.88%, #3307F0 97.25%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  text-fill-color: transparent;
 }
 .navbar_secondbloq ul li:nth-child(2) {
   font-family: "Poppins";

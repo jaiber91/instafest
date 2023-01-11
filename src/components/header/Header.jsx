@@ -2,7 +2,6 @@ import React from "react";
 import logo from "../../assets/icons/logo.svg";
 import "./Header.css";
 import ImagePrincipal from "../imagePrincipal/ImagePrincipal";
-import arrowUp from '../../assets/icons/arrow-up.svg'
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -28,7 +27,7 @@ const Header = () => {
         </div>
         <div className="header_button">
           <Link to={'/cooming'}>
-            <button>Explorar colección del momento <img src={arrowUp} alt="" /></button>
+            <button>Explorar colección del momento</button>
           </Link>
         </div>
       </div>

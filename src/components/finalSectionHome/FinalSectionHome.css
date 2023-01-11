@@ -9,15 +9,21 @@
 .finalHome_text {
   display: flex;
   width: 90%;
-  gap: 8%;
+  gap: 2%;
   justify-content: center;
   align-items: center;
+  margin: -6rem 0;
 }
 .finalHome_text_paragraph {
   width: 40%;
 }
 .finalHome_text_paragraph p {
-  color: #000000;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: justify;
 }
 .finalHome_container {
   display: flex;
@@ -50,7 +56,7 @@
   margin-bottom: 9%;
 }
 .finalHome_titleCard a{
-  margin-left: 25%;
+  margin-left: 32%;
   text-decoration: none;
 }
 .finalHome_card_image{
@@ -61,16 +67,18 @@
 }
 .finalHome_titleCard_counter {
     position: absolute;
-    top: 70%;
+    top: 75%;
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
+
 }
 .titleCard_counter_button{
   display: flex;
   justify-content: flex-end;
   width: 33%;
+  margin-left: 11%;
 }
 
 .titleCard_counter_button a{

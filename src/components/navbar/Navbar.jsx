@@ -19,7 +19,7 @@ const Navbar = () => {
           <h3 className="navbar_market">Marketplace</h3>
         </Link>
         <ul>
-          <li>Novedades</li>
+          <li><p>Novedades</p></li>
           <Link to={'/profile'}>
           <li>Perfil</li>
           </Link>

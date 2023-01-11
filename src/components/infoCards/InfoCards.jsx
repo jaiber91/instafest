@@ -61,10 +61,10 @@ const InfoCards = () => {
       <hr className="hrInfoCard2"/>
       <div className="infoCards_details">
         <div className="infoCards_details_btn">
-          <button className="btnV2" onClick={()=> stateCardShow1()} >¿Qué es un utility NFT? <img src={arrowUpRight} alt="" /></button>
-          <button className="btnV2" onClick={()=> stateCardShow2()}  >¿Cómo funciona? <img src={arrowUpRight} alt="" /></button>
-          <button className="btnV2" onClick={()=> stateCardShow3()}  >Proyecto inhands <img src={arrowUpRight} alt="" /></button>
-          <button className="btnV2" onClick={()=> stateCardShow4()}  >Beneficios <img src={arrowUpRight} alt="" /></button>
+          <button className={showCards1 ? 'btnV2-select': 'btnV2'} onClick={()=> stateCardShow1()} >¿Qué es un utility NFT? <img src={arrowUpRight} alt="" /></button>
+          <button className={showCards2 ? 'btnV2-select': 'btnV2'} onClick={()=> stateCardShow2()}  >¿Cómo funciona? <img src={arrowUpRight} alt="" /></button>
+          <button className={showCards3 ? 'btnV2-select': 'btnV2'} onClick={()=> stateCardShow3()}  >Proyecto inhands <img src={arrowUpRight} alt="" /></button>
+          <button className={showCards4 ? 'btnV2-select': 'btnV2'} onClick={()=> stateCardShow4()}  >Beneficios <img src={arrowUpRight} alt="" /></button>
           
         </div>
         <div className={showCards1 ? '' : 'desactive'}>

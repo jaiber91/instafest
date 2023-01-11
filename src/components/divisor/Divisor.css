@@ -12,7 +12,9 @@
   color: #ffffff;
   gap: 25rem;
   position: relative;
-  animation: slideinres 6s infinite;
+  animation: slideinres 4s linear infinite;
+  /*transition-timing-function: linear;*/
+  /*-webkit-animation-timing-function: ease-out;*/
   transform: translateX(0);
   
 }
@@ -33,53 +35,11 @@
 
 @keyframes slideinres {
   0%{
-      transform: translateX(-250px);
+      transform: translateX(-351px);
       
-    }
-  10%{
-    transform: translateX(-200px);
-    
-  }  
-  20%{
-    transform: translateX(-150px);
-    
-  }  
-  30%{
-    transform: translateX(-100px);
-    
-  }  
- 
-  40%{
-    transform: translateX(-50px);
-    
-  }  
-  50%{
-    transform: translateX(0px);
-    
-  }  
-  60%{
-    transform: translateX(50px);
-    
-  }  
-  70%{
-    transform: translateX(100px);
-    
-  }  
-  80%{
-    transform: translateX(150px);
-    
-  } 
-  90%{
-    transform: translateX(200px);
-    
-  } 
-  
+    }  
   100%{
-    transform: translateX(-250px);
+    transform: translateX(151px);
     
   }  
- 
-
-
-
 }

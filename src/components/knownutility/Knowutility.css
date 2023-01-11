@@ -51,7 +51,7 @@
 }
 
 .Knoeutility_card:hover h3 {
-  top: 50%;
+  top: 37%;
 }
 
 .Knoeutility_card:hover img {
@@ -87,7 +87,7 @@
   cursor: pointer;
 }
 .Knoeutility_cardhow:hover h3, .Knoeutility_project:hover h3, .Knoeutility_beneficios:hover h3{
-  top: 50%;
+  top: 30%;
 }
 .Knoeutility_cardhow:hover img, .Knoeutility_project:hover img, .Knoeutility_beneficios:hover img{
   display: block;
@@ -127,9 +127,6 @@
 .Knowutility_faqs {
   width: 90%;
   margin-top: 6%;
-}
-.ocultar-img{
-  display: none;
 }
 .Knowutility_faqs h2 {
   font-family: "Azonix";

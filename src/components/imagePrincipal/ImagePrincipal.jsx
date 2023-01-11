@@ -2,7 +2,6 @@ import React from 'react'
 import './ImagePrincipal.css'
 import imgHome from "../../assets/images/landing/headerHome.jpg";
 import { Link } from 'react-router-dom';
-import arrowDownLeft from '../../assets/icons/arrow-down-left-white.svg'
 
 const ImagePrincipal = () => {
     return (
@@ -12,7 +11,6 @@ const ImagePrincipal = () => {
             <h1>UTILITY NFT'S</h1>
             <Link>
               <p>Comenzar</p>
-              <img src={arrowDownLeft} alt="flecha" />
             </Link>
          </div>
         </div>

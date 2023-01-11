@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import "./Knowutility.css";
 import imgCard from "../../assets/images/landing/NoiseHome.png";
 import Faqs from "../faqs/Faqs";
@@ -6,7 +6,6 @@ import Button from "../../components/buttom/Button";
 import { Link } from "react-router-dom";
 import InfoCards from "../../components/infoCards/InfoCards";
 import Arrow from "../../assets/icons/arrow-up-right-white.svg";
-import hoosling from "../../assets/images/landing/hoosling.jpg";
 import hoosling2 from "../../assets/images/landing/hoosling2.jpg";
 import { providerContext } from "../../context/status";
 
@@ -91,8 +90,6 @@ const Knowutility = () => {
     stateCardShow2,
     stateCardShow3,
     stateCardShow4,
-    translatey,
-    setTranslatey
   }= useContext(providerContext);
 
   function allcards1(){
@@ -117,23 +114,12 @@ const Knowutility = () => {
     
   }
   
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if(translatey === true){
-        setTranslatey(translatey=false)
-      }else{
-        setTranslatey(translatey=true)
-      }
-
-    }, 2000);
-    return () => clearInterval(interval);
-  }, []);
   
   return (
     <section className="Knowutility">
       <div className="Knowutility_first">
         <h1>
-          conoce los <br /> utility NFT’S <br /> inhands.
+          conoce los <br /> utility NFT’S <br /> inhands
         </h1>
         <div style={{ display: showCards ? "block" : "none" }}>
           <div className="Knowutility_cards">
@@ -189,8 +175,7 @@ const Knowutility = () => {
       </div>
       <div className="Knowutility_animatecard">
         <div className="Knowutility_animatecard_card">
-          <img className={translatey ? '' : 'ocultar-img'} src={hoosling} alt="imagen " />
-          <img className={translatey ? 'ocultar-img' : ''} src={hoosling2} alt="imagen " />
+          <img src={hoosling2} alt="imagen " />
           <img src={imgCard} alt="" />
 
           <div className="Knowutility_animatecard_text">
