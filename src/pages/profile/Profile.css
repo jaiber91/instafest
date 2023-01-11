@@ -123,7 +123,7 @@ profile-col1-ubication {
 }
 
 /*ESTILOS DEL MENÚ/*/
-.utility__list {
+/*.utility__list {
   width: 100%;
   margin-top: 3rem;
 }
@@ -144,11 +144,7 @@ profile-col1-ubication {
   cursor: pointer;
   transition: 1s;
 }
-.utility__list ul li p:hover {
-  font-size: 16px;
-  text-decoration: underline 2px;
-  transition: 1s;
-}
+
 .utility__list hr {
   width: 90%;
   background-color: #000000;
@@ -171,6 +167,14 @@ profile-col1-ubication {
   padding-left: 2rem;
   margin-bottom: 1rem;
 }
+.utility__list input::placeholder {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #AAAAAA;
+}
 .utility_allList {
   width: 60%;
   display: flex;
@@ -190,7 +194,6 @@ profile-col1-ubication {
 }
 .profile-spaceNft h3{
   font-family: "Azonix";
-font-style: italic;
 font-weight: 400;
 font-size: 18px;
 line-height: 20px;
@@ -209,4 +212,4 @@ margin-bottom: 2rem;
   color: #ffffff;
   cursor: pointer;
   
-}
+}*/

@@ -19,19 +19,22 @@
     align-items: center;
     width: 100%;
     gap: 7%;
-    margin-left: -4%;
+    /* margin-left: -4%; */
     color: #fff;
+}
+.timer-list h4{
+    font-family: "Azonix";
 }
 
 .timer--text{
-    width: 100%;
+    width: 94%;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 18%;
+    gap: 20%;
 }
 .timer--text p{
-    font-size: 8px;
+    font-size: 10px;
     font-family: 'Poppins',sans-serif;
     color: #fff;
 }

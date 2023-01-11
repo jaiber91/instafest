@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Wallet.css";
-import imgWallet from "../../assets/images/wallet/wallet.svg";
+import imgWallet from "../../assets/images/wallet/wallet.jpg";
 import logo from "../../assets/icons/logo-white.svg";
+import logoBlue from "../../assets/icons/logo.svg";
 import Wallets from "../../components/wallets/Wallets";
 import logoMetamask from "../../assets/icons/metamask.jpeg";
 import logoCoinbase from "../../assets/icons/coinbase.svg";
@@ -68,7 +69,7 @@ const Wallet = () => {
           className="wallet_list_btn"
         >
           {showDiv ? "Ver menos" : "Ver más"}{" "}
-          <img src={arrowRight} alt="flecha" />
+          
         </button>
 
         {showDiv && (
@@ -98,19 +99,19 @@ const Wallet = () => {
         <div className="wallet_modal">
           <div className="wallet_modal_element">
             <div className="wallet_modal_logo">
-              <img src={logo} alt="logo" />
+              <img src={logoBlue} alt="logo" />
               <h3>Inhands</h3>
             </div>
             <p>
               Al conectar tu billetera y usar Inhands, <br /> estás de acuerdo
               con nuestros
               <span>
-                Términos de <br /> Servicio y Politica de Privacidad
+                Términos de <br /> Servicio y Política de Privacidad
               </span>
             </p>
             <Link to="/whitelist">
               <button className="wallet_modal_btn">
-                Aceptar y registrarme <img src={arrowRight} alt="flecha" />
+                Aceptar y registrarme 
               </button>
             </Link>
 

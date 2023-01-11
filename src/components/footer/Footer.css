@@ -14,46 +14,60 @@ hr{
 
 .footer__section{
     display: flex;
-    padding: 5% 7%;
+    padding: 2% 4%;
     justify-content: center;
-    gap: 6%;
+    gap: 3%;
 }
 .info{
-    width: 23%;
+    width: 26%;
+    margin-right: 10rem;
 
 }
+
 .info__text{
     display: flex;
     margin-top: 4%;
     margin-bottom: 10%;
-
+    gap: 1rem;
+    line-height: 18px;
+    align-items: center;
 }
-.info__text>p{
+.info__text h6{
+    font-family: 'Azonix';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    margin-left: 2%;
-    color: #fff ;
-    text-align: justify;
-    font-family: 'Poppins',sans-serif;
+    line-height: 20px;
+    color: #FFFFFF;
 
 }
 .inf__p{
     font-size: 12px;
 }
-
+.community{
+    margin-top: 1.313rem;
+}
 .community>ul>li{
     display: flex;
     align-items: start;
-    padding-bottom: 16%;
-
-
+    padding-bottom: 11%;
+}
+.community ul li:hover{
+    text-decoration: underline 1px;
+    transition: 1s;
 }
 .community>ul>li>img{
     margin-right: 7%;
 }
 
 .profile-footer>ul>li{
-    padding-bottom: 25%;
+    padding-bottom: 11%;
 
+}
+.profile-footer ul li:hover{
+    
+    text-decoration: underline 1px;
+    transition: 1s;
 }
 .contrast{
     position: absolute;
@@ -119,16 +133,35 @@ hr{
     text-align: justify;
 
 }
-
+.community{
+    margin-top: 1.313rem;
+}
 .community h4{
     margin-bottom: 12%;
+}
+.market{
+    margin-top: 1.313rem;
 }
 .market> h4{
     margin-bottom: 13%;
 }
+.market a:hover{
+    text-decoration: underline 1px;
+    transition: 1s;
+}
+.profile-footer{
+    margin-top: 1.313rem;
+}
 .profile-footer>ul{
     margin-top: 15%;
 }
+.footer-wallet{
+   margin-top: 1.313rem;
+}
 .footer-wallet>h4{
     margin-bottom: 13%;
+}
+.footer-wallet a:hover{
+    text-decoration: underline 1px;
+    transition: 1s;
 }

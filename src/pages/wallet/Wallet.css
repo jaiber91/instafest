@@ -25,7 +25,7 @@
   align-items: center;
   top: 1rem;
   width: 100%;
-  gap: 1rem;
+  gap: 3rem;
 }
 .wallet_logo h3{
   font-family: 'Azonix';
@@ -63,6 +63,9 @@ color: #FFFFFF;
 }
 
 .wallet_list_details {
+  display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
   width: 18.7rem;
   height: 12.8rem;
   background: #ffffff;
@@ -79,6 +82,7 @@ color: #FFFFFF;
   align-items: center;
   gap: 9%;
   width: 18.7rem;
+  height: 3.063rem;
   background: #1e1e1e;
   border-radius: 10px;
   color: #ffffff;
