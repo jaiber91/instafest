@@ -123,21 +123,21 @@ profile-col1-ubication {
 }
 
 /*ESTILOS DEL MENÚ/*/
-/*.utility__list {
+.utility__list_profile {
   width: 100%;
   margin-top: 3rem;
 }
-.utility__list ul {
+.utility__list_profile ul {
   width: 90%;
   display: flex;
   margin-left: 8%;
 }
-.utility__list ul li {
+.utility__list_profile ul li {
   display: flex;
   align-items: center;
   padding-bottom: 2%;
 }
-.utility__list ul li p {
+.utility__list_profile ul li p {
   color: #414141;
   font-family: "Azonix";
   font-size: 14px;
@@ -145,7 +145,7 @@ profile-col1-ubication {
   transition: 1s;
 }
 
-.utility__list hr {
+.utility__list_profile hr {
   width: 90%;
   background-color: #000000;
   border-style: none;
@@ -157,7 +157,7 @@ profile-col1-ubication {
   height: 70%;
   margin: 0 23px;
 }
-.utility__list input {
+.utility__list_profile input {
   width: 235px;
   height: 40px;
   left: 1045px;
@@ -167,7 +167,7 @@ profile-col1-ubication {
   padding-left: 2rem;
   margin-bottom: 1rem;
 }
-.utility__list input::placeholder {
+.utility__list_profile input::placeholder {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -212,4 +212,4 @@ margin-bottom: 2rem;
   color: #ffffff;
   cursor: pointer;
   
-}*/
+}

@@ -21,6 +21,8 @@ import arrowUp from "../../assets/icons/arrow-up.svg";
 const Utility = () => {
 
   const [showDiv, setShowDiv] = useState(false);
+  
+
 
   const { id } = useParams();
 
@@ -42,6 +44,7 @@ const Utility = () => {
     setBenefity((benefity = false));
     setRoadmap((roadmap = false));
     setFaqr((faqr = false));
+    
   };
   let activeCollection = () => {
     setUtility((utility = false));
@@ -151,27 +154,34 @@ const Utility = () => {
             <li>
               <p  
               onClick={() => activeUtility()} 
+              className={utility ? "bold" : ""}
               >UTILITY NFT’S</p>
-            <span className={utility ? 'line-uty' : ''}></span>
+           
             </li>
+            <hr className={utility ? "showOne" : "hideOne"}/>
             <li>
               <div className="v-line"></div>
-              <p onClick={() => activeCollection()} className={collection ? 'line-uty' : ''} >ESTA COLECCIÓN</p>
+              <p onClick={() => activeCollection()} className={collection ? "bold" : ""} >ESTA COLECCIÓN</p>
             </li>
+            <hr className={collection ? "show" : "hide"}/>
+
             <li>
               <div className="v-line"></div>
-              <p onClick={() => activeBenefity()}>BENEFICIOS</p>
+              <p onClick={() => activeBenefity()}  className={benefity ? "bold" : ""} >BENEFICIOS</p>
             </li>
+            <hr className={benefity ? "showThree" : "hideThree"}/>
             <li>
               <div className="v-line"></div>
-              <p onClick={() => activeRoadmap()}>ROADMAP</p>
+              <p onClick={() => activeRoadmap()}  className={roadmap ? "bold" : ""}>ROADMAP</p>
             </li>
+            <hr className={roadmap ? "showFour" : "hideFour"}/>
             <li>
               <div className="v-line"></div>
-              <p onClick={() => activeFaqs()}>FAQS</p>
+              <p onClick={() => activeFaqs()}  className={faqr ? "bold" : ""}>FAQS</p>
             </li>
+            <hr className={faqr ? "showFive" : "hideFive"}/>
           </ul>
-          <hr />
+          <hr className="line-menu" />
         </div>
         <div className="center">
           <div className="nfts-cards-sidebar">

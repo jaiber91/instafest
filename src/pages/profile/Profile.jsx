@@ -62,7 +62,7 @@ const Profile = () => {
         </div>
 
         <div className="profile-menu">
-        <div className="utility__list">
+        <div className="utility__list_profile">
                 <ul>
                     <div className="utility_allList">
 
