@@ -21,6 +21,14 @@
   border-radius: 21.5px;
   padding-left: 2rem;
 }
+.navbar_firstbloq input::placeholder{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #AAAAAA;
+}
 .navbar_firstbloq img {
   width: 29px;
   height: 29px;
