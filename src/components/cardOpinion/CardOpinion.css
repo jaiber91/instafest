@@ -1,6 +1,18 @@
 .cardOpinon{
   cursor: pointer;
 }
+.cardOpinon:hover .cardOption_dateTitle h6 {
+  color: #3548F1;
+}
+.cardOpinon:hover .cardOption_dateTitle time {
+  color: #3548F1;
+}
+.cardOpinon:hover  p  {
+  color: #3548F1;
+}
+.cardOpinon:hover  a   {
+  color: #3548F1;
+}
 .cardOpinon img {
   border-radius: 20px;
   width: 19rem;
