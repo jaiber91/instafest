@@ -9,13 +9,13 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (  
-        <div className='footer'>
+        <div className='footer' >
             <div className="contrast"></div>
             <div className="footer__section">
                 <div className="info">
                     <div className="info__text">
                         <img src={Logo} alt="" />
-                        <p>Inhands</p>
+                        <h6>Inhands</h6>
                     </div>
                     <div className="inf__p">
                         <p>Surge con la esperanza de impulsar un modelo de negocio sustentable en el que tú puedas participar abierta y libremente, un modelo en el que puedes tener garantías de retribución a cambio de la compra de un NFT. Un proyecto pensado para el trabajo en equipo y para la seguridad de tus productos en el mundo digital.</p>
