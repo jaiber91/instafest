@@ -20,13 +20,15 @@ import arrowUp from "../../assets/icons/arrow-up.svg";
 
 const Utility = () => {
 
-    const [showDiv, setShowDiv] = useState(false);
+  const [showDiv, setShowDiv] = useState(false);
 
   const { id } = useParams();
 
   const dta = Data.find((fruta) => fruta.id === id);
 
   const { cartOpen } = useContext(providerContext);
+
+
 
   let [utility, setUtility] = useState(true);
   let [collection, setCollection] = useState(false);
@@ -147,11 +149,14 @@ const Utility = () => {
         <div className="utility__list">
           <ul>
             <li>
-              <p onClick={() => activeUtility()}>UTILITY NFT’S</p>
+              <p  
+              onClick={() => activeUtility()} 
+              >UTILITY NFT’S</p>
+            <span className={utility ? 'line-uty' : ''}></span>
             </li>
             <li>
               <div className="v-line"></div>
-              <p onClick={() => activeCollection()}>ESTA COLECCION</p>
+              <p onClick={() => activeCollection()} className={collection ? 'line-uty' : ''} >ESTA COLECCIÓN</p>
             </li>
             <li>
               <div className="v-line"></div>
@@ -171,14 +176,35 @@ const Utility = () => {
         <div className="center">
           <div className="nfts-cards-sidebar">
             <div className={utility ? "nfs-sidebar" : "desactive"}>
+              <div className="nfts-column">
+
               <div className="nfts">
-                {dta.nfts.map((card) => {
+                {dta.nfts.slice(0, 4).map((card) => {
                   return (
                     <div onClick={() => cartOpen()}>
                       <Cards key={card.id} props={card} />
                     </div>
                   );
                 })}
+              </div>
+              <div className="nfts">
+                {dta.nfts.slice(4, 8).map((card) => {
+                  return (
+                    <div onClick={() => cartOpen()}>
+                      <Cards key={card.id} props={card} />
+                    </div>
+                  );
+                })}
+              </div>
+              <div className="nfts-end">
+                {dta.nfts.slice(8, 11).map((card) => {
+                  return (
+                    <div onClick={() => cartOpen()}>
+                      <Cards key={card.id} props={card} />
+                    </div>
+                  );
+                })}
+              </div>
               </div>
               <Cart />
             </div>

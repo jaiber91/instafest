@@ -8,7 +8,6 @@ import iconPosition from "../../assets/icons/position.png";
 import iconCopy from "../../assets/icons/copy.svg";
 import iconSetting from "../../assets/icons/settings.svg";
 import iconBell from "../../assets/icons/bell.svg";
-import arrowUp from "../../assets/icons/arrow-up-right-white.svg";
 
 const Profile = () => {
   return (
@@ -72,7 +71,7 @@ const Profile = () => {
                     </li>
                     <li>
                         <div className="v-line"></div>
-                        <p>ESTA FAVORITOS</p>
+                        <p>FAVORITOS</p>
                     </li>
                     <li>
                         <div className="v-line"></div>
@@ -94,7 +93,7 @@ const Profile = () => {
 
         <div className="profile-spaceNft">
             <h3>aún no tienes nft’s coleccionados</h3>
-            <button>Explorar <img src={arrowUp} alt="" /> </button>
+            <button>Explorar </button>
         </div>
     </>
   );
