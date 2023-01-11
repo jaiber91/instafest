@@ -309,8 +309,8 @@
   .show{
     display: block;
     position: absolute;
-    width: 14%;
-    top: 38px;
+    width: 16%;
+    top: 34px;
     background-color: black;
     height: 5px;
     left: 180px;
@@ -322,11 +322,11 @@
 .showOne{
     display: block;
     position: absolute;
-    width: 12%;
-    top: 38px;
+    width: 13%;
+    top: 34px;
     height: 5px;
     background-color: black;
-    left: -5px;
+    left: -1px;
 }
 .hideOne{
     display: none;
@@ -334,11 +334,11 @@
 .showThree{
     display: block;
     position: absolute;
-    width: 11%;
-    top: 38px;
+    width: 12%;
+    top: 34px;
     height: 5px;
     background-color: black;
-    left: 383px;
+    left: 388px;
 }
 
 .hideThree{
@@ -349,10 +349,10 @@
     display: block;
     position: absolute;
     width: 10%;
-    top: 38px;
+    top: 34px;
     height: 5px;
     background-color: black;
-    left: 541px;
+    left: 552px;
 }
 .hideFour{
     display: none;
@@ -361,10 +361,10 @@
     display: block;
     position: absolute;
     width: 7%;
-    top: 38px;
+    top: 34px;
     height: 5px;
     background-color: black;
-    left: 686px;
+    left: 694px;
 }
 .hideFive{
     display: none;
