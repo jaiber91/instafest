@@ -6,7 +6,6 @@ import { Link, useParams } from "react-router-dom";
 import Data from "../../data/collectionData";
 import Cards from "../../components/cards/Card";
 import UtilityCollection from "../../components/utility-collection/Utility-Collection";
-import FooterV2 from "../../components/footerV2/FooterV2";
 import Benefits from "../../components/benefits/Benefits";
 import Roadmap from "../../components/roadmap/Roadmap";
 import Faqs from "../../components/faqs/Faqs";
@@ -92,26 +91,6 @@ const Utility = () => {
           <Link to={"/whitelist"}>
             <button className="btn">
               Whitelist
-              <svg
-                width="25"
-                height="25"
-                viewBox="0 0 25 25"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M7.29199 7.29102L17.7087 17.7077"
-                  stroke="black"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M17.7087 7.29102V17.7077H7.29199"
-                  stroke="black"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
             </button>
           </Link>
         </div>
@@ -179,25 +158,7 @@ const Utility = () => {
               <div className="nfts-column">
 
               <div className="nfts">
-                {dta.nfts.slice(0, 4).map((card) => {
-                  return (
-                    <div onClick={() => cartOpen()}>
-                      <Cards key={card.id} props={card} />
-                    </div>
-                  );
-                })}
-              </div>
-              <div className="nfts">
-                {dta.nfts.slice(4, 8).map((card) => {
-                  return (
-                    <div onClick={() => cartOpen()}>
-                      <Cards key={card.id} props={card} />
-                    </div>
-                  );
-                })}
-              </div>
-              <div className="nfts-end">
-                {dta.nfts.slice(8, 11).map((card) => {
+                {dta.nfts.map((card) => {
                   return (
                     <div onClick={() => cartOpen()}>
                       <Cards key={card.id} props={card} />
@@ -212,18 +173,15 @@ const Utility = () => {
               <p>Muy pronto tendrás la colección completa</p>
             </div>
           </div>
-          <FooterV2 props={utility} />
 
           <div className={collection ? "utility--collection" : "desactive"}>
             <UtilityCollection props={dta} />
           </div>
 
-          <FooterV2 props={collection} />
 
           <div className={benefity ? "benefity" : "desactive"}>
             <Benefits props={dta} />
           </div>
-          <FooterV2 props={benefity} />
           <div className={roadmap ? "roadmap" : "desactive"}>
             <Roadmap props={dta} />
           </div>
@@ -251,9 +209,7 @@ const Utility = () => {
               </div>
             </div>
           </div>
-          <div className={faqr ? "" : "desactive"}>
             <Footer />
-          </div>
         </div>
       </div>
     </div>
