@@ -6,7 +6,7 @@ import logo from "../../assets/icons/logo-white.svg";
 import logoBlue from "../../assets/icons/logo.svg";
 import Wallets from "../../components/wallets/Wallets";
 import logoMetamask from "../../assets/icons/metamask.jpeg";
-import logoCoinbase from "../../assets/icons/coinbase.svg";
+import logoCoinbase from "../../assets/icons/logoCoin.svg";
 import walletConect from "../../assets/icons/walletConect.svg";
 import arrowRight from "../../assets/icons/arrow-up-right-white.svg";
 import logoPhantom from "../../assets/icons/phatom.jpeg";
