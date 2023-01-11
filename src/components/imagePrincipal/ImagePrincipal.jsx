@@ -9,9 +9,9 @@ const ImagePrincipal = () => {
          <img src={imgHome} alt="imagen principal" />
          <div className="header_principalimg-text">
             <h1>UTILITY NFT'S</h1>
-            <Link>
+            <a href='#explorar'>
               <p>Comenzar</p>
-            </Link>
+            </a>
          </div>
         </div>
       );

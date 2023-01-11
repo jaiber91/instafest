@@ -57,6 +57,7 @@
     color: #fff;
     text-decoration: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 @keyframes slidein {
 
