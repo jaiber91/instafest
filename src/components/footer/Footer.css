@@ -50,7 +50,7 @@ hr{
 .community>ul>li{
     display: flex;
     align-items: start;
-    padding-bottom: 11%;
+    padding-bottom: 7%;
 }
 .community ul li:hover{
     text-decoration: underline 1px;
@@ -124,6 +124,9 @@ hr{
     color: #fff;
     font-family: 'Poppins',sans-serif;
     font-weight: 100;
+}
+.footer a:hover{
+    text-decoration: dashed;
 }
 
 .footer p{

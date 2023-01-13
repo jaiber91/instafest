@@ -5,7 +5,6 @@
     height:42em;
     margin: 1rem 0 0rem 2rem;
     border-radius: 40px;
-    margin-bottom: 11%;
     position: relative;
     z-index: 1;
 
@@ -38,16 +37,19 @@
 }
 
 .header_principalimg-text>h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63px;
+    line-height: 20px;
     font-family: 'Azonix';
-    font-size: 50px;
-    font-weight: 100;
     background: radial-gradient(106% 663.52% at 10.54% -540.5%, rgba(30, 30, 30, 0.97) 80%, rgba(51, 7, 240, 0.97) 98.98%, rgba(91, 198, 203, 0.97) 134.48%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding: 1% 0;
     
 }
 .header_principalimg-text>a{
-    width: 15%;
+    width: 10%;
     display: flex;
     justify-content: center;
     gap: 15%;
@@ -58,6 +60,11 @@
     text-decoration: none;
     border-radius: 10px;
     cursor: pointer;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
 }
 @keyframes slidein {
 

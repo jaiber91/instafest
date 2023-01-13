@@ -27,7 +27,10 @@ const Faqs = ({props}) => {
               </div>
             </div>
           </button>
-            <p className={ open ? '' : 'close'}>{props.response}</p>
+          <div className={ open ? 'open-p' : 'close'}>
+              <p>{props.response}</p>
+
+          </div>
         <div className="faqs_line"></div>
       </div>
     </div>

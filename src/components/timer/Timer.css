@@ -45,6 +45,14 @@
     font-size: 10px;
     line-height: 20px;
 }
+.timer-center-names-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: 9%;
+}
 .timer-center-h4-p-seconds>h4{
-    margin-bottom: 20%;
+    margin-top: 5%;
 }

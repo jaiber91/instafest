@@ -19,7 +19,7 @@
   left: 270px;
   border: 0.5px solid #b9b9b9;
   border-radius: 21.5px;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 .navbar_firstbloq input::placeholder{
   font-family: 'Poppins';
@@ -29,7 +29,7 @@
   line-height: 20px;
   color: #AAAAAA;
 }
-.navbar_firstbloq img {
+.navbar_firstbloq>img {
   width: 29px;
   height: 29px;
   left: 145px;
@@ -37,18 +37,25 @@
 }
 .navbar_firstbloq .navbar_title{
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 20px;
   font-family: "Azonix";
 }
+
 .navbar_secondbloq .navbar_market {
-    font-family: "Poppins";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   color: #0d0146;
-  }
+}
+  .navbar_secondbloq .navbar_market:hover{
+    text-decoration: underline;
+}
+.navbar_secondbloq ul li:hover{
+  text-decoration: underline;
+}
 .navbar_secondbloq a{
   text-decoration: none;
 }
@@ -119,4 +126,19 @@
   text-decoration: none;
   color: #000;
   margin-right: 2%;
+}
+.input-icon>img {
+  color: #191919;
+  position: absolute;
+  /*width: 20%;*/
+  left: 5%;
+  transform: translateY(-50%);
+  margin-top: 7%;
+}
+
+.input-icon{
+  position: relative;
+  width: 271px;
+  display: flex;
+  align-items: center;
 }

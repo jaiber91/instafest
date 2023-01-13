@@ -2,7 +2,7 @@
   width: 90%;
 }
 .faqs_list {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .faqs_list span {
@@ -11,6 +11,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 1rem;
 line-height: 20px;
+/*margin-top: -1%;*/
 }
 .faqs_list button {
   display: flex;
@@ -22,17 +23,14 @@ line-height: 20px;
   font-weight: 400;
   font-size: 25px;
   color: #000000;
-  margin-left: 2%;
+  margin-left: 4%;
   line-height: 30px;
-  margin-bottom: 2%;
+  margin-bottom: 1.5%;
   width: 100%;
   border: 0;
   background: white;
 }
 
-.faqs_list button:hover{
-    color: blue;
-}
 .faqs_list button img{
   margin-left: 64%;
 }
@@ -45,16 +43,29 @@ line-height: 20px;
 .faqs-icons{
   display: flex;
   justify-content: space-between;
-   width: 100%;
+   width: 95%;
   margin-top: 2%;
   margin-bottom: -1%;
 }
-.faqs_list p{
+/*.open-p{
+  width: 103%;
+}*/
+.open-p p{
   font-family: 'Poppins';
   text-align: justify;
   margin-bottom: 3%;
-  margin-left: 2%;
+  margin-left: 4%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  
 }
+.faqs_list:hover button {
+  color: blue;
+}
+
 .close{
   display: none;
 }
@@ -64,4 +75,5 @@ line-height: 20px;
   font-weight: 400;
   font-size: 27px;
   line-height: 30px;
+  margin-top: -1%;
 }

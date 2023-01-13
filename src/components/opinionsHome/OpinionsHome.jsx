@@ -7,7 +7,7 @@ const OpinionsHome = () => {
   return (
     <div className="opinions">
       <div className="opinions_title">
-        <h1>Opinión</h1> <span>/</span> <span>Inhands en los medios</span>
+        <h1>Opinión</h1> <span>/</span> <span>medios</span>
       </div>
       <div className="opinions_slider">
         <div className="opinions_slider_cards">

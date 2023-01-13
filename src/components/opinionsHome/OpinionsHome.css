@@ -27,10 +27,14 @@
   margin-top: 1rem;
   margin-left: 2%;
 }
+.opinions_slider{
+    width: 95%;
+    margin-left: 3%;
+}
 .opinions_slider_cards{
     display: flex;
     justify-content: center;
-    gap: 5%;
+    gap: 2%;
     margin-top: 5%;
 }
 .opinions_slider_cards_arrowleft{
@@ -41,7 +45,8 @@
     display: flex;
     background-color: blue;
     border-radius: 22px;
-    padding: 0.5rem;
+    padding: 0.3rem;
+    margin-left: 16%;
 }
 .opinions_slider_cards_arrowRight{
     display: flex;
@@ -51,7 +56,8 @@
     display: flex;
     background-color: blue;
     border-radius: 22px;
-    padding: 0.5rem;
+    padding: 0.3rem;
+    margin-left: -16%;
 }
 .opinions_slider_cards_arrowRight a img{
     transform: rotate(175deg);

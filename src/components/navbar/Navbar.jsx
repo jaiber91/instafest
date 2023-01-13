@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/icons/logo.svg";
 import shopingCar from "../../assets/icons/shopping-bag.svg";
+import search from "../../assets/icons/search.svg";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -12,7 +13,10 @@ const Navbar = () => {
           <img src={logo} alt="logo landingPages" />
         <h3 className="navbar_title">Inhands</h3>
         </Link>
-        <input type="text" placeholder="Busca Utility NFT’s, colecciones" />
+        <div className="input-icon">
+          <img src={search} alt="" />
+          <input type="text" placeholder="Busca Utility NFT’s, colecciones" />
+        </div>
       </div>
       <div className="navbar_secondbloq">
         <Link to={'/colecciones'}>

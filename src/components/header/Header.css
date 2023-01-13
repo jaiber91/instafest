@@ -6,7 +6,7 @@
 .header_text {
   display: flex;
   justify-content: space-around;
-  padding: 5rem 0rem 10rem 0rem;
+  padding: 12rem 0rem 10rem 0rem;
   background-color: #ffffff;
   position: relative;
   z-index: 99;
@@ -38,7 +38,7 @@
 }
 .header_paragraph {
   display: flex;
-  width: 37%;
+  width: 35%;
   gap: 2rem;
 }
 .header_paragraph p {

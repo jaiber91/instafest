@@ -12,11 +12,14 @@
   width: 90%;
   margin-left: 5%;
 }
-.Knowutility_first h1 {
+.Knowutility_first>h1 {
   font-family: "Azonix";
-  font-size: 6rem;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 94px;
   margin-top: 13%;
-  margin-bottom: 8%;
+  margin-left: 2%;
 }
 .Knowutility_cards {
   display: flex;
@@ -24,6 +27,7 @@
   /*flex-wrap: wrap;*/ /*AJUSTAR EL TAMAÑO Y DISTRIBUCIÓN DE LAS CARDS ANTES DE USAR ESTA PROPIEDAD*/
   width: 100%;
   gap: 2rem;
+  margin-top: 10%;
 }
 .Knowutility_cards h3 {
   font-family: "Azonix";
@@ -43,9 +47,10 @@
   cursor: pointer;
 }
 .Knoeutility_card h3 {
+  width: 100%;
   position: absolute;
   top: 90%;
-  left: 30%;
+  left: 51%;
   transform: translate(-50%, -110%);
   cursor: pointer;
 }
@@ -82,12 +87,12 @@
 .Knoeutility_cardhow h3, .Knoeutility_project h3, .Knoeutility_beneficios h3{
   position: absolute;
   top: 90%;
-  left: 30%;
+  left: 35%;
   transform: translate(-50%, -110%);
   cursor: pointer;
 }
 .Knoeutility_cardhow:hover h3, .Knoeutility_project:hover h3, .Knoeutility_beneficios:hover h3{
-  top: 30%;
+  top: 32%;
 }
 .Knoeutility_cardhow:hover img, .Knoeutility_project:hover img, .Knoeutility_beneficios:hover img{
   display: block;
@@ -120,13 +125,14 @@
   width: 24rem;
   height: 13rem;  
   position: relative;
-  background: radial-gradient(50% 50% at 50% 50%, #0D0146 0%, rgba(13, 1, 70, 0.56) 44.27%, rgba(91, 198, 203, 0.67) 100%),url(../../assets/images/landing/Noise.svg),conic-gradient(from 180deg at 50% 50%, #5BC6CB 0deg, #5BC6CB 90deg, #5BC6CB 180deg, #5BC6CB 270deg, rgba(13, 1, 70, 0.6) 360deg);
+  background: radial-gradient(50% 50% at 50% 50%, #0D0146 0%, rgba(13, 1, 70, 0.56) 44.27%, rgba(91, 198, 203, 0.67) 100%),url(../../assets/images/landing/Noise.svg);
   border-radius: 50px;
   cursor: pointer;
 }
 .Knowutility_faqs {
-  width: 90%;
+  width: 85%;
   margin-top: 6%;
+  margin-left: 5%;
 }
 .Knowutility_faqs h2 {
   font-family: "Azonix";
@@ -142,7 +148,7 @@
 
 /*estilo para card que está despues de los faqs*/
 .Knowutility_animatecard {
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 .Knowutility_animatecard_card {
   position: relative;
@@ -165,7 +171,7 @@
 .Knowutility_animatecard_text div p {
   font-family: "Poppins";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 200;
   font-size: 17px;
   line-height: 20px;
   color: #ffffff;
@@ -190,7 +196,7 @@
 .Knowutility_animatecard_text_buttom{
     display: flex;
     align-items: end;
-    margin-left: 7rem;
+    margin-left: 10rem;
 }
 .Knowutility_animatecard_text_buttom a{
   text-decoration: none;

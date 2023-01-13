@@ -55,7 +55,7 @@ const Timer = (props) => {
                     <div className="timer-center-h4-p-seconds">
                         <h4>{seconds}</h4>
                     </div>
-                    <div className="timer-center-names">
+                    <div className="timer-center-names-p">
                         <p>SEGS</p>
                     </div>
                 </div>
