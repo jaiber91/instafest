@@ -10,7 +10,8 @@
     border-radius: 15px;
     box-sizing: border-box;
     padding: 3%;
-
+    width:22.875rem;
+    height: 3.875rem;
 }
 
 .timer-list {

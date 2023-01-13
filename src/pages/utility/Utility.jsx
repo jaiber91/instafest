@@ -87,7 +87,7 @@ const Utility = () => {
           <img src={dta.img} alt="" />
           <div className="nav--time">
             <h1>instafest</h1>
-            <Timer />
+            <Timer className="timerUtility"/>
           </div>
         </div>
         <div className="nav-button">
