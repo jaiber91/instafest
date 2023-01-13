@@ -91,6 +91,7 @@ const Wallet = () => {
         <Link to="/colecciones">
           <button>
             <img src={arrowRight} alt="flecha" />
+            <div className="button_form_home_circle"></div>
           </button>
           </Link>
         </div>

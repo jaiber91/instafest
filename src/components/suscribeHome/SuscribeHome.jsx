@@ -17,7 +17,7 @@ const [selectedInput, setSelectedInput] = useState(null);
 const handleInputBlur = () => {
   setSelectedInput(null);
 };
-
+console.log(selectedInput)
   return (
     <div className="suscribeHome">
       <div className="suscribeHome_image">

@@ -79,6 +79,21 @@ const Utility = () => {
     setShowDiv(!showDiv);
   };
 
+  const [selectedInput, setSelectedInput] = useState(null);
+
+
+ // Función que maneja el evento de foco en el input
+ const handleInputFocus = (event) => {
+  setSelectedInput(event.target.name);
+};
+
+// Función que maneja el evento de blur en el input
+const handleInputBlur = () => {
+  setSelectedInput(null);
+};
+console.log(selectedInput)
+
+
   return (
     <div>
       <Navbar />
@@ -202,18 +217,29 @@ const Utility = () => {
               })}
               <div className="faqs-suscribe">
                 <h3>
-                  PROXIMAMENTE PODRAS EXPLORAR EL UNIVERSO INSTAFEST UTILITY
-                  NFT’S{" "}
+                  PROXIMAMENTE PODRÁS EXPLORAR EL UNIVERSO NFT  DIAMONDS LIONS{" "}
                 </h3>
                 <p>
                   Suscríbete y no te pierdas el gran lanzamiento que tenemos
                   preparado para ti
                 </p>
                 <form className="faqs_form_input">
-                  <input type="text" name="emails" placeholder="E-mail" />
-                  <hr />
-                  <button type="button">
+                  <input 
+                    type="text" 
+                    name="emails" 
+                    placeholder="E-mail"
+                    onFocus={handleInputFocus}
+                    onBlur={handleInputBlur}
+                    />
+                  <hr 
+                   style={{
+                    backgroundColor: selectedInput === 'emails' ? 'blue' : '#0000000',
+                  }} />
+                  <button type="button" style={{
+                    backgroundColor: selectedInput === 'emails' ? 'blue' : '#0000000',
+                  }}>
                     <img src={arrowUp} alt="flecha" />
+                    <div className="button_form_home_circle"></div>
                   </button>
                 </form>
               </div>
