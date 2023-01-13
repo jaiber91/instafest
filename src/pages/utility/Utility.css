@@ -126,7 +126,7 @@
 
 .utility__list .line-menu{
     
-    width: 93%;
+    width: 89.2%;
     background-color: #000000;
     border-style: none;
     margin-left: 5%;
@@ -190,7 +190,7 @@
 }
 
 .utility--collection{
-    width: 100%;
+    width: 95%;
     background-color:#FFFF;
     display: flex;
     justify-content: center;
