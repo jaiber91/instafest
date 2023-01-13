@@ -38,7 +38,7 @@ line-height: 20px;
 .faqs_line {
   width: 106%;
   height: 1px;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 .faqs-icons{
   display: flex;
@@ -76,4 +76,5 @@ line-height: 20px;
   font-size: 27px;
   line-height: 30px;
   margin-top: -1%;
+  text-align: initial;
 }
