@@ -208,7 +208,7 @@ console.log(selectedInput)
             <Benefits props={dta} />
           </div>
           <div className={roadmap ? "roadmap" : "desactive"}>
-            <Roadmap props={dta} />
+            <Roadmap />
           </div>
           <div className={faqr ? "faqs-utility" : "desactive"}>
             <div className="faqs-center">

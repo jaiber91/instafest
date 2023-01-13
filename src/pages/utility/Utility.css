@@ -170,12 +170,9 @@
 .roadmap{
     width: 100%;
     background-color:#FFFF;
-    display: flex;
-    justify-content: center;
-    margin-top: 2%;
     position: relative;
-    padding: 8% 0;
     z-index: 97;
+    background-size: contain;
 }
 
 .faqs-utility{
