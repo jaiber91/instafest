@@ -34,7 +34,7 @@ const Wallet = () => {
         <Link to="/">
         <div className="wallet_logo">
           <img src={logo} alt="logo" />
-          <h3>Inhands</h3>
+          <p>Inhands</p>
         </div>
         </Link>
       </div>

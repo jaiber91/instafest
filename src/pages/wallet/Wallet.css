@@ -5,7 +5,7 @@
 .wallet_image {
   position: relative;
   width: 30%;
-  height: 45rem;
+  height: 43rem;
   border-radius: 0 0 15%;
 } 
 
@@ -26,8 +26,8 @@
   width: 100%;
   gap: 1rem;
 }
-.wallet_logo h3{
-  font-family: 'Azonix';
+.wallet_logo p{
+font-family: 'Azonix';
 font-style: normal;
 font-weight: 100;
 font-size: 14px;
@@ -50,16 +50,14 @@ color: #FFFFFF;
 }
 
 .wallet_list h2 {
-  font-family: "Azonix";
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 31px;
+  font-size: 30px;
+  line-height: 36px;
   color: #000000;
 }
-.wallet_list h2 span {
-  text-decoration: underline;
-}
+
 
 .wallet_list_details {
   display: flex;

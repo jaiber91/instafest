@@ -16,7 +16,6 @@ const Wallets = (props) => {
           <img src={props.imgLogo} alt="logo de wallet" />
           <span>{props.nameWallet}</span>
         </div>
-        <img className="btn_arrow" src={arrowRight} alt="flecha" />
       </button>
     
     </div>
