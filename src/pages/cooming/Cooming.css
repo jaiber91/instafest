@@ -1,8 +1,9 @@
 .cooming{
     width: 100%;
     display: flex;
-    margin-top: 5%;
+    margin-top: 14%;
     position: relative;
+    margin-bottom: 8rem
 }
 .cooming-flex{
     display: flex;
@@ -97,24 +98,26 @@
 }*/
 .cooming-container-images{
     position: absolute;
-    left: 40rem;
+    left: 50rem;
+    top: -6rem;
+    width: 33%;
 }
 
 .cooming-launch-one{
-    width: 33%;
-    height: 19rem;
+    width: 469px;
+    height: 587px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 22rem;
+    
 
 }
 .cooming-launch-one img{
     border-radius: 30px;
-    padding: 7%;
-    height: 18rem;
-    width: 13rem;
+    width: 370px;
+    height: 538px;
+    object-fit: cover;
 }
 .cooming-launch-two{
     width: 33%;
