@@ -19,7 +19,7 @@ const Cooming = () => {
     const intervalId = setInterval(() => {
       const randomIndex = Math.floor(Math.random() * imageList.length);
       setImageUrl(imageList[randomIndex]);
-    }, 2000); 
+    }, 1000); 
     return () => clearInterval(intervalId);
   }, []);
 
