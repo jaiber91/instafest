@@ -18,9 +18,9 @@ hr{
     justify-content: center;
     gap: 3%;
 }
-.info{
+.footer__section .info{
     width: 26%;
-    margin-right: 10rem;
+    margin-right: 4rem;
 
 }
 

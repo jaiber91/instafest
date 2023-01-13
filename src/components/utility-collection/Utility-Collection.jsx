@@ -41,15 +41,16 @@ const UtilityCollection = ({props}) => {
                 <Link to={'/whitelist'}>
 
                     <button className='btn'>Hacer parte 
-                        <img src={arrowUpRightWhite} alt="flecha" />
+                        
                     </button>
                 </Link>
                 </div>
             </div>
         </div>
                 
+        
+        
         <iframe className='video-collection'  src="https://www.youtube.com/embed/r5E2ObZUo_k?autoplay=1&&autopause=1?controls=0&disablekb=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      
 
     </div>
      );
