@@ -1,7 +1,7 @@
 .cooming{
     width: 100%;
     display: flex;
-    margin-top: 14%;
+    margin-top: 3%;
     position: relative;
     margin-bottom: 8rem
 }
@@ -14,6 +14,7 @@
 .cooming-text{
     width: 100%;
     margin-left: 20%;
+    margin-top: 10%;
 }
 .cooming-text h1{
     font-family: 'Azonix';
@@ -27,6 +28,7 @@
 }
 
 .cooming-text p{
+    width: 92%;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -96,12 +98,6 @@
     padding: 7%;
     height: 13rem;
 }*/
-.cooming-container-images{
-    position: absolute;
-    left: 50rem;
-    top: -6rem;
-    width: 33%;
-}
 
 .cooming-launch-one{
     width: 469px;
@@ -118,6 +114,7 @@
     width: 370px;
     height: 538px;
     object-fit: cover;
+    margin-left: 40%;
 }
 .cooming-launch-two{
     width: 33%;
