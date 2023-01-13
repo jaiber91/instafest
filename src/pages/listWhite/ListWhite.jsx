@@ -174,7 +174,7 @@ const ListWhite = () => {
               <Link to="/colecciones">
                 <button type="button" className="modal_btn">
                   Continuar
-                  <img src={arrowUp} alt="btn modal" />
+                  
                 </button>
               </Link>
             </div>
