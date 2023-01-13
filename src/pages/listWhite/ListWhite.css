@@ -1,11 +1,12 @@
 .listWhite {
   display: flex;
+  position: relative;
 }
 
 .listWhite_image {
-  position: relative;
+  position: fixed;
   width: 31%;
-  height: 45rem;
+  height: 100vh;
   background-color: #d2cfd2;
   border-radius: 0 0 15%;
 }
@@ -26,7 +27,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  top: 1rem;
+  top: 1.625rem;
   width: 100%;
   gap: 1rem;
 }
@@ -52,8 +53,9 @@
 }
 .listWhite_image img {
   width: 100%;
-  height: 100%;
-  border-radius: 0 0 15%;
+    height: 100%;
+    border-radius: 0 0 15%;
+    object-fit: cover;
 }
 .listWhite_form {
   display: flex;
@@ -61,31 +63,33 @@
   align-items: center;
   flex-direction: column;
   width: 60%;
+  position: absolute;
+  top: 10rem;
+  left: 25.3rem;
 }
 .listWhite_form h2 {
   font-family: "Azonix";
   font-style: normal;
   font-size: 1.9rem;
-  line-height: 34px;
   color: #1e1e1e;
+  font-weight: 400;
 }
 .listWhite_form p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 38px;
   color: #000000;
   margin: 3rem 0;
 }
 .listWhite_form_welcome {
-  margin-left: 8%;
+  margin-left: -5%;
 }
 .listWhite_form_welcome h2 {
   font-family: "Azonix";
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2.188rem;
   line-height: 38px;
   color: #1e1e1e;
   margin-bottom: 2%;
@@ -114,10 +118,11 @@
   background:blue;
 }
 .listWhite_form_container {
-  width: 83%;
+  width: 85%;
 }
 .listWhite_form_label {
-  margin-left: 15%;
+  margin-left: 4.25rem;
+  
 }
 .listWhite_form_label label {
   font-family: "Poppins";
@@ -132,7 +137,8 @@
   justify-content: center;
   position: relative;
   width: 100%;
-  margin-top: 3rem;
+  right: 1.5rem;
+  top: 6rem;
 }
 .listWhite_form_input label {
   position: absolute;
@@ -145,13 +151,17 @@
   border: none;
   width: 70%;
   cursor: pointer;
+  margin-right: 1.5rem;
+}
+.listWhite_form_input input::placeholder{
+  font-family: "Poppins", sans-serif;
 }
 .listWhite_form_input hr {
   position: absolute;
   background-color: #0d0146;
   width: 73%;
   height: 3px;
-  top: 2rem;
+  top: 1.5rem;
 }
 .listWhite_form_input button {
   position: relative;
@@ -204,7 +214,6 @@
   margin: auto;
   border-radius: 20px;
   background: #ffffff;
-  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.6);
   transition: all 500ms ease;
 }
 .modal_element h3 {
